@@ -6,8 +6,11 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 
 1. add backward
 2. add mix rate
+
+
 two scenes:
 ![image](https://github.com/unsky/mixup/blob/master/3.png)
+
 
 the detail design of mixUPlayer:
 
