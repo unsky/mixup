@@ -1,0 +1,2164 @@
+nohup: ignoring input
+INFO:root:start with arguments Namespace(batch_size=128, benchmark=0, data_nthreads=4, data_train='data/cifar10_train.rec', data_train_idx='', data_val='data/cifar10_val.rec', data_val_idx='', disp_batches=20, dtype='float32', gpus='0,1', image_shape='3,28,28', kv_store='device', load_epoch=None, lr=0.05, lr_factor=0.1, lr_step_epochs='200,250', max_random_aspect_ratio=0, max_random_h=36, max_random_l=50, max_random_rotate_angle=0, max_random_s=50, max_random_scale=1, max_random_shear_ratio=0, min_random_scale=1, model_prefix=None, mom=0.9, monitor=0, network='resnet', num_classes=10, num_epochs=90, num_examples=50000, num_layers=50, optimizer='sgd', pad_size=4, random_crop=1, random_mirror=1, rgb_mean='123.68,116.779,103.939', test_io=0, top_k=0, wd=0.0001)
+[06:16:06] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: data/cifar10_train.rec, use 4 threads for decoding..
+[06:16:06] src/io/iter_image_recordio_2.cc:169: ImageRecordIOParser2: data/cifar10_val.rec, use 4 threads for decoding..
+[06:16:07] src/operator/././cudnn_algoreg-inl.h:106: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:Epoch[0] Batch [20]	Speed: 4199.45 samples/sec	accuracy=0.146205	cross-entropy=2.272440
+INFO:root:Epoch[0] Batch [40]	Speed: 4472.69 samples/sec	accuracy=0.225391	cross-entropy=2.038481
+INFO:root:Epoch[0] Batch [60]	Speed: 4432.20 samples/sec	accuracy=0.262109	cross-entropy=1.977143
+INFO:root:Epoch[0] Batch [80]	Speed: 4420.15 samples/sec	accuracy=0.275391	cross-entropy=1.928166
+INFO:root:Epoch[0] Batch [100]	Speed: 4395.79 samples/sec	accuracy=0.295703	cross-entropy=1.866777
+INFO:root:Epoch[0] Batch [120]	Speed: 4368.68 samples/sec	accuracy=0.311719	cross-entropy=1.829836
+INFO:root:Epoch[0] Batch [140]	Speed: 4377.76 samples/sec	accuracy=0.328516	cross-entropy=1.795280
+INFO:root:Epoch[0] Batch [160]	Speed: 4400.87 samples/sec	accuracy=0.323437	cross-entropy=1.791154
+INFO:root:Epoch[0] Batch [180]	Speed: 4388.15 samples/sec	accuracy=0.349219	cross-entropy=1.751985
+INFO:root:Epoch[0] Batch [200]	Speed: 4439.84 samples/sec	accuracy=0.347656	cross-entropy=1.735669
+INFO:root:Epoch[0] Batch [220]	Speed: 4362.47 samples/sec	accuracy=0.371875	cross-entropy=1.692542
+INFO:root:Epoch[0] Batch [240]	Speed: 4366.51 samples/sec	accuracy=0.382812	cross-entropy=1.657716
+INFO:root:Epoch[0] Batch [260]	Speed: 4434.48 samples/sec	accuracy=0.401172	cross-entropy=1.623592
+INFO:root:Epoch[0] Batch [280]	Speed: 4449.19 samples/sec	accuracy=0.411719	cross-entropy=1.603604
+INFO:root:Epoch[0] Batch [300]	Speed: 4423.05 samples/sec	accuracy=0.437500	cross-entropy=1.569692
+INFO:root:Epoch[0] Batch [320]	Speed: 4440.30 samples/sec	accuracy=0.435156	cross-entropy=1.549425
+INFO:root:Epoch[0] Batch [340]	Speed: 4393.77 samples/sec	accuracy=0.468750	cross-entropy=1.471245
+INFO:root:Epoch[0] Batch [360]	Speed: 4253.25 samples/sec	accuracy=0.474219	cross-entropy=1.488943
+INFO:root:Epoch[0] Batch [380]	Speed: 4366.14 samples/sec	accuracy=0.471094	cross-entropy=1.458921
+INFO:root:Epoch[0] Train-accuracy=0.500000
+INFO:root:Epoch[0] Train-cross-entropy=1.427537
+INFO:root:Epoch[0] Time cost=11.808
+INFO:root:Epoch[0] Validation-accuracy=0.521756
+INFO:root:Epoch[0] Validation-cross-entropy=1.314588
+INFO:root:Epoch[1] Batch [20]	Speed: 4459.49 samples/sec	accuracy=0.503348	cross-entropy=1.376545
+INFO:root:Epoch[1] Batch [40]	Speed: 4167.02 samples/sec	accuracy=0.497656	cross-entropy=1.412856
+INFO:root:Epoch[1] Batch [60]	Speed: 4279.81 samples/sec	accuracy=0.491016	cross-entropy=1.383806
+INFO:root:Epoch[1] Batch [80]	Speed: 4395.04 samples/sec	accuracy=0.512500	cross-entropy=1.386951
+INFO:root:Epoch[1] Batch [100]	Speed: 4432.00 samples/sec	accuracy=0.524219	cross-entropy=1.313305
+INFO:root:Epoch[1] Batch [120]	Speed: 4433.58 samples/sec	accuracy=0.511328	cross-entropy=1.326033
+INFO:root:Epoch[1] Batch [140]	Speed: 4417.53 samples/sec	accuracy=0.532031	cross-entropy=1.300091
+INFO:root:Epoch[1] Batch [160]	Speed: 4448.60 samples/sec	accuracy=0.547266	cross-entropy=1.264700
+INFO:root:Epoch[1] Batch [180]	Speed: 4369.88 samples/sec	accuracy=0.557813	cross-entropy=1.229768
+INFO:root:Epoch[1] Batch [200]	Speed: 4438.19 samples/sec	accuracy=0.539453	cross-entropy=1.313149
+INFO:root:Epoch[1] Batch [220]	Speed: 4483.49 samples/sec	accuracy=0.559375	cross-entropy=1.259425
+INFO:root:Epoch[1] Batch [240]	Speed: 4381.87 samples/sec	accuracy=0.549219	cross-entropy=1.257326
+INFO:root:Epoch[1] Batch [260]	Speed: 4384.94 samples/sec	accuracy=0.556250	cross-entropy=1.260112
+INFO:root:Epoch[1] Batch [280]	Speed: 4333.78 samples/sec	accuracy=0.574219	cross-entropy=1.191832
+INFO:root:Epoch[1] Batch [300]	Speed: 4415.76 samples/sec	accuracy=0.568750	cross-entropy=1.212199
+INFO:root:Epoch[1] Batch [320]	Speed: 4504.24 samples/sec	accuracy=0.579688	cross-entropy=1.185971
+INFO:root:Epoch[1] Batch [340]	Speed: 4427.63 samples/sec	accuracy=0.580078	cross-entropy=1.174482
+INFO:root:Epoch[1] Batch [360]	Speed: 4448.05 samples/sec	accuracy=0.587109	cross-entropy=1.151152
+INFO:root:Epoch[1] Batch [380]	Speed: 4260.28 samples/sec	accuracy=0.585938	cross-entropy=1.165908
+INFO:root:Epoch[1] Train-accuracy=0.574219
+INFO:root:Epoch[1] Train-cross-entropy=1.209713
+INFO:root:Epoch[1] Time cost=11.416
+INFO:root:Epoch[1] Validation-accuracy=0.616386
+INFO:root:Epoch[1] Validation-cross-entropy=1.089116
+INFO:root:Epoch[2] Batch [20]	Speed: 4360.52 samples/sec	accuracy=0.599702	cross-entropy=1.128695
+INFO:root:Epoch[2] Batch [40]	Speed: 4305.61 samples/sec	accuracy=0.599609	cross-entropy=1.127239
+INFO:root:Epoch[2] Batch [60]	Speed: 4266.01 samples/sec	accuracy=0.595703	cross-entropy=1.135353
+INFO:root:Epoch[2] Batch [80]	Speed: 4381.97 samples/sec	accuracy=0.600391	cross-entropy=1.132396
+INFO:root:Epoch[2] Batch [100]	Speed: 4344.01 samples/sec	accuracy=0.621875	cross-entropy=1.063545
+INFO:root:Epoch[2] Batch [120]	Speed: 4467.81 samples/sec	accuracy=0.610156	cross-entropy=1.102443
+INFO:root:Epoch[2] Batch [140]	Speed: 4451.04 samples/sec	accuracy=0.611719	cross-entropy=1.077759
+INFO:root:Epoch[2] Batch [160]	Speed: 4395.90 samples/sec	accuracy=0.622656	cross-entropy=1.044338
+INFO:root:Epoch[2] Batch [180]	Speed: 4453.30 samples/sec	accuracy=0.627734	cross-entropy=1.025753
+INFO:root:Epoch[2] Batch [200]	Speed: 4357.43 samples/sec	accuracy=0.630469	cross-entropy=1.053706
+INFO:root:Epoch[2] Batch [220]	Speed: 4458.41 samples/sec	accuracy=0.628906	cross-entropy=1.048701
+INFO:root:Epoch[2] Batch [240]	Speed: 4373.76 samples/sec	accuracy=0.632422	cross-entropy=1.032798
+INFO:root:Epoch[2] Batch [260]	Speed: 4443.28 samples/sec	accuracy=0.620313	cross-entropy=1.035397
+INFO:root:Epoch[2] Batch [280]	Speed: 4449.77 samples/sec	accuracy=0.646094	cross-entropy=1.001531
+INFO:root:Epoch[2] Batch [300]	Speed: 4412.46 samples/sec	accuracy=0.634375	cross-entropy=1.036068
+INFO:root:Epoch[2] Batch [320]	Speed: 4343.81 samples/sec	accuracy=0.651563	cross-entropy=0.983069
+INFO:root:Epoch[2] Batch [340]	Speed: 4446.09 samples/sec	accuracy=0.646875	cross-entropy=1.008715
+INFO:root:Epoch[2] Batch [360]	Speed: 4410.15 samples/sec	accuracy=0.646484	cross-entropy=0.989538
+INFO:root:Epoch[2] Batch [380]	Speed: 4401.69 samples/sec	accuracy=0.660156	cross-entropy=0.967864
+INFO:root:Epoch[2] Train-accuracy=0.643229
+INFO:root:Epoch[2] Train-cross-entropy=0.996289
+INFO:root:Epoch[2] Time cost=11.353
+INFO:root:Epoch[2] Validation-accuracy=0.677083
+INFO:root:Epoch[2] Validation-cross-entropy=0.922771
+INFO:root:Epoch[3] Batch [20]	Speed: 4376.54 samples/sec	accuracy=0.678571	cross-entropy=0.941009
+INFO:root:Epoch[3] Batch [40]	Speed: 4389.42 samples/sec	accuracy=0.658984	cross-entropy=0.964352
+INFO:root:Epoch[3] Batch [60]	Speed: 4381.69 samples/sec	accuracy=0.662109	cross-entropy=0.966800
+INFO:root:Epoch[3] Batch [80]	Speed: 4328.13 samples/sec	accuracy=0.678125	cross-entropy=0.962819
+INFO:root:Epoch[3] Batch [100]	Speed: 4305.37 samples/sec	accuracy=0.667969	cross-entropy=0.966618
+INFO:root:Epoch[3] Batch [120]	Speed: 4344.56 samples/sec	accuracy=0.680078	cross-entropy=0.916395
+INFO:root:Epoch[3] Batch [140]	Speed: 4339.37 samples/sec	accuracy=0.678125	cross-entropy=0.906165
+INFO:root:Epoch[3] Batch [160]	Speed: 4477.18 samples/sec	accuracy=0.670703	cross-entropy=0.942592
+INFO:root:Epoch[3] Batch [180]	Speed: 4369.70 samples/sec	accuracy=0.670312	cross-entropy=0.942753
+INFO:root:Epoch[3] Batch [200]	Speed: 4397.34 samples/sec	accuracy=0.681641	cross-entropy=0.939097
+INFO:root:Epoch[3] Batch [220]	Speed: 4303.86 samples/sec	accuracy=0.685156	cross-entropy=0.906526
+INFO:root:Epoch[3] Batch [240]	Speed: 4319.17 samples/sec	accuracy=0.685937	cross-entropy=0.898376
+INFO:root:Epoch[3] Batch [260]	Speed: 4207.89 samples/sec	accuracy=0.691406	cross-entropy=0.901888
+INFO:root:Epoch[3] Batch [280]	Speed: 4441.82 samples/sec	accuracy=0.692187	cross-entropy=0.870573
+INFO:root:Epoch[3] Batch [300]	Speed: 4420.61 samples/sec	accuracy=0.699219	cross-entropy=0.888892
+INFO:root:Epoch[3] Batch [320]	Speed: 4290.18 samples/sec	accuracy=0.702734	cross-entropy=0.866101
+INFO:root:Epoch[3] Batch [340]	Speed: 4380.76 samples/sec	accuracy=0.698828	cross-entropy=0.866469
+INFO:root:Epoch[3] Batch [360]	Speed: 4248.84 samples/sec	accuracy=0.685547	cross-entropy=0.883113
+INFO:root:Epoch[3] Batch [380]	Speed: 4491.92 samples/sec	accuracy=0.694922	cross-entropy=0.872450
+INFO:root:Epoch[3] Train-accuracy=0.699219
+INFO:root:Epoch[3] Train-cross-entropy=0.840657
+INFO:root:Epoch[3] Time cost=11.475
+INFO:root:Epoch[3] Validation-accuracy=0.728065
+INFO:root:Epoch[3] Validation-cross-entropy=0.785924
+INFO:root:Epoch[4] Batch [20]	Speed: 4456.04 samples/sec	accuracy=0.699777	cross-entropy=0.866304
+INFO:root:Epoch[4] Batch [40]	Speed: 4381.60 samples/sec	accuracy=0.685937	cross-entropy=0.879759
+INFO:root:Epoch[4] Batch [60]	Speed: 4498.32 samples/sec	accuracy=0.694531	cross-entropy=0.878369
+INFO:root:Epoch[4] Batch [80]	Speed: 4399.06 samples/sec	accuracy=0.713281	cross-entropy=0.827637
+INFO:root:Epoch[4] Batch [100]	Speed: 4350.14 samples/sec	accuracy=0.714063	cross-entropy=0.838980
+INFO:root:Epoch[4] Batch [120]	Speed: 4187.32 samples/sec	accuracy=0.705078	cross-entropy=0.848193
+INFO:root:Epoch[4] Batch [140]	Speed: 4221.47 samples/sec	accuracy=0.724609	cross-entropy=0.820949
+INFO:root:Epoch[4] Batch [160]	Speed: 4278.99 samples/sec	accuracy=0.717187	cross-entropy=0.816589
+INFO:root:Epoch[4] Batch [180]	Speed: 4411.79 samples/sec	accuracy=0.696094	cross-entropy=0.864978
+INFO:root:Epoch[4] Batch [200]	Speed: 4418.29 samples/sec	accuracy=0.707812	cross-entropy=0.872761
+INFO:root:Epoch[4] Batch [220]	Speed: 4393.63 samples/sec	accuracy=0.702344	cross-entropy=0.848276
+INFO:root:Epoch[4] Batch [240]	Speed: 4310.74 samples/sec	accuracy=0.724609	cross-entropy=0.794031
+INFO:root:Epoch[4] Batch [260]	Speed: 4208.48 samples/sec	accuracy=0.692969	cross-entropy=0.844262
+INFO:root:Epoch[4] Batch [280]	Speed: 4392.42 samples/sec	accuracy=0.708984	cross-entropy=0.834644
+INFO:root:Epoch[4] Batch [300]	Speed: 4356.06 samples/sec	accuracy=0.722266	cross-entropy=0.801925
+INFO:root:Epoch[4] Batch [320]	Speed: 4425.52 samples/sec	accuracy=0.720703	cross-entropy=0.810416
+INFO:root:Epoch[4] Batch [340]	Speed: 4288.14 samples/sec	accuracy=0.737891	cross-entropy=0.772127
+INFO:root:Epoch[4] Batch [360]	Speed: 4359.43 samples/sec	accuracy=0.722266	cross-entropy=0.814033
+INFO:root:Epoch[4] Batch [380]	Speed: 4314.01 samples/sec	accuracy=0.721094	cross-entropy=0.798504
+INFO:root:Epoch[4] Train-accuracy=0.720313
+INFO:root:Epoch[4] Train-cross-entropy=0.787839
+INFO:root:Epoch[4] Time cost=11.498
+INFO:root:Epoch[4] Validation-accuracy=0.748097
+INFO:root:Epoch[4] Validation-cross-entropy=0.733485
+INFO:root:Epoch[5] Batch [20]	Speed: 4380.76 samples/sec	accuracy=0.730283	cross-entropy=0.779911
+INFO:root:Epoch[5] Batch [40]	Speed: 4389.85 samples/sec	accuracy=0.728906	cross-entropy=0.788205
+INFO:root:Epoch[5] Batch [60]	Speed: 4210.67 samples/sec	accuracy=0.723828	cross-entropy=0.801630
+INFO:root:Epoch[5] Batch [80]	Speed: 4423.73 samples/sec	accuracy=0.718359	cross-entropy=0.823471
+INFO:root:Epoch[5] Batch [100]	Speed: 4435.46 samples/sec	accuracy=0.734766	cross-entropy=0.797659
+INFO:root:Epoch[5] Batch [120]	Speed: 4401.67 samples/sec	accuracy=0.728125	cross-entropy=0.782885
+INFO:root:Epoch[5] Batch [140]	Speed: 4344.02 samples/sec	accuracy=0.735156	cross-entropy=0.769690
+INFO:root:Epoch[5] Batch [160]	Speed: 4431.08 samples/sec	accuracy=0.731641	cross-entropy=0.749287
+INFO:root:Epoch[5] Batch [180]	Speed: 4402.56 samples/sec	accuracy=0.735938	cross-entropy=0.769383
+INFO:root:Epoch[5] Batch [200]	Speed: 4248.58 samples/sec	accuracy=0.715234	cross-entropy=0.808777
+INFO:root:Epoch[5] Batch [220]	Speed: 4297.69 samples/sec	accuracy=0.749609	cross-entropy=0.729785
+INFO:root:Epoch[5] Batch [240]	Speed: 4222.50 samples/sec	accuracy=0.738281	cross-entropy=0.768067
+INFO:root:Epoch[5] Batch [260]	Speed: 4372.49 samples/sec	accuracy=0.732031	cross-entropy=0.759133
+INFO:root:Epoch[5] Batch [280]	Speed: 4331.01 samples/sec	accuracy=0.722266	cross-entropy=0.764326
+INFO:root:Epoch[5] Batch [300]	Speed: 4238.49 samples/sec	accuracy=0.741016	cross-entropy=0.761715
+INFO:root:Epoch[5] Batch [320]	Speed: 4339.45 samples/sec	accuracy=0.735547	cross-entropy=0.751636
+INFO:root:Epoch[5] Batch [340]	Speed: 4365.04 samples/sec	accuracy=0.750781	cross-entropy=0.719562
+INFO:root:Epoch[5] Batch [360]	Speed: 4272.75 samples/sec	accuracy=0.729688	cross-entropy=0.763763
+INFO:root:Epoch[5] Batch [380]	Speed: 4286.66 samples/sec	accuracy=0.737500	cross-entropy=0.740749
+INFO:root:Epoch[5] Train-accuracy=0.736979
+INFO:root:Epoch[5] Train-cross-entropy=0.764707
+INFO:root:Epoch[5] Time cost=11.523
+INFO:root:Epoch[5] Validation-accuracy=0.770933
+INFO:root:Epoch[5] Validation-cross-entropy=0.652542
+INFO:root:Epoch[6] Batch [20]	Speed: 4078.34 samples/sec	accuracy=0.735863	cross-entropy=0.745445
+INFO:root:Epoch[6] Batch [40]	Speed: 4044.67 samples/sec	accuracy=0.758984	cross-entropy=0.733802
+INFO:root:Epoch[6] Batch [60]	Speed: 4342.71 samples/sec	accuracy=0.753516	cross-entropy=0.729810
+INFO:root:Epoch[6] Batch [80]	Speed: 4337.39 samples/sec	accuracy=0.761719	cross-entropy=0.706375
+INFO:root:Epoch[6] Batch [100]	Speed: 4296.64 samples/sec	accuracy=0.753516	cross-entropy=0.714554
+INFO:root:Epoch[6] Batch [120]	Speed: 4361.25 samples/sec	accuracy=0.750781	cross-entropy=0.706263
+INFO:root:Epoch[6] Batch [140]	Speed: 4340.47 samples/sec	accuracy=0.743359	cross-entropy=0.719207
+INFO:root:Epoch[6] Batch [160]	Speed: 4354.05 samples/sec	accuracy=0.731250	cross-entropy=0.736002
+INFO:root:Epoch[6] Batch [180]	Speed: 4212.52 samples/sec	accuracy=0.750000	cross-entropy=0.733985
+INFO:root:Epoch[6] Batch [200]	Speed: 4246.62 samples/sec	accuracy=0.736719	cross-entropy=0.756510
+INFO:root:Epoch[6] Batch [220]	Speed: 4309.04 samples/sec	accuracy=0.750781	cross-entropy=0.724897
+INFO:root:Epoch[6] Batch [240]	Speed: 4207.06 samples/sec	accuracy=0.747656	cross-entropy=0.713599
+INFO:root:Epoch[6] Batch [260]	Speed: 4163.68 samples/sec	accuracy=0.751172	cross-entropy=0.699043
+INFO:root:Epoch[6] Batch [280]	Speed: 4420.59 samples/sec	accuracy=0.734375	cross-entropy=0.737162
+INFO:root:Epoch[6] Batch [300]	Speed: 4353.44 samples/sec	accuracy=0.751172	cross-entropy=0.697885
+INFO:root:Epoch[6] Batch [320]	Speed: 4253.51 samples/sec	accuracy=0.756250	cross-entropy=0.716651
+INFO:root:Epoch[6] Batch [340]	Speed: 4340.83 samples/sec	accuracy=0.757812	cross-entropy=0.708001
+INFO:root:Epoch[6] Batch [360]	Speed: 4455.17 samples/sec	accuracy=0.766406	cross-entropy=0.674301
+INFO:root:Epoch[6] Batch [380]	Speed: 4269.76 samples/sec	accuracy=0.753906	cross-entropy=0.702673
+INFO:root:Epoch[6] Train-accuracy=0.743750
+INFO:root:Epoch[6] Train-cross-entropy=0.752768
+INFO:root:Epoch[6] Time cost=11.681
+INFO:root:Epoch[6] Validation-accuracy=0.779347
+INFO:root:Epoch[6] Validation-cross-entropy=0.634653
+INFO:root:Epoch[7] Batch [20]	Speed: 4382.04 samples/sec	accuracy=0.767113	cross-entropy=0.674411
+INFO:root:Epoch[7] Batch [40]	Speed: 4350.19 samples/sec	accuracy=0.755859	cross-entropy=0.711719
+INFO:root:Epoch[7] Batch [60]	Speed: 4355.99 samples/sec	accuracy=0.756641	cross-entropy=0.715806
+INFO:root:Epoch[7] Batch [80]	Speed: 4334.28 samples/sec	accuracy=0.758203	cross-entropy=0.714119
+INFO:root:Epoch[7] Batch [100]	Speed: 4354.21 samples/sec	accuracy=0.770703	cross-entropy=0.669813
+INFO:root:Epoch[7] Batch [120]	Speed: 4223.17 samples/sec	accuracy=0.762891	cross-entropy=0.692545
+INFO:root:Epoch[7] Batch [140]	Speed: 4452.37 samples/sec	accuracy=0.764062	cross-entropy=0.668224
+INFO:root:Epoch[7] Batch [160]	Speed: 4393.54 samples/sec	accuracy=0.766797	cross-entropy=0.680626
+INFO:root:Epoch[7] Batch [180]	Speed: 4329.96 samples/sec	accuracy=0.760547	cross-entropy=0.684900
+INFO:root:Epoch[7] Batch [200]	Speed: 4284.77 samples/sec	accuracy=0.752734	cross-entropy=0.718078
+INFO:root:Epoch[7] Batch [220]	Speed: 4280.79 samples/sec	accuracy=0.769141	cross-entropy=0.675938
+INFO:root:Epoch[7] Batch [240]	Speed: 4257.65 samples/sec	accuracy=0.763281	cross-entropy=0.670126
+INFO:root:Epoch[7] Batch [260]	Speed: 4345.75 samples/sec	accuracy=0.769531	cross-entropy=0.679086
+INFO:root:Epoch[7] Batch [280]	Speed: 4360.47 samples/sec	accuracy=0.758594	cross-entropy=0.676475
+INFO:root:Epoch[7] Batch [300]	Speed: 4373.34 samples/sec	accuracy=0.766797	cross-entropy=0.668506
+INFO:root:Epoch[7] Batch [320]	Speed: 4416.12 samples/sec	accuracy=0.766406	cross-entropy=0.682373
+INFO:root:Epoch[7] Batch [340]	Speed: 4301.66 samples/sec	accuracy=0.766797	cross-entropy=0.657826
+INFO:root:Epoch[7] Batch [360]	Speed: 4302.09 samples/sec	accuracy=0.778516	cross-entropy=0.633833
+INFO:root:Epoch[7] Batch [380]	Speed: 4181.18 samples/sec	accuracy=0.748437	cross-entropy=0.711380
+INFO:root:Epoch[7] Train-accuracy=0.763021
+INFO:root:Epoch[7] Train-cross-entropy=0.651684
+INFO:root:Epoch[7] Time cost=11.545
+INFO:root:Epoch[7] Validation-accuracy=0.743490
+INFO:root:Epoch[7] Validation-cross-entropy=0.731545
+INFO:root:Epoch[8] Batch [20]	Speed: 4374.35 samples/sec	accuracy=0.772321	cross-entropy=0.669264
+INFO:root:Epoch[8] Batch [40]	Speed: 4278.54 samples/sec	accuracy=0.764844	cross-entropy=0.670190
+INFO:root:Epoch[8] Batch [60]	Speed: 4186.20 samples/sec	accuracy=0.766016	cross-entropy=0.678167
+INFO:root:Epoch[8] Batch [80]	Speed: 4277.52 samples/sec	accuracy=0.780469	cross-entropy=0.663404
+INFO:root:Epoch[8] Batch [100]	Speed: 4387.01 samples/sec	accuracy=0.774219	cross-entropy=0.664976
+INFO:root:Epoch[8] Batch [120]	Speed: 4273.64 samples/sec	accuracy=0.760938	cross-entropy=0.679022
+INFO:root:Epoch[8] Batch [140]	Speed: 4359.29 samples/sec	accuracy=0.769531	cross-entropy=0.646089
+INFO:root:Epoch[8] Batch [160]	Speed: 4274.55 samples/sec	accuracy=0.777344	cross-entropy=0.645784
+INFO:root:Epoch[8] Batch [180]	Speed: 4306.36 samples/sec	accuracy=0.776172	cross-entropy=0.646574
+INFO:root:Epoch[8] Batch [200]	Speed: 4294.51 samples/sec	accuracy=0.785937	cross-entropy=0.641507
+INFO:root:Epoch[8] Batch [220]	Speed: 4336.37 samples/sec	accuracy=0.758203	cross-entropy=0.695867
+INFO:root:Epoch[8] Batch [240]	Speed: 4258.24 samples/sec	accuracy=0.776172	cross-entropy=0.629825
+INFO:root:Epoch[8] Batch [260]	Speed: 4256.65 samples/sec	accuracy=0.772656	cross-entropy=0.648889
+INFO:root:Epoch[8] Batch [280]	Speed: 4317.12 samples/sec	accuracy=0.767578	cross-entropy=0.643909
+INFO:root:Epoch[8] Batch [300]	Speed: 4277.07 samples/sec	accuracy=0.772656	cross-entropy=0.649015
+INFO:root:Epoch[8] Batch [320]	Speed: 4376.21 samples/sec	accuracy=0.785547	cross-entropy=0.618899
+INFO:root:Epoch[8] Batch [340]	Speed: 4395.99 samples/sec	accuracy=0.796484	cross-entropy=0.614832
+INFO:root:Epoch[8] Batch [360]	Speed: 4215.98 samples/sec	accuracy=0.783984	cross-entropy=0.634453
+INFO:root:Epoch[8] Batch [380]	Speed: 4142.01 samples/sec	accuracy=0.781641	cross-entropy=0.622217
+INFO:root:Epoch[8] Train-accuracy=0.770312
+INFO:root:Epoch[8] Train-cross-entropy=0.670141
+INFO:root:Epoch[8] Time cost=11.704
+INFO:root:Epoch[8] Validation-accuracy=0.766119
+INFO:root:Epoch[8] Validation-cross-entropy=0.707650
+INFO:root:Epoch[9] Batch [20]	Speed: 4405.11 samples/sec	accuracy=0.781250	cross-entropy=0.614902
+INFO:root:Epoch[9] Batch [40]	Speed: 4218.01 samples/sec	accuracy=0.767578	cross-entropy=0.645268
+INFO:root:Epoch[9] Batch [60]	Speed: 4349.68 samples/sec	accuracy=0.775000	cross-entropy=0.646422
+INFO:root:Epoch[9] Batch [80]	Speed: 4408.70 samples/sec	accuracy=0.785937	cross-entropy=0.611227
+INFO:root:Epoch[9] Batch [100]	Speed: 4263.30 samples/sec	accuracy=0.783594	cross-entropy=0.646020
+INFO:root:Epoch[9] Batch [120]	Speed: 4353.00 samples/sec	accuracy=0.792578	cross-entropy=0.613784
+INFO:root:Epoch[9] Batch [140]	Speed: 4272.93 samples/sec	accuracy=0.782813	cross-entropy=0.610525
+INFO:root:Epoch[9] Batch [160]	Speed: 4305.33 samples/sec	accuracy=0.774219	cross-entropy=0.649928
+INFO:root:Epoch[9] Batch [180]	Speed: 4335.64 samples/sec	accuracy=0.790625	cross-entropy=0.617814
+INFO:root:Epoch[9] Batch [200]	Speed: 4312.99 samples/sec	accuracy=0.787109	cross-entropy=0.626609
+INFO:root:Epoch[9] Batch [220]	Speed: 4384.61 samples/sec	accuracy=0.793359	cross-entropy=0.614238
+INFO:root:Epoch[9] Batch [240]	Speed: 4403.64 samples/sec	accuracy=0.780078	cross-entropy=0.604853
+INFO:root:Epoch[9] Batch [260]	Speed: 4322.51 samples/sec	accuracy=0.796094	cross-entropy=0.602927
+INFO:root:Epoch[9] Batch [280]	Speed: 4306.12 samples/sec	accuracy=0.794531	cross-entropy=0.588148
+INFO:root:Epoch[9] Batch [300]	Speed: 4236.20 samples/sec	accuracy=0.782813	cross-entropy=0.620601
+INFO:root:Epoch[9] Batch [320]	Speed: 4297.77 samples/sec	accuracy=0.800000	cross-entropy=0.575063
+INFO:root:Epoch[9] Batch [340]	Speed: 4324.94 samples/sec	accuracy=0.792188	cross-entropy=0.600023
+INFO:root:Epoch[9] Batch [360]	Speed: 4399.28 samples/sec	accuracy=0.785547	cross-entropy=0.617211
+INFO:root:Epoch[9] Batch [380]	Speed: 4364.99 samples/sec	accuracy=0.783984	cross-entropy=0.614843
+INFO:root:Epoch[9] Train-accuracy=0.797656
+INFO:root:Epoch[9] Train-cross-entropy=0.607926
+INFO:root:Epoch[9] Time cost=11.553
+INFO:root:Epoch[9] Validation-accuracy=0.803486
+INFO:root:Epoch[9] Validation-cross-entropy=0.572174
+INFO:root:Epoch[10] Batch [20]	Speed: 4354.68 samples/sec	accuracy=0.786830	cross-entropy=0.616698
+INFO:root:Epoch[10] Batch [40]	Speed: 4401.75 samples/sec	accuracy=0.801172	cross-entropy=0.593890
+INFO:root:Epoch[10] Batch [60]	Speed: 4374.27 samples/sec	accuracy=0.788281	cross-entropy=0.618917
+INFO:root:Epoch[10] Batch [80]	Speed: 4342.94 samples/sec	accuracy=0.794531	cross-entropy=0.601151
+INFO:root:Epoch[10] Batch [100]	Speed: 4292.59 samples/sec	accuracy=0.794531	cross-entropy=0.600924
+INFO:root:Epoch[10] Batch [120]	Speed: 4332.89 samples/sec	accuracy=0.783594	cross-entropy=0.602073
+INFO:root:Epoch[10] Batch [140]	Speed: 4409.72 samples/sec	accuracy=0.789453	cross-entropy=0.608268
+INFO:root:Epoch[10] Batch [160]	Speed: 4325.24 samples/sec	accuracy=0.786719	cross-entropy=0.594021
+INFO:root:Epoch[10] Batch [180]	Speed: 4245.77 samples/sec	accuracy=0.785937	cross-entropy=0.620954
+INFO:root:Epoch[10] Batch [200]	Speed: 4363.03 samples/sec	accuracy=0.791016	cross-entropy=0.609443
+INFO:root:Epoch[10] Batch [220]	Speed: 4393.61 samples/sec	accuracy=0.785937	cross-entropy=0.595114
+INFO:root:Epoch[10] Batch [240]	Speed: 4384.41 samples/sec	accuracy=0.801562	cross-entropy=0.572403
+INFO:root:Epoch[10] Batch [260]	Speed: 4294.75 samples/sec	accuracy=0.793359	cross-entropy=0.585082
+INFO:root:Epoch[10] Batch [280]	Speed: 4293.46 samples/sec	accuracy=0.785156	cross-entropy=0.599132
+INFO:root:Epoch[10] Batch [300]	Speed: 4295.03 samples/sec	accuracy=0.802344	cross-entropy=0.575119
+INFO:root:Epoch[10] Batch [320]	Speed: 4333.10 samples/sec	accuracy=0.788281	cross-entropy=0.606156
+INFO:root:Epoch[10] Batch [340]	Speed: 4346.91 samples/sec	accuracy=0.809766	cross-entropy=0.550877
+INFO:root:Epoch[10] Batch [360]	Speed: 4162.26 samples/sec	accuracy=0.798438	cross-entropy=0.583639
+INFO:root:Epoch[10] Batch [380]	Speed: 4130.30 samples/sec	accuracy=0.798047	cross-entropy=0.586254
+INFO:root:Epoch[10] Train-accuracy=0.785590
+INFO:root:Epoch[10] Train-cross-entropy=0.595346
+INFO:root:Epoch[10] Time cost=11.557
+INFO:root:Epoch[10] Validation-accuracy=0.806691
+INFO:root:Epoch[10] Validation-cross-entropy=0.583600
+INFO:root:Epoch[11] Batch [20]	Speed: 4155.62 samples/sec	accuracy=0.804688	cross-entropy=0.570360
+INFO:root:Epoch[11] Batch [40]	Speed: 4300.59 samples/sec	accuracy=0.800781	cross-entropy=0.578891
+INFO:root:Epoch[11] Batch [60]	Speed: 4144.18 samples/sec	accuracy=0.793359	cross-entropy=0.601256
+INFO:root:Epoch[11] Batch [80]	Speed: 4254.65 samples/sec	accuracy=0.799219	cross-entropy=0.589093
+INFO:root:Epoch[11] Batch [100]	Speed: 4286.94 samples/sec	accuracy=0.805469	cross-entropy=0.582026
+INFO:root:Epoch[11] Batch [120]	Speed: 4262.60 samples/sec	accuracy=0.796875	cross-entropy=0.593273
+INFO:root:Epoch[11] Batch [140]	Speed: 4329.72 samples/sec	accuracy=0.799219	cross-entropy=0.584574
+INFO:root:Epoch[11] Batch [160]	Speed: 4315.29 samples/sec	accuracy=0.793750	cross-entropy=0.582683
+INFO:root:Epoch[11] Batch [180]	Speed: 4325.87 samples/sec	accuracy=0.795312	cross-entropy=0.586503
+INFO:root:Epoch[11] Batch [200]	Speed: 4246.24 samples/sec	accuracy=0.799609	cross-entropy=0.593032
+INFO:root:Epoch[11] Batch [220]	Speed: 4167.06 samples/sec	accuracy=0.811328	cross-entropy=0.565408
+INFO:root:Epoch[11] Batch [240]	Speed: 4299.62 samples/sec	accuracy=0.804688	cross-entropy=0.551578
+INFO:root:Epoch[11] Batch [260]	Speed: 4320.80 samples/sec	accuracy=0.808203	cross-entropy=0.570192
+INFO:root:Epoch[11] Batch [280]	Speed: 4292.68 samples/sec	accuracy=0.792969	cross-entropy=0.598713
+INFO:root:Epoch[11] Batch [300]	Speed: 4241.77 samples/sec	accuracy=0.796094	cross-entropy=0.595665
+INFO:root:Epoch[11] Batch [320]	Speed: 4235.77 samples/sec	accuracy=0.813672	cross-entropy=0.545584
+INFO:root:Epoch[11] Batch [340]	Speed: 4176.23 samples/sec	accuracy=0.800781	cross-entropy=0.584906
+INFO:root:Epoch[11] Batch [360]	Speed: 4280.39 samples/sec	accuracy=0.809375	cross-entropy=0.538782
+INFO:root:Epoch[11] Batch [380]	Speed: 4215.09 samples/sec	accuracy=0.822656	cross-entropy=0.523130
+INFO:root:Epoch[11] Train-accuracy=0.785156
+INFO:root:Epoch[11] Train-cross-entropy=0.615012
+INFO:root:Epoch[11] Time cost=11.758
+INFO:root:Epoch[11] Validation-accuracy=0.804287
+INFO:root:Epoch[11] Validation-cross-entropy=0.580835
+INFO:root:Epoch[12] Batch [20]	Speed: 4370.62 samples/sec	accuracy=0.806176	cross-entropy=0.552160
+INFO:root:Epoch[12] Batch [40]	Speed: 4211.57 samples/sec	accuracy=0.802344	cross-entropy=0.574776
+INFO:root:Epoch[12] Batch [60]	Speed: 4216.46 samples/sec	accuracy=0.801172	cross-entropy=0.568467
+INFO:root:Epoch[12] Batch [80]	Speed: 4231.81 samples/sec	accuracy=0.816406	cross-entropy=0.568060
+INFO:root:Epoch[12] Batch [100]	Speed: 4235.12 samples/sec	accuracy=0.804688	cross-entropy=0.603951
+INFO:root:Epoch[12] Batch [120]	Speed: 4246.33 samples/sec	accuracy=0.803906	cross-entropy=0.555888
+INFO:root:Epoch[12] Batch [140]	Speed: 4180.18 samples/sec	accuracy=0.803125	cross-entropy=0.566752
+INFO:root:Epoch[12] Batch [160]	Speed: 4274.73 samples/sec	accuracy=0.808594	cross-entropy=0.547277
+INFO:root:Epoch[12] Batch [180]	Speed: 4267.99 samples/sec	accuracy=0.804688	cross-entropy=0.541453
+INFO:root:Epoch[12] Batch [200]	Speed: 4226.93 samples/sec	accuracy=0.801953	cross-entropy=0.576505
+INFO:root:Epoch[12] Batch [220]	Speed: 4142.00 samples/sec	accuracy=0.809766	cross-entropy=0.550067
+INFO:root:Epoch[12] Batch [240]	Speed: 4175.64 samples/sec	accuracy=0.803125	cross-entropy=0.553702
+INFO:root:Epoch[12] Batch [260]	Speed: 4272.92 samples/sec	accuracy=0.808984	cross-entropy=0.556443
+INFO:root:Epoch[12] Batch [280]	Speed: 4210.86 samples/sec	accuracy=0.806641	cross-entropy=0.543365
+INFO:root:Epoch[12] Batch [300]	Speed: 4163.16 samples/sec	accuracy=0.805469	cross-entropy=0.567185
+INFO:root:Epoch[12] Batch [320]	Speed: 4197.07 samples/sec	accuracy=0.821094	cross-entropy=0.546230
+INFO:root:Epoch[12] Batch [340]	Speed: 4235.55 samples/sec	accuracy=0.814063	cross-entropy=0.540283
+INFO:root:Epoch[12] Batch [360]	Speed: 4216.65 samples/sec	accuracy=0.809766	cross-entropy=0.551188
+INFO:root:Epoch[12] Batch [380]	Speed: 4306.18 samples/sec	accuracy=0.804297	cross-entropy=0.563667
+INFO:root:Epoch[12] Train-accuracy=0.822656
+INFO:root:Epoch[12] Train-cross-entropy=0.508308
+INFO:root:Epoch[12] Time cost=11.833
+INFO:root:Epoch[12] Validation-accuracy=0.821114
+INFO:root:Epoch[12] Validation-cross-entropy=0.522113
+INFO:root:Epoch[13] Batch [20]	Speed: 4271.12 samples/sec	accuracy=0.816220	cross-entropy=0.529724
+INFO:root:Epoch[13] Batch [40]	Speed: 4309.54 samples/sec	accuracy=0.815625	cross-entropy=0.534115
+INFO:root:Epoch[13] Batch [60]	Speed: 4290.31 samples/sec	accuracy=0.808203	cross-entropy=0.553422
+INFO:root:Epoch[13] Batch [80]	Speed: 4133.94 samples/sec	accuracy=0.819531	cross-entropy=0.544125
+INFO:root:Epoch[13] Batch [100]	Speed: 4294.45 samples/sec	accuracy=0.816797	cross-entropy=0.548095
+INFO:root:Epoch[13] Batch [120]	Speed: 4304.43 samples/sec	accuracy=0.810547	cross-entropy=0.540950
+INFO:root:Epoch[13] Batch [140]	Speed: 4256.05 samples/sec	accuracy=0.804688	cross-entropy=0.560325
+INFO:root:Epoch[13] Batch [160]	Speed: 4227.60 samples/sec	accuracy=0.805078	cross-entropy=0.572197
+INFO:root:Epoch[13] Batch [180]	Speed: 4159.98 samples/sec	accuracy=0.815625	cross-entropy=0.524096
+INFO:root:Epoch[13] Batch [200]	Speed: 4201.43 samples/sec	accuracy=0.809766	cross-entropy=0.572627
+INFO:root:Epoch[13] Batch [220]	Speed: 4229.04 samples/sec	accuracy=0.803125	cross-entropy=0.569623
+INFO:root:Epoch[13] Batch [240]	Speed: 4195.70 samples/sec	accuracy=0.813672	cross-entropy=0.528090
+INFO:root:Epoch[13] Batch [260]	Speed: 4255.46 samples/sec	accuracy=0.812500	cross-entropy=0.547092
+INFO:root:Epoch[13] Batch [280]	Speed: 4234.64 samples/sec	accuracy=0.816016	cross-entropy=0.538972
+INFO:root:Epoch[13] Batch [300]	Speed: 4215.27 samples/sec	accuracy=0.812891	cross-entropy=0.565797
+INFO:root:Epoch[13] Batch [320]	Speed: 4306.48 samples/sec	accuracy=0.810937	cross-entropy=0.546423
+INFO:root:Epoch[13] Batch [340]	Speed: 4186.82 samples/sec	accuracy=0.817578	cross-entropy=0.527626
+INFO:root:Epoch[13] Batch [360]	Speed: 4275.42 samples/sec	accuracy=0.814063	cross-entropy=0.537284
+INFO:root:Epoch[13] Batch [380]	Speed: 4281.77 samples/sec	accuracy=0.813281	cross-entropy=0.541993
+INFO:root:Epoch[13] Train-accuracy=0.826389
+INFO:root:Epoch[13] Train-cross-entropy=0.536465
+INFO:root:Epoch[13] Time cost=11.764
+INFO:root:Epoch[13] Validation-accuracy=0.815605
+INFO:root:Epoch[13] Validation-cross-entropy=0.523868
+INFO:root:Epoch[14] Batch [20]	Speed: 4234.65 samples/sec	accuracy=0.818080	cross-entropy=0.527991
+INFO:root:Epoch[14] Batch [40]	Speed: 4302.59 samples/sec	accuracy=0.825781	cross-entropy=0.521563
+INFO:root:Epoch[14] Batch [60]	Speed: 4237.83 samples/sec	accuracy=0.830469	cross-entropy=0.518909
+INFO:root:Epoch[14] Batch [80]	Speed: 4391.73 samples/sec	accuracy=0.835156	cross-entropy=0.495537
+INFO:root:Epoch[14] Batch [100]	Speed: 4254.11 samples/sec	accuracy=0.817578	cross-entropy=0.537145
+INFO:root:Epoch[14] Batch [120]	Speed: 4317.80 samples/sec	accuracy=0.811719	cross-entropy=0.521060
+INFO:root:Epoch[14] Batch [140]	Speed: 4256.09 samples/sec	accuracy=0.816016	cross-entropy=0.522308
+INFO:root:Epoch[14] Batch [160]	Speed: 4306.52 samples/sec	accuracy=0.809766	cross-entropy=0.548013
+INFO:root:Epoch[14] Batch [180]	Speed: 4344.40 samples/sec	accuracy=0.814844	cross-entropy=0.526475
+INFO:root:Epoch[14] Batch [200]	Speed: 4310.87 samples/sec	accuracy=0.816406	cross-entropy=0.532631
+INFO:root:Epoch[14] Batch [220]	Speed: 4282.18 samples/sec	accuracy=0.814844	cross-entropy=0.523395
+INFO:root:Epoch[14] Batch [240]	Speed: 4233.94 samples/sec	accuracy=0.818359	cross-entropy=0.518927
+INFO:root:Epoch[14] Batch [260]	Speed: 4197.56 samples/sec	accuracy=0.813672	cross-entropy=0.541174
+INFO:root:Epoch[14] Batch [280]	Speed: 4096.42 samples/sec	accuracy=0.813281	cross-entropy=0.536533
+INFO:root:Epoch[14] Batch [300]	Speed: 4244.55 samples/sec	accuracy=0.828906	cross-entropy=0.499922
+INFO:root:Epoch[14] Batch [320]	Speed: 4163.86 samples/sec	accuracy=0.819531	cross-entropy=0.511346
+INFO:root:Epoch[14] Batch [340]	Speed: 4261.54 samples/sec	accuracy=0.833203	cross-entropy=0.485668
+INFO:root:Epoch[14] Batch [360]	Speed: 4193.18 samples/sec	accuracy=0.825781	cross-entropy=0.502734
+INFO:root:Epoch[14] Batch [380]	Speed: 4207.11 samples/sec	accuracy=0.830078	cross-entropy=0.488201
+INFO:root:Epoch[14] Train-accuracy=0.828906
+INFO:root:Epoch[14] Train-cross-entropy=0.514260
+INFO:root:Epoch[14] Time cost=11.754
+INFO:root:Epoch[14] Validation-accuracy=0.837340
+INFO:root:Epoch[14] Validation-cross-entropy=0.487636
+INFO:root:Epoch[15] Batch [20]	Speed: 4209.29 samples/sec	accuracy=0.824777	cross-entropy=0.498991
+INFO:root:Epoch[15] Batch [40]	Speed: 4257.27 samples/sec	accuracy=0.815625	cross-entropy=0.529787
+INFO:root:Epoch[15] Batch [60]	Speed: 4243.41 samples/sec	accuracy=0.818359	cross-entropy=0.527474
+INFO:root:Epoch[15] Batch [80]	Speed: 4296.18 samples/sec	accuracy=0.829688	cross-entropy=0.502663
+INFO:root:Epoch[15] Batch [100]	Speed: 4188.33 samples/sec	accuracy=0.814063	cross-entropy=0.537684
+INFO:root:Epoch[15] Batch [120]	Speed: 4322.26 samples/sec	accuracy=0.814063	cross-entropy=0.529208
+INFO:root:Epoch[15] Batch [140]	Speed: 4271.10 samples/sec	accuracy=0.819141	cross-entropy=0.501382
+INFO:root:Epoch[15] Batch [160]	Speed: 4195.38 samples/sec	accuracy=0.813672	cross-entropy=0.525802
+INFO:root:Epoch[15] Batch [180]	Speed: 4187.43 samples/sec	accuracy=0.816797	cross-entropy=0.526746
+INFO:root:Epoch[15] Batch [200]	Speed: 4272.61 samples/sec	accuracy=0.817969	cross-entropy=0.522355
+INFO:root:Epoch[15] Batch [220]	Speed: 4273.70 samples/sec	accuracy=0.818750	cross-entropy=0.507837
+INFO:root:Epoch[15] Batch [240]	Speed: 4215.86 samples/sec	accuracy=0.817187	cross-entropy=0.503346
+INFO:root:Epoch[15] Batch [260]	Speed: 4214.53 samples/sec	accuracy=0.823828	cross-entropy=0.499235
+INFO:root:Epoch[15] Batch [280]	Speed: 4187.34 samples/sec	accuracy=0.823047	cross-entropy=0.519479
+INFO:root:Epoch[15] Batch [300]	Speed: 4180.27 samples/sec	accuracy=0.825000	cross-entropy=0.512530
+INFO:root:Epoch[15] Batch [320]	Speed: 4246.18 samples/sec	accuracy=0.821484	cross-entropy=0.507399
+INFO:root:Epoch[15] Batch [340]	Speed: 4315.02 samples/sec	accuracy=0.823828	cross-entropy=0.504396
+INFO:root:Epoch[15] Batch [360]	Speed: 4223.47 samples/sec	accuracy=0.828516	cross-entropy=0.494661
+INFO:root:Epoch[15] Batch [380]	Speed: 4236.66 samples/sec	accuracy=0.818359	cross-entropy=0.509411
+INFO:root:Epoch[15] Train-accuracy=0.822917
+INFO:root:Epoch[15] Train-cross-entropy=0.507375
+INFO:root:Epoch[15] Time cost=11.766
+INFO:root:Epoch[15] Validation-accuracy=0.829828
+INFO:root:Epoch[15] Validation-cross-entropy=0.501222
+INFO:root:Epoch[16] Batch [20]	Speed: 4249.29 samples/sec	accuracy=0.821057	cross-entropy=0.525262
+INFO:root:Epoch[16] Batch [40]	Speed: 4155.48 samples/sec	accuracy=0.823828	cross-entropy=0.502692
+INFO:root:Epoch[16] Batch [60]	Speed: 4125.75 samples/sec	accuracy=0.817187	cross-entropy=0.511033
+INFO:root:Epoch[16] Batch [80]	Speed: 4155.51 samples/sec	accuracy=0.824609	cross-entropy=0.508859
+INFO:root:Epoch[16] Batch [100]	Speed: 4233.80 samples/sec	accuracy=0.828516	cross-entropy=0.494233
+INFO:root:Epoch[16] Batch [120]	Speed: 4133.17 samples/sec	accuracy=0.828516	cross-entropy=0.495411
+INFO:root:Epoch[16] Batch [140]	Speed: 4123.89 samples/sec	accuracy=0.830078	cross-entropy=0.489456
+INFO:root:Epoch[16] Batch [160]	Speed: 4106.66 samples/sec	accuracy=0.825391	cross-entropy=0.508328
+INFO:root:Epoch[16] Batch [180]	Speed: 4178.45 samples/sec	accuracy=0.818359	cross-entropy=0.523870
+INFO:root:Epoch[16] Batch [200]	Speed: 4212.29 samples/sec	accuracy=0.825391	cross-entropy=0.514953
+INFO:root:Epoch[16] Batch [220]	Speed: 4113.94 samples/sec	accuracy=0.823438	cross-entropy=0.493564
+INFO:root:Epoch[16] Batch [240]	Speed: 4164.46 samples/sec	accuracy=0.838672	cross-entropy=0.472492
+INFO:root:Epoch[16] Batch [260]	Speed: 4190.22 samples/sec	accuracy=0.828516	cross-entropy=0.484583
+INFO:root:Epoch[16] Batch [280]	Speed: 4112.17 samples/sec	accuracy=0.827734	cross-entropy=0.500976
+INFO:root:Epoch[16] Batch [300]	Speed: 4177.36 samples/sec	accuracy=0.828125	cross-entropy=0.508130
+INFO:root:Epoch[16] Batch [320]	Speed: 4058.02 samples/sec	accuracy=0.834766	cross-entropy=0.480375
+INFO:root:Epoch[16] Batch [340]	Speed: 4002.12 samples/sec	accuracy=0.838672	cross-entropy=0.456721
+INFO:root:Epoch[16] Batch [360]	Speed: 4053.85 samples/sec	accuracy=0.825000	cross-entropy=0.509024
+INFO:root:Epoch[16] Batch [380]	Speed: 4021.96 samples/sec	accuracy=0.825391	cross-entropy=0.502854
+INFO:root:Epoch[16] Train-accuracy=0.843750
+INFO:root:Epoch[16] Train-cross-entropy=0.472713
+INFO:root:Epoch[16] Time cost=12.138
+INFO:root:Epoch[16] Validation-accuracy=0.835344
+INFO:root:Epoch[16] Validation-cross-entropy=0.475281
+INFO:root:Epoch[17] Batch [20]	Speed: 4169.96 samples/sec	accuracy=0.838914	cross-entropy=0.474806
+INFO:root:Epoch[17] Batch [40]	Speed: 4201.26 samples/sec	accuracy=0.840625	cross-entropy=0.480282
+INFO:root:Epoch[17] Batch [60]	Speed: 4099.53 samples/sec	accuracy=0.833984	cross-entropy=0.495609
+INFO:root:Epoch[17] Batch [80]	Speed: 4194.51 samples/sec	accuracy=0.823828	cross-entropy=0.506988
+INFO:root:Epoch[17] Batch [100]	Speed: 4147.90 samples/sec	accuracy=0.825391	cross-entropy=0.508518
+INFO:root:Epoch[17] Batch [120]	Speed: 4166.84 samples/sec	accuracy=0.830078	cross-entropy=0.487704
+INFO:root:Epoch[17] Batch [140]	Speed: 4072.11 samples/sec	accuracy=0.829688	cross-entropy=0.488799
+INFO:root:Epoch[17] Batch [160]	Speed: 4167.82 samples/sec	accuracy=0.825391	cross-entropy=0.487349
+INFO:root:Epoch[17] Batch [180]	Speed: 4078.63 samples/sec	accuracy=0.822656	cross-entropy=0.499951
+INFO:root:Epoch[17] Batch [200]	Speed: 4072.94 samples/sec	accuracy=0.816406	cross-entropy=0.528455
+INFO:root:Epoch[17] Batch [220]	Speed: 4028.27 samples/sec	accuracy=0.832422	cross-entropy=0.484558
+INFO:root:Epoch[17] Batch [240]	Speed: 4098.97 samples/sec	accuracy=0.827344	cross-entropy=0.485386
+INFO:root:Epoch[17] Batch [260]	Speed: 3960.32 samples/sec	accuracy=0.828906	cross-entropy=0.498550
+INFO:root:Epoch[17] Batch [280]	Speed: 4160.02 samples/sec	accuracy=0.833203	cross-entropy=0.467794
+INFO:root:Epoch[17] Batch [300]	Speed: 4222.87 samples/sec	accuracy=0.832812	cross-entropy=0.488286
+INFO:root:Epoch[17] Batch [320]	Speed: 4085.61 samples/sec	accuracy=0.832812	cross-entropy=0.484402
+INFO:root:Epoch[17] Batch [340]	Speed: 4212.01 samples/sec	accuracy=0.835547	cross-entropy=0.470226
+INFO:root:Epoch[17] Batch [360]	Speed: 4136.24 samples/sec	accuracy=0.844141	cross-entropy=0.458950
+INFO:root:Epoch[17] Batch [380]	Speed: 4152.62 samples/sec	accuracy=0.830078	cross-entropy=0.497353
+INFO:root:Epoch[17] Train-accuracy=0.835156
+INFO:root:Epoch[17] Train-cross-entropy=0.476684
+INFO:root:Epoch[17] Time cost=12.122
+INFO:root:Epoch[17] Validation-accuracy=0.842548
+INFO:root:Epoch[17] Validation-cross-entropy=0.468031
+INFO:root:Epoch[18] Batch [20]	Speed: 4103.00 samples/sec	accuracy=0.845610	cross-entropy=0.459438
+INFO:root:Epoch[18] Batch [40]	Speed: 4216.94 samples/sec	accuracy=0.834375	cross-entropy=0.492007
+INFO:root:Epoch[18] Batch [60]	Speed: 4186.67 samples/sec	accuracy=0.829688	cross-entropy=0.487585
+INFO:root:Epoch[18] Batch [80]	Speed: 4127.51 samples/sec	accuracy=0.833594	cross-entropy=0.495969
+INFO:root:Epoch[18] Batch [100]	Speed: 4097.64 samples/sec	accuracy=0.830859	cross-entropy=0.483220
+INFO:root:Epoch[18] Batch [120]	Speed: 3999.81 samples/sec	accuracy=0.834766	cross-entropy=0.484754
+INFO:root:Epoch[18] Batch [140]	Speed: 4098.39 samples/sec	accuracy=0.830859	cross-entropy=0.478153
+INFO:root:Epoch[18] Batch [160]	Speed: 4173.72 samples/sec	accuracy=0.837891	cross-entropy=0.460297
+INFO:root:Epoch[18] Batch [180]	Speed: 4084.88 samples/sec	accuracy=0.831250	cross-entropy=0.488043
+INFO:root:Epoch[18] Batch [200]	Speed: 4024.50 samples/sec	accuracy=0.829297	cross-entropy=0.499610
+INFO:root:Epoch[18] Batch [220]	Speed: 3958.31 samples/sec	accuracy=0.838281	cross-entropy=0.465445
+INFO:root:Epoch[18] Batch [240]	Speed: 4089.41 samples/sec	accuracy=0.835547	cross-entropy=0.490029
+INFO:root:Epoch[18] Batch [260]	Speed: 4210.83 samples/sec	accuracy=0.843750	cross-entropy=0.442880
+INFO:root:Epoch[18] Batch [280]	Speed: 4159.65 samples/sec	accuracy=0.835547	cross-entropy=0.480638
+INFO:root:Epoch[18] Batch [300]	Speed: 4207.92 samples/sec	accuracy=0.836328	cross-entropy=0.476824
+INFO:root:Epoch[18] Batch [320]	Speed: 4253.76 samples/sec	accuracy=0.835156	cross-entropy=0.475977
+INFO:root:Epoch[18] Batch [340]	Speed: 4167.86 samples/sec	accuracy=0.825391	cross-entropy=0.505823
+INFO:root:Epoch[18] Batch [360]	Speed: 4167.14 samples/sec	accuracy=0.853906	cross-entropy=0.440378
+INFO:root:Epoch[18] Batch [380]	Speed: 4273.61 samples/sec	accuracy=0.834375	cross-entropy=0.498614
+INFO:root:Epoch[18] Train-accuracy=0.825521
+INFO:root:Epoch[18] Train-cross-entropy=0.490608
+INFO:root:Epoch[18] Time cost=12.056
+INFO:root:Epoch[18] Validation-accuracy=0.821114
+INFO:root:Epoch[18] Validation-cross-entropy=0.521607
+INFO:root:Epoch[19] Batch [20]	Speed: 4173.02 samples/sec	accuracy=0.835193	cross-entropy=0.452938
+INFO:root:Epoch[19] Batch [40]	Speed: 4176.76 samples/sec	accuracy=0.836328	cross-entropy=0.465481
+INFO:root:Epoch[19] Batch [60]	Speed: 4213.75 samples/sec	accuracy=0.823047	cross-entropy=0.503971
+INFO:root:Epoch[19] Batch [80]	Speed: 4058.60 samples/sec	accuracy=0.841797	cross-entropy=0.468222
+INFO:root:Epoch[19] Batch [100]	Speed: 4105.53 samples/sec	accuracy=0.833984	cross-entropy=0.477184
+INFO:root:Epoch[19] Batch [120]	Speed: 4254.97 samples/sec	accuracy=0.843750	cross-entropy=0.463808
+INFO:root:Epoch[19] Batch [140]	Speed: 4155.08 samples/sec	accuracy=0.819531	cross-entropy=0.512672
+INFO:root:Epoch[19] Batch [160]	Speed: 4269.23 samples/sec	accuracy=0.843359	cross-entropy=0.459543
+INFO:root:Epoch[19] Batch [180]	Speed: 4027.04 samples/sec	accuracy=0.828125	cross-entropy=0.493695
+INFO:root:Epoch[19] Batch [200]	Speed: 4177.71 samples/sec	accuracy=0.832812	cross-entropy=0.497876
+INFO:root:Epoch[19] Batch [220]	Speed: 4090.10 samples/sec	accuracy=0.840625	cross-entropy=0.464214
+INFO:root:Epoch[19] Batch [240]	Speed: 4179.47 samples/sec	accuracy=0.839063	cross-entropy=0.460876
+INFO:root:Epoch[19] Batch [260]	Speed: 4069.79 samples/sec	accuracy=0.837891	cross-entropy=0.453055
+INFO:root:Epoch[19] Batch [280]	Speed: 4038.80 samples/sec	accuracy=0.832031	cross-entropy=0.459326
+INFO:root:Epoch[19] Batch [300]	Speed: 4088.73 samples/sec	accuracy=0.840625	cross-entropy=0.440138
+INFO:root:Epoch[19] Batch [320]	Speed: 4083.13 samples/sec	accuracy=0.838672	cross-entropy=0.475694
+INFO:root:Epoch[19] Batch [340]	Speed: 4220.88 samples/sec	accuracy=0.835547	cross-entropy=0.467536
+INFO:root:Epoch[19] Batch [360]	Speed: 4159.88 samples/sec	accuracy=0.848437	cross-entropy=0.445257
+INFO:root:Epoch[19] Batch [380]	Speed: 4107.01 samples/sec	accuracy=0.852734	cross-entropy=0.445418
+INFO:root:Epoch[19] Train-accuracy=0.847656
+INFO:root:Epoch[19] Train-cross-entropy=0.452986
+INFO:root:Epoch[19] Time cost=12.092
+INFO:root:Epoch[19] Validation-accuracy=0.836538
+INFO:root:Epoch[19] Validation-cross-entropy=0.487689
+INFO:root:Epoch[20] Batch [20]	Speed: 4174.71 samples/sec	accuracy=0.846354	cross-entropy=0.458082
+INFO:root:Epoch[20] Batch [40]	Speed: 4192.25 samples/sec	accuracy=0.837891	cross-entropy=0.471646
+INFO:root:Epoch[20] Batch [60]	Speed: 4087.80 samples/sec	accuracy=0.835938	cross-entropy=0.474125
+INFO:root:Epoch[20] Batch [80]	Speed: 4007.78 samples/sec	accuracy=0.850000	cross-entropy=0.449394
+INFO:root:Epoch[20] Batch [100]	Speed: 4047.59 samples/sec	accuracy=0.842187	cross-entropy=0.473653
+INFO:root:Epoch[20] Batch [120]	Speed: 4145.89 samples/sec	accuracy=0.826172	cross-entropy=0.471175
+INFO:root:Epoch[20] Batch [140]	Speed: 4123.29 samples/sec	accuracy=0.856250	cross-entropy=0.451280
+INFO:root:Epoch[20] Batch [160]	Speed: 4184.31 samples/sec	accuracy=0.838281	cross-entropy=0.445546
+INFO:root:Epoch[20] Batch [180]	Speed: 4071.96 samples/sec	accuracy=0.838281	cross-entropy=0.456298
+INFO:root:Epoch[20] Batch [200]	Speed: 4123.38 samples/sec	accuracy=0.835547	cross-entropy=0.468735
+INFO:root:Epoch[20] Batch [220]	Speed: 4230.08 samples/sec	accuracy=0.843750	cross-entropy=0.447974
+INFO:root:Epoch[20] Batch [240]	Speed: 4057.30 samples/sec	accuracy=0.831250	cross-entropy=0.470798
+INFO:root:Epoch[20] Batch [260]	Speed: 4169.71 samples/sec	accuracy=0.841406	cross-entropy=0.458991
+INFO:root:Epoch[20] Batch [280]	Speed: 4208.39 samples/sec	accuracy=0.841016	cross-entropy=0.450081
+INFO:root:Epoch[20] Batch [300]	Speed: 4197.11 samples/sec	accuracy=0.842578	cross-entropy=0.465386
+INFO:root:Epoch[20] Batch [320]	Speed: 4160.64 samples/sec	accuracy=0.850391	cross-entropy=0.425484
+INFO:root:Epoch[20] Batch [340]	Speed: 4100.90 samples/sec	accuracy=0.847266	cross-entropy=0.450404
+INFO:root:Epoch[20] Batch [360]	Speed: 4148.25 samples/sec	accuracy=0.837891	cross-entropy=0.470687
+INFO:root:Epoch[20] Batch [380]	Speed: 4181.24 samples/sec	accuracy=0.847656	cross-entropy=0.446722
+INFO:root:Epoch[20] Train-accuracy=0.840625
+INFO:root:Epoch[20] Train-cross-entropy=0.453533
+INFO:root:Epoch[20] Time cost=12.088
+INFO:root:Epoch[20] Validation-accuracy=0.830228
+INFO:root:Epoch[20] Validation-cross-entropy=0.499056
+INFO:root:Epoch[21] Batch [20]	Speed: 4210.46 samples/sec	accuracy=0.842634	cross-entropy=0.448673
+INFO:root:Epoch[21] Batch [40]	Speed: 4161.71 samples/sec	accuracy=0.835547	cross-entropy=0.455007
+INFO:root:Epoch[21] Batch [60]	Speed: 4202.29 samples/sec	accuracy=0.842187	cross-entropy=0.464614
+INFO:root:Epoch[21] Batch [80]	Speed: 4171.03 samples/sec	accuracy=0.843359	cross-entropy=0.459417
+INFO:root:Epoch[21] Batch [100]	Speed: 4059.95 samples/sec	accuracy=0.844531	cross-entropy=0.453745
+INFO:root:Epoch[21] Batch [120]	Speed: 4073.90 samples/sec	accuracy=0.839453	cross-entropy=0.473754
+INFO:root:Epoch[21] Batch [140]	Speed: 4175.42 samples/sec	accuracy=0.837891	cross-entropy=0.450297
+INFO:root:Epoch[21] Batch [160]	Speed: 4243.34 samples/sec	accuracy=0.841797	cross-entropy=0.454799
+INFO:root:Epoch[21] Batch [180]	Speed: 4144.45 samples/sec	accuracy=0.843750	cross-entropy=0.450691
+INFO:root:Epoch[21] Batch [200]	Speed: 4178.17 samples/sec	accuracy=0.835156	cross-entropy=0.477784
+INFO:root:Epoch[21] Batch [220]	Speed: 4168.66 samples/sec	accuracy=0.853906	cross-entropy=0.428080
+INFO:root:Epoch[21] Batch [240]	Speed: 4118.99 samples/sec	accuracy=0.846875	cross-entropy=0.436121
+INFO:root:Epoch[21] Batch [260]	Speed: 4034.76 samples/sec	accuracy=0.850781	cross-entropy=0.435824
+INFO:root:Epoch[21] Batch [280]	Speed: 4108.87 samples/sec	accuracy=0.844141	cross-entropy=0.436348
+INFO:root:Epoch[21] Batch [300]	Speed: 4126.47 samples/sec	accuracy=0.839063	cross-entropy=0.461349
+INFO:root:Epoch[21] Batch [320]	Speed: 4222.84 samples/sec	accuracy=0.844141	cross-entropy=0.458220
+INFO:root:Epoch[21] Batch [340]	Speed: 4206.23 samples/sec	accuracy=0.849609	cross-entropy=0.431717
+INFO:root:Epoch[21] Batch [360]	Speed: 4161.44 samples/sec	accuracy=0.832812	cross-entropy=0.462002
+INFO:root:Epoch[21] Batch [380]	Speed: 4119.14 samples/sec	accuracy=0.844141	cross-entropy=0.454961
+INFO:root:Epoch[21] Train-accuracy=0.855035
+INFO:root:Epoch[21] Train-cross-entropy=0.425552
+INFO:root:Epoch[21] Time cost=12.019
+INFO:root:Epoch[21] Validation-accuracy=0.855369
+INFO:root:Epoch[21] Validation-cross-entropy=0.417909
+INFO:root:Epoch[22] Batch [20]	Speed: 4101.68 samples/sec	accuracy=0.834077	cross-entropy=0.459338
+INFO:root:Epoch[22] Batch [40]	Speed: 4158.51 samples/sec	accuracy=0.846484	cross-entropy=0.447851
+INFO:root:Epoch[22] Batch [60]	Speed: 4110.62 samples/sec	accuracy=0.842187	cross-entropy=0.480154
+INFO:root:Epoch[22] Batch [80]	Speed: 4148.16 samples/sec	accuracy=0.841797	cross-entropy=0.469478
+INFO:root:Epoch[22] Batch [100]	Speed: 4074.82 samples/sec	accuracy=0.842969	cross-entropy=0.462996
+INFO:root:Epoch[22] Batch [120]	Speed: 4022.87 samples/sec	accuracy=0.844531	cross-entropy=0.430411
+INFO:root:Epoch[22] Batch [140]	Speed: 4019.05 samples/sec	accuracy=0.841016	cross-entropy=0.463437
+INFO:root:Epoch[22] Batch [160]	Speed: 4173.72 samples/sec	accuracy=0.853516	cross-entropy=0.420611
+INFO:root:Epoch[22] Batch [180]	Speed: 4119.90 samples/sec	accuracy=0.847656	cross-entropy=0.427340
+INFO:root:Epoch[22] Batch [200]	Speed: 4164.14 samples/sec	accuracy=0.837891	cross-entropy=0.467674
+INFO:root:Epoch[22] Batch [220]	Speed: 4116.15 samples/sec	accuracy=0.855859	cross-entropy=0.424440
+INFO:root:Epoch[22] Batch [240]	Speed: 4133.55 samples/sec	accuracy=0.842969	cross-entropy=0.425183
+INFO:root:Epoch[22] Batch [260]	Speed: 4141.85 samples/sec	accuracy=0.846875	cross-entropy=0.450216
+INFO:root:Epoch[22] Batch [280]	Speed: 4185.25 samples/sec	accuracy=0.841797	cross-entropy=0.446918
+INFO:root:Epoch[22] Batch [300]	Speed: 4182.79 samples/sec	accuracy=0.851953	cross-entropy=0.452544
+INFO:root:Epoch[22] Batch [320]	Speed: 4170.73 samples/sec	accuracy=0.851172	cross-entropy=0.442488
+INFO:root:Epoch[22] Batch [340]	Speed: 4085.12 samples/sec	accuracy=0.858594	cross-entropy=0.413931
+INFO:root:Epoch[22] Batch [360]	Speed: 4182.84 samples/sec	accuracy=0.842969	cross-entropy=0.436918
+INFO:root:Epoch[22] Batch [380]	Speed: 4164.51 samples/sec	accuracy=0.843750	cross-entropy=0.434541
+INFO:root:Epoch[22] Train-accuracy=0.847656
+INFO:root:Epoch[22] Train-cross-entropy=0.464525
+INFO:root:Epoch[22] Time cost=12.126
+INFO:root:Epoch[22] Validation-accuracy=0.836238
+INFO:root:Epoch[22] Validation-cross-entropy=0.477666
+INFO:root:Epoch[23] Batch [20]	Speed: 4146.70 samples/sec	accuracy=0.847842	cross-entropy=0.433898
+INFO:root:Epoch[23] Batch [40]	Speed: 4204.66 samples/sec	accuracy=0.850000	cross-entropy=0.442810
+INFO:root:Epoch[23] Batch [60]	Speed: 4148.55 samples/sec	accuracy=0.847266	cross-entropy=0.454879
+INFO:root:Epoch[23] Batch [80]	Speed: 4070.56 samples/sec	accuracy=0.848437	cross-entropy=0.426139
+INFO:root:Epoch[23] Batch [100]	Speed: 4114.48 samples/sec	accuracy=0.843359	cross-entropy=0.452541
+INFO:root:Epoch[23] Batch [120]	Speed: 4238.21 samples/sec	accuracy=0.846484	cross-entropy=0.427684
+INFO:root:Epoch[23] Batch [140]	Speed: 4045.13 samples/sec	accuracy=0.848437	cross-entropy=0.444012
+INFO:root:Epoch[23] Batch [160]	Speed: 4068.05 samples/sec	accuracy=0.841016	cross-entropy=0.453845
+INFO:root:Epoch[23] Batch [180]	Speed: 4250.90 samples/sec	accuracy=0.845703	cross-entropy=0.436066
+INFO:root:Epoch[23] Batch [200]	Speed: 4167.62 samples/sec	accuracy=0.850781	cross-entropy=0.444520
+INFO:root:Epoch[23] Batch [220]	Speed: 4189.02 samples/sec	accuracy=0.847656	cross-entropy=0.445081
+INFO:root:Epoch[23] Batch [240]	Speed: 4062.68 samples/sec	accuracy=0.854297	cross-entropy=0.419434
+INFO:root:Epoch[23] Batch [260]	Speed: 4129.91 samples/sec	accuracy=0.858984	cross-entropy=0.411492
+INFO:root:Epoch[23] Batch [280]	Speed: 4103.47 samples/sec	accuracy=0.841406	cross-entropy=0.449494
+INFO:root:Epoch[23] Batch [300]	Speed: 4071.50 samples/sec	accuracy=0.846094	cross-entropy=0.445431
+INFO:root:Epoch[23] Batch [320]	Speed: 4046.49 samples/sec	accuracy=0.844141	cross-entropy=0.445651
+INFO:root:Epoch[23] Batch [340]	Speed: 3901.49 samples/sec	accuracy=0.866406	cross-entropy=0.398392
+INFO:root:Epoch[23] Batch [360]	Speed: 4074.07 samples/sec	accuracy=0.860156	cross-entropy=0.400364
+INFO:root:Epoch[23] Batch [380]	Speed: 4037.63 samples/sec	accuracy=0.855078	cross-entropy=0.421512
+INFO:root:Epoch[23] Train-accuracy=0.834201
+INFO:root:Epoch[23] Train-cross-entropy=0.488873
+INFO:root:Epoch[23] Time cost=12.146
+INFO:root:Epoch[23] Validation-accuracy=0.847155
+INFO:root:Epoch[23] Validation-cross-entropy=0.461851
+INFO:root:Epoch[24] Batch [20]	Speed: 4142.02 samples/sec	accuracy=0.850818	cross-entropy=0.428110
+INFO:root:Epoch[24] Batch [40]	Speed: 4018.95 samples/sec	accuracy=0.855078	cross-entropy=0.430938
+INFO:root:Epoch[24] Batch [60]	Speed: 4286.22 samples/sec	accuracy=0.847266	cross-entropy=0.428738
+INFO:root:Epoch[24] Batch [80]	Speed: 4094.87 samples/sec	accuracy=0.847656	cross-entropy=0.435249
+INFO:root:Epoch[24] Batch [100]	Speed: 4147.50 samples/sec	accuracy=0.849219	cross-entropy=0.442954
+INFO:root:Epoch[24] Batch [120]	Speed: 4068.26 samples/sec	accuracy=0.846484	cross-entropy=0.442910
+INFO:root:Epoch[24] Batch [140]	Speed: 4014.84 samples/sec	accuracy=0.850391	cross-entropy=0.431101
+INFO:root:Epoch[24] Batch [160]	Speed: 4103.03 samples/sec	accuracy=0.856641	cross-entropy=0.411392
+INFO:root:Epoch[24] Batch [180]	Speed: 4189.37 samples/sec	accuracy=0.859375	cross-entropy=0.392605
+INFO:root:Epoch[24] Batch [200]	Speed: 4103.24 samples/sec	accuracy=0.848437	cross-entropy=0.446472
+INFO:root:Epoch[24] Batch [220]	Speed: 4186.15 samples/sec	accuracy=0.858203	cross-entropy=0.410904
+INFO:root:Epoch[24] Batch [240]	Speed: 3941.40 samples/sec	accuracy=0.861719	cross-entropy=0.412118
+INFO:root:Epoch[24] Batch [260]	Speed: 3955.50 samples/sec	accuracy=0.858203	cross-entropy=0.416907
+INFO:root:Epoch[24] Batch [280]	Speed: 4064.14 samples/sec	accuracy=0.848437	cross-entropy=0.442604
+INFO:root:Epoch[24] Batch [300]	Speed: 4065.34 samples/sec	accuracy=0.859375	cross-entropy=0.418555
+INFO:root:Epoch[24] Batch [320]	Speed: 4027.25 samples/sec	accuracy=0.853125	cross-entropy=0.435238
+INFO:root:Epoch[24] Batch [340]	Speed: 4125.71 samples/sec	accuracy=0.867578	cross-entropy=0.394804
+INFO:root:Epoch[24] Batch [360]	Speed: 4160.27 samples/sec	accuracy=0.880078	cross-entropy=0.362275
+INFO:root:Epoch[24] Batch [380]	Speed: 4127.83 samples/sec	accuracy=0.851562	cross-entropy=0.413768
+INFO:root:Epoch[24] Train-accuracy=0.860156
+INFO:root:Epoch[24] Train-cross-entropy=0.411564
+INFO:root:Epoch[24] Time cost=12.317
+INFO:root:Epoch[24] Validation-accuracy=0.834652
+INFO:root:Epoch[24] Validation-cross-entropy=0.513073
+INFO:root:Epoch[25] Batch [20]	Speed: 4089.65 samples/sec	accuracy=0.842262	cross-entropy=0.418305
+INFO:root:Epoch[25] Batch [40]	Speed: 4208.51 samples/sec	accuracy=0.856641	cross-entropy=0.422396
+INFO:root:Epoch[25] Batch [60]	Speed: 4107.61 samples/sec	accuracy=0.848828	cross-entropy=0.436451
+INFO:root:Epoch[25] Batch [80]	Speed: 4232.62 samples/sec	accuracy=0.860938	cross-entropy=0.407233
+INFO:root:Epoch[25] Batch [100]	Speed: 4122.27 samples/sec	accuracy=0.854297	cross-entropy=0.443589
+INFO:root:Epoch[25] Batch [120]	Speed: 4223.64 samples/sec	accuracy=0.842578	cross-entropy=0.442979
+INFO:root:Epoch[25] Batch [140]	Speed: 3983.54 samples/sec	accuracy=0.854297	cross-entropy=0.424340
+INFO:root:Epoch[25] Batch [160]	Speed: 4065.84 samples/sec	accuracy=0.848047	cross-entropy=0.444726
+INFO:root:Epoch[25] Batch [180]	Speed: 4058.24 samples/sec	accuracy=0.848437	cross-entropy=0.441291
+INFO:root:Epoch[25] Batch [200]	Speed: 4150.43 samples/sec	accuracy=0.852344	cross-entropy=0.440430
+INFO:root:Epoch[25] Batch [220]	Speed: 4117.21 samples/sec	accuracy=0.864062	cross-entropy=0.421728
+INFO:root:Epoch[25] Batch [240]	Speed: 4224.89 samples/sec	accuracy=0.860156	cross-entropy=0.406004
+INFO:root:Epoch[25] Batch [260]	Speed: 4160.29 samples/sec	accuracy=0.850781	cross-entropy=0.409795
+INFO:root:Epoch[25] Batch [280]	Speed: 4170.64 samples/sec	accuracy=0.853516	cross-entropy=0.424069
+INFO:root:Epoch[25] Batch [300]	Speed: 4208.86 samples/sec	accuracy=0.843359	cross-entropy=0.435568
+INFO:root:Epoch[25] Batch [320]	Speed: 4113.01 samples/sec	accuracy=0.861328	cross-entropy=0.427530
+INFO:root:Epoch[25] Batch [340]	Speed: 4169.38 samples/sec	accuracy=0.866797	cross-entropy=0.387489
+INFO:root:Epoch[25] Batch [360]	Speed: 4248.31 samples/sec	accuracy=0.855469	cross-entropy=0.417263
+INFO:root:Epoch[25] Batch [380]	Speed: 4206.01 samples/sec	accuracy=0.855078	cross-entropy=0.414175
+INFO:root:Epoch[25] Train-accuracy=0.853906
+INFO:root:Epoch[25] Train-cross-entropy=0.433782
+INFO:root:Epoch[25] Time cost=12.050
+INFO:root:Epoch[25] Validation-accuracy=0.853466
+INFO:root:Epoch[25] Validation-cross-entropy=0.454320
+INFO:root:Epoch[26] Batch [20]	Speed: 4204.95 samples/sec	accuracy=0.853795	cross-entropy=0.405921
+INFO:root:Epoch[26] Batch [40]	Speed: 4169.77 samples/sec	accuracy=0.864844	cross-entropy=0.415948
+INFO:root:Epoch[26] Batch [60]	Speed: 4115.80 samples/sec	accuracy=0.851172	cross-entropy=0.440945
+INFO:root:Epoch[26] Batch [80]	Speed: 4062.50 samples/sec	accuracy=0.858594	cross-entropy=0.426338
+INFO:root:Epoch[26] Batch [100]	Speed: 4122.32 samples/sec	accuracy=0.858984	cross-entropy=0.430394
+INFO:root:Epoch[26] Batch [120]	Speed: 4079.81 samples/sec	accuracy=0.856641	cross-entropy=0.414668
+INFO:root:Epoch[26] Batch [140]	Speed: 4109.32 samples/sec	accuracy=0.857422	cross-entropy=0.420330
+INFO:root:Epoch[26] Batch [160]	Speed: 4161.63 samples/sec	accuracy=0.855469	cross-entropy=0.424862
+INFO:root:Epoch[26] Batch [180]	Speed: 4052.49 samples/sec	accuracy=0.853125	cross-entropy=0.409256
+INFO:root:Epoch[26] Batch [200]	Speed: 3839.21 samples/sec	accuracy=0.852734	cross-entropy=0.423417
+INFO:root:Epoch[26] Batch [220]	Speed: 4019.15 samples/sec	accuracy=0.856250	cross-entropy=0.427014
+INFO:root:Epoch[26] Batch [240]	Speed: 4076.28 samples/sec	accuracy=0.871484	cross-entropy=0.385059
+INFO:root:Epoch[26] Batch [260]	Speed: 4157.37 samples/sec	accuracy=0.860547	cross-entropy=0.409267
+INFO:root:Epoch[26] Batch [280]	Speed: 4154.89 samples/sec	accuracy=0.851953	cross-entropy=0.430169
+INFO:root:Epoch[26] Batch [300]	Speed: 4088.48 samples/sec	accuracy=0.858203	cross-entropy=0.413244
+INFO:root:Epoch[26] Batch [320]	Speed: 4147.06 samples/sec	accuracy=0.859375	cross-entropy=0.396659
+INFO:root:Epoch[26] Batch [340]	Speed: 4036.56 samples/sec	accuracy=0.864453	cross-entropy=0.406061
+INFO:root:Epoch[26] Batch [360]	Speed: 4161.80 samples/sec	accuracy=0.862891	cross-entropy=0.390572
+INFO:root:Epoch[26] Batch [380]	Speed: 3973.74 samples/sec	accuracy=0.864062	cross-entropy=0.404937
+INFO:root:Epoch[26] Train-accuracy=0.857639
+INFO:root:Epoch[26] Train-cross-entropy=0.416188
+INFO:root:Epoch[26] Time cost=12.188
+INFO:root:Epoch[26] Validation-accuracy=0.855168
+INFO:root:Epoch[26] Validation-cross-entropy=0.433195
+INFO:root:Epoch[27] Batch [20]	Speed: 4118.97 samples/sec	accuracy=0.853423	cross-entropy=0.416161
+INFO:root:Epoch[27] Batch [40]	Speed: 4066.32 samples/sec	accuracy=0.860547	cross-entropy=0.407201
+INFO:root:Epoch[27] Batch [60]	Speed: 4067.08 samples/sec	accuracy=0.852344	cross-entropy=0.429848
+INFO:root:Epoch[27] Batch [80]	Speed: 4170.92 samples/sec	accuracy=0.858594	cross-entropy=0.405155
+INFO:root:Epoch[27] Batch [100]	Speed: 4085.54 samples/sec	accuracy=0.850391	cross-entropy=0.433648
+INFO:root:Epoch[27] Batch [120]	Speed: 4129.46 samples/sec	accuracy=0.862500	cross-entropy=0.407070
+INFO:root:Epoch[27] Batch [140]	Speed: 4206.39 samples/sec	accuracy=0.851562	cross-entropy=0.407290
+INFO:root:Epoch[27] Batch [160]	Speed: 4124.72 samples/sec	accuracy=0.857422	cross-entropy=0.383101
+INFO:root:Epoch[27] Batch [180]	Speed: 4109.11 samples/sec	accuracy=0.868359	cross-entropy=0.385390
+INFO:root:Epoch[27] Batch [200]	Speed: 4079.30 samples/sec	accuracy=0.862891	cross-entropy=0.399944
+INFO:root:Epoch[27] Batch [220]	Speed: 4153.08 samples/sec	accuracy=0.853906	cross-entropy=0.412093
+INFO:root:Epoch[27] Batch [240]	Speed: 4147.14 samples/sec	accuracy=0.862500	cross-entropy=0.395543
+INFO:root:Epoch[27] Batch [260]	Speed: 4211.94 samples/sec	accuracy=0.856641	cross-entropy=0.401267
+INFO:root:Epoch[27] Batch [280]	Speed: 4093.54 samples/sec	accuracy=0.852344	cross-entropy=0.422689
+INFO:root:Epoch[27] Batch [300]	Speed: 4165.13 samples/sec	accuracy=0.855078	cross-entropy=0.420187
+INFO:root:Epoch[27] Batch [320]	Speed: 4139.95 samples/sec	accuracy=0.872266	cross-entropy=0.385427
+INFO:root:Epoch[27] Batch [340]	Speed: 4081.20 samples/sec	accuracy=0.857422	cross-entropy=0.411825
+INFO:root:Epoch[27] Batch [360]	Speed: 4099.34 samples/sec	accuracy=0.866406	cross-entropy=0.382105
+INFO:root:Epoch[27] Batch [380]	Speed: 4172.01 samples/sec	accuracy=0.862109	cross-entropy=0.398713
+INFO:root:Epoch[27] Train-accuracy=0.853906
+INFO:root:Epoch[27] Train-cross-entropy=0.440340
+INFO:root:Epoch[27] Time cost=12.112
+INFO:root:Epoch[27] Validation-accuracy=0.845954
+INFO:root:Epoch[27] Validation-cross-entropy=0.463525
+INFO:root:Epoch[28] Batch [20]	Speed: 4204.48 samples/sec	accuracy=0.861235	cross-entropy=0.405043
+INFO:root:Epoch[28] Batch [40]	Speed: 4156.83 samples/sec	accuracy=0.868359	cross-entropy=0.386754
+INFO:root:Epoch[28] Batch [60]	Speed: 4066.47 samples/sec	accuracy=0.860156	cross-entropy=0.415741
+INFO:root:Epoch[28] Batch [80]	Speed: 4105.85 samples/sec	accuracy=0.858594	cross-entropy=0.399488
+INFO:root:Epoch[28] Batch [100]	Speed: 4138.37 samples/sec	accuracy=0.859375	cross-entropy=0.394413
+INFO:root:Epoch[28] Batch [120]	Speed: 4126.82 samples/sec	accuracy=0.866797	cross-entropy=0.402923
+INFO:root:Epoch[28] Batch [140]	Speed: 4172.66 samples/sec	accuracy=0.853125	cross-entropy=0.408925
+INFO:root:Epoch[28] Batch [160]	Speed: 4208.93 samples/sec	accuracy=0.841016	cross-entropy=0.433131
+INFO:root:Epoch[28] Batch [180]	Speed: 4157.39 samples/sec	accuracy=0.863672	cross-entropy=0.386301
+INFO:root:Epoch[28] Batch [200]	Speed: 4188.23 samples/sec	accuracy=0.841016	cross-entropy=0.445458
+INFO:root:Epoch[28] Batch [220]	Speed: 4165.66 samples/sec	accuracy=0.856641	cross-entropy=0.410340
+INFO:root:Epoch[28] Batch [240]	Speed: 4232.06 samples/sec	accuracy=0.863281	cross-entropy=0.399350
+INFO:root:Epoch[28] Batch [260]	Speed: 4152.84 samples/sec	accuracy=0.862109	cross-entropy=0.400865
+INFO:root:Epoch[28] Batch [280]	Speed: 4124.57 samples/sec	accuracy=0.857422	cross-entropy=0.400589
+INFO:root:Epoch[28] Batch [300]	Speed: 4051.10 samples/sec	accuracy=0.862109	cross-entropy=0.401012
+INFO:root:Epoch[28] Batch [320]	Speed: 4106.50 samples/sec	accuracy=0.855078	cross-entropy=0.402327
+INFO:root:Epoch[28] Batch [340]	Speed: 4094.92 samples/sec	accuracy=0.864062	cross-entropy=0.401718
+INFO:root:Epoch[28] Batch [360]	Speed: 4081.37 samples/sec	accuracy=0.874219	cross-entropy=0.369839
+INFO:root:Epoch[28] Batch [380]	Speed: 4192.03 samples/sec	accuracy=0.861328	cross-entropy=0.407292
+INFO:root:Epoch[28] Train-accuracy=0.873437
+INFO:root:Epoch[28] Train-cross-entropy=0.374311
+INFO:root:Epoch[28] Time cost=12.062
+INFO:root:Epoch[28] Validation-accuracy=0.846254
+INFO:root:Epoch[28] Validation-cross-entropy=0.469231
+INFO:root:Epoch[29] Batch [20]	Speed: 4116.72 samples/sec	accuracy=0.867188	cross-entropy=0.391862
+INFO:root:Epoch[29] Batch [40]	Speed: 4216.31 samples/sec	accuracy=0.860156	cross-entropy=0.405470
+INFO:root:Epoch[29] Batch [60]	Speed: 4178.36 samples/sec	accuracy=0.859766	cross-entropy=0.406723
+INFO:root:Epoch[29] Batch [80]	Speed: 4139.23 samples/sec	accuracy=0.876953	cross-entropy=0.380137
+INFO:root:Epoch[29] Batch [100]	Speed: 4168.21 samples/sec	accuracy=0.862891	cross-entropy=0.402279
+INFO:root:Epoch[29] Batch [120]	Speed: 4151.44 samples/sec	accuracy=0.864062	cross-entropy=0.389691
+INFO:root:Epoch[29] Batch [140]	Speed: 4054.55 samples/sec	accuracy=0.857812	cross-entropy=0.398776
+INFO:root:Epoch[29] Batch [160]	Speed: 4088.16 samples/sec	accuracy=0.847656	cross-entropy=0.420177
+INFO:root:Epoch[29] Batch [180]	Speed: 4135.20 samples/sec	accuracy=0.857422	cross-entropy=0.404351
+INFO:root:Epoch[29] Batch [200]	Speed: 4186.04 samples/sec	accuracy=0.860938	cross-entropy=0.414858
+INFO:root:Epoch[29] Batch [220]	Speed: 4187.74 samples/sec	accuracy=0.865625	cross-entropy=0.400629
+INFO:root:Epoch[29] Batch [240]	Speed: 4089.55 samples/sec	accuracy=0.868750	cross-entropy=0.390428
+INFO:root:Epoch[29] Batch [260]	Speed: 3954.27 samples/sec	accuracy=0.866797	cross-entropy=0.387028
+INFO:root:Epoch[29] Batch [280]	Speed: 4055.65 samples/sec	accuracy=0.864453	cross-entropy=0.388661
+INFO:root:Epoch[29] Batch [300]	Speed: 4059.46 samples/sec	accuracy=0.866406	cross-entropy=0.392460
+INFO:root:Epoch[29] Batch [320]	Speed: 4104.51 samples/sec	accuracy=0.856641	cross-entropy=0.406298
+INFO:root:Epoch[29] Batch [340]	Speed: 4141.95 samples/sec	accuracy=0.872266	cross-entropy=0.382248
+INFO:root:Epoch[29] Batch [360]	Speed: 4201.33 samples/sec	accuracy=0.865234	cross-entropy=0.377375
+INFO:root:Epoch[29] Batch [380]	Speed: 4174.16 samples/sec	accuracy=0.864844	cross-entropy=0.407931
+INFO:root:Epoch[29] Train-accuracy=0.862847
+INFO:root:Epoch[29] Train-cross-entropy=0.388414
+INFO:root:Epoch[29] Time cost=12.079
+INFO:root:Epoch[29] Validation-accuracy=0.847556
+INFO:root:Epoch[29] Validation-cross-entropy=0.457724
+INFO:root:Epoch[30] Batch [20]	Speed: 4236.23 samples/sec	accuracy=0.865699	cross-entropy=0.382808
+INFO:root:Epoch[30] Batch [40]	Speed: 4104.36 samples/sec	accuracy=0.856641	cross-entropy=0.400389
+INFO:root:Epoch[30] Batch [60]	Speed: 4007.53 samples/sec	accuracy=0.858984	cross-entropy=0.415463
+INFO:root:Epoch[30] Batch [80]	Speed: 4180.99 samples/sec	accuracy=0.867578	cross-entropy=0.393589
+INFO:root:Epoch[30] Batch [100]	Speed: 4184.53 samples/sec	accuracy=0.862500	cross-entropy=0.409937
+INFO:root:Epoch[30] Batch [120]	Speed: 4040.76 samples/sec	accuracy=0.855859	cross-entropy=0.406204
+INFO:root:Epoch[30] Batch [140]	Speed: 4050.95 samples/sec	accuracy=0.868359	cross-entropy=0.391954
+INFO:root:Epoch[30] Batch [160]	Speed: 4181.43 samples/sec	accuracy=0.855078	cross-entropy=0.423249
+INFO:root:Epoch[30] Batch [180]	Speed: 4217.91 samples/sec	accuracy=0.866406	cross-entropy=0.384466
+INFO:root:Epoch[30] Batch [200]	Speed: 4134.45 samples/sec	accuracy=0.855859	cross-entropy=0.431726
+INFO:root:Epoch[30] Batch [220]	Speed: 4119.19 samples/sec	accuracy=0.874609	cross-entropy=0.361546
+INFO:root:Epoch[30] Batch [240]	Speed: 4184.24 samples/sec	accuracy=0.867578	cross-entropy=0.376047
+INFO:root:Epoch[30] Batch [260]	Speed: 4197.62 samples/sec	accuracy=0.866016	cross-entropy=0.387000
+INFO:root:Epoch[30] Batch [280]	Speed: 4186.58 samples/sec	accuracy=0.864844	cross-entropy=0.389576
+INFO:root:Epoch[30] Batch [300]	Speed: 4164.88 samples/sec	accuracy=0.857422	cross-entropy=0.407554
+INFO:root:Epoch[30] Batch [320]	Speed: 4188.25 samples/sec	accuracy=0.860938	cross-entropy=0.402441
+INFO:root:Epoch[30] Batch [340]	Speed: 4142.17 samples/sec	accuracy=0.867188	cross-entropy=0.392143
+INFO:root:Epoch[30] Batch [360]	Speed: 4142.23 samples/sec	accuracy=0.863281	cross-entropy=0.390919
+INFO:root:Epoch[30] Batch [380]	Speed: 4168.78 samples/sec	accuracy=0.861328	cross-entropy=0.381728
+INFO:root:Epoch[30] Train-accuracy=0.876563
+INFO:root:Epoch[30] Train-cross-entropy=0.370877
+INFO:root:Epoch[30] Time cost=12.073
+INFO:root:Epoch[30] Validation-accuracy=0.852865
+INFO:root:Epoch[30] Validation-cross-entropy=0.434213
+INFO:root:Epoch[31] Batch [20]	Speed: 4077.46 samples/sec	accuracy=0.866071	cross-entropy=0.377265
+INFO:root:Epoch[31] Batch [40]	Speed: 4020.00 samples/sec	accuracy=0.863281	cross-entropy=0.391993
+INFO:root:Epoch[31] Batch [60]	Speed: 4082.73 samples/sec	accuracy=0.863281	cross-entropy=0.387137
+INFO:root:Epoch[31] Batch [80]	Speed: 4100.80 samples/sec	accuracy=0.867578	cross-entropy=0.384210
+INFO:root:Epoch[31] Batch [100]	Speed: 4181.58 samples/sec	accuracy=0.861719	cross-entropy=0.396347
+INFO:root:Epoch[31] Batch [120]	Speed: 4165.69 samples/sec	accuracy=0.859766	cross-entropy=0.389001
+INFO:root:Epoch[31] Batch [140]	Speed: 4159.93 samples/sec	accuracy=0.865625	cross-entropy=0.400187
+INFO:root:Epoch[31] Batch [160]	Speed: 4102.76 samples/sec	accuracy=0.851172	cross-entropy=0.412669
+INFO:root:Epoch[31] Batch [180]	Speed: 4159.01 samples/sec	accuracy=0.871484	cross-entropy=0.366797
+INFO:root:Epoch[31] Batch [200]	Speed: 4134.48 samples/sec	accuracy=0.859766	cross-entropy=0.392861
+INFO:root:Epoch[31] Batch [220]	Speed: 4080.42 samples/sec	accuracy=0.861328	cross-entropy=0.395948
+INFO:root:Epoch[31] Batch [240]	Speed: 4128.16 samples/sec	accuracy=0.866406	cross-entropy=0.386198
+INFO:root:Epoch[31] Batch [260]	Speed: 4117.53 samples/sec	accuracy=0.871484	cross-entropy=0.364619
+INFO:root:Epoch[31] Batch [280]	Speed: 4115.82 samples/sec	accuracy=0.846875	cross-entropy=0.435088
+INFO:root:Epoch[31] Batch [300]	Speed: 4093.78 samples/sec	accuracy=0.869141	cross-entropy=0.377149
+INFO:root:Epoch[31] Batch [320]	Speed: 3961.90 samples/sec	accuracy=0.866406	cross-entropy=0.385061
+INFO:root:Epoch[31] Batch [340]	Speed: 4156.86 samples/sec	accuracy=0.873047	cross-entropy=0.355324
+INFO:root:Epoch[31] Batch [360]	Speed: 4129.98 samples/sec	accuracy=0.864062	cross-entropy=0.364872
+INFO:root:Epoch[31] Batch [380]	Speed: 4110.33 samples/sec	accuracy=0.860547	cross-entropy=0.388631
+INFO:root:Epoch[31] Train-accuracy=0.870660
+INFO:root:Epoch[31] Train-cross-entropy=0.377296
+INFO:root:Epoch[31] Time cost=12.152
+INFO:root:Epoch[31] Validation-accuracy=0.850260
+INFO:root:Epoch[31] Validation-cross-entropy=0.442736
+INFO:root:Epoch[32] Batch [20]	Speed: 4098.72 samples/sec	accuracy=0.866071	cross-entropy=0.391811
+INFO:root:Epoch[32] Batch [40]	Speed: 4102.25 samples/sec	accuracy=0.871094	cross-entropy=0.369529
+INFO:root:Epoch[32] Batch [60]	Speed: 4212.63 samples/sec	accuracy=0.860156	cross-entropy=0.398124
+INFO:root:Epoch[32] Batch [80]	Speed: 4102.52 samples/sec	accuracy=0.871484	cross-entropy=0.392118
+INFO:root:Epoch[32] Batch [100]	Speed: 4191.74 samples/sec	accuracy=0.867969	cross-entropy=0.399035
+INFO:root:Epoch[32] Batch [120]	Speed: 4088.49 samples/sec	accuracy=0.870313	cross-entropy=0.382496
+INFO:root:Epoch[32] Batch [140]	Speed: 3932.00 samples/sec	accuracy=0.875391	cross-entropy=0.365292
+INFO:root:Epoch[32] Batch [160]	Speed: 3977.99 samples/sec	accuracy=0.862891	cross-entropy=0.380245
+INFO:root:Epoch[32] Batch [180]	Speed: 4090.98 samples/sec	accuracy=0.875000	cross-entropy=0.359577
+INFO:root:Epoch[32] Batch [200]	Speed: 3895.59 samples/sec	accuracy=0.862109	cross-entropy=0.407083
+INFO:root:Epoch[32] Batch [220]	Speed: 4037.62 samples/sec	accuracy=0.870703	cross-entropy=0.390574
+INFO:root:Epoch[32] Batch [240]	Speed: 4166.58 samples/sec	accuracy=0.874219	cross-entropy=0.369496
+INFO:root:Epoch[32] Batch [260]	Speed: 4159.06 samples/sec	accuracy=0.860156	cross-entropy=0.405273
+INFO:root:Epoch[32] Batch [280]	Speed: 4157.51 samples/sec	accuracy=0.864453	cross-entropy=0.386991
+INFO:root:Epoch[32] Batch [300]	Speed: 4103.29 samples/sec	accuracy=0.867578	cross-entropy=0.385064
+INFO:root:Epoch[32] Batch [320]	Speed: 4137.56 samples/sec	accuracy=0.862109	cross-entropy=0.398312
+INFO:root:Epoch[32] Batch [340]	Speed: 4111.78 samples/sec	accuracy=0.871094	cross-entropy=0.373936
+INFO:root:Epoch[32] Batch [360]	Speed: 4200.25 samples/sec	accuracy=0.884375	cross-entropy=0.344612
+INFO:root:Epoch[32] Batch [380]	Speed: 4181.57 samples/sec	accuracy=0.868359	cross-entropy=0.380493
+INFO:root:Epoch[32] Train-accuracy=0.878125
+INFO:root:Epoch[32] Train-cross-entropy=0.381484
+INFO:root:Epoch[32] Time cost=12.243
+INFO:root:Epoch[32] Validation-accuracy=0.857100
+INFO:root:Epoch[32] Validation-cross-entropy=0.425131
+INFO:root:Epoch[33] Batch [20]	Speed: 4191.27 samples/sec	accuracy=0.862351	cross-entropy=0.386246
+INFO:root:Epoch[33] Batch [40]	Speed: 4157.19 samples/sec	accuracy=0.869922	cross-entropy=0.374709
+INFO:root:Epoch[33] Batch [60]	Speed: 4066.40 samples/sec	accuracy=0.866016	cross-entropy=0.399253
+INFO:root:Epoch[33] Batch [80]	Speed: 4127.78 samples/sec	accuracy=0.866016	cross-entropy=0.394187
+INFO:root:Epoch[33] Batch [100]	Speed: 4183.74 samples/sec	accuracy=0.867578	cross-entropy=0.396557
+INFO:root:Epoch[33] Batch [120]	Speed: 4130.64 samples/sec	accuracy=0.861719	cross-entropy=0.381165
+INFO:root:Epoch[33] Batch [140]	Speed: 4009.40 samples/sec	accuracy=0.854297	cross-entropy=0.419348
+INFO:root:Epoch[33] Batch [160]	Speed: 4084.95 samples/sec	accuracy=0.857031	cross-entropy=0.398459
+INFO:root:Epoch[33] Batch [180]	Speed: 4047.22 samples/sec	accuracy=0.872656	cross-entropy=0.360689
+INFO:root:Epoch[33] Batch [200]	Speed: 4187.95 samples/sec	accuracy=0.872266	cross-entropy=0.372164
+INFO:root:Epoch[33] Batch [220]	Speed: 4129.10 samples/sec	accuracy=0.875000	cross-entropy=0.364843
+INFO:root:Epoch[33] Batch [240]	Speed: 4005.87 samples/sec	accuracy=0.873437	cross-entropy=0.357368
+INFO:root:Epoch[33] Batch [260]	Speed: 4096.01 samples/sec	accuracy=0.874609	cross-entropy=0.363007
+INFO:root:Epoch[33] Batch [280]	Speed: 4155.23 samples/sec	accuracy=0.852344	cross-entropy=0.407506
+INFO:root:Epoch[33] Batch [300]	Speed: 4043.23 samples/sec	accuracy=0.860547	cross-entropy=0.397567
+INFO:root:Epoch[33] Batch [320]	Speed: 4034.93 samples/sec	accuracy=0.858203	cross-entropy=0.399473
+INFO:root:Epoch[33] Batch [340]	Speed: 4093.07 samples/sec	accuracy=0.872656	cross-entropy=0.376010
+INFO:root:Epoch[33] Batch [360]	Speed: 4076.65 samples/sec	accuracy=0.876953	cross-entropy=0.347621
+INFO:root:Epoch[33] Batch [380]	Speed: 4119.17 samples/sec	accuracy=0.866797	cross-entropy=0.386688
+INFO:root:Epoch[33] Train-accuracy=0.890625
+INFO:root:Epoch[33] Train-cross-entropy=0.325198
+INFO:root:Epoch[33] Time cost=12.211
+INFO:root:Epoch[33] Validation-accuracy=0.860777
+INFO:root:Epoch[33] Validation-cross-entropy=0.424044
+INFO:root:Epoch[34] Batch [20]	Speed: 4107.55 samples/sec	accuracy=0.867932	cross-entropy=0.384326
+INFO:root:Epoch[34] Batch [40]	Speed: 4133.33 samples/sec	accuracy=0.870703	cross-entropy=0.377293
+INFO:root:Epoch[34] Batch [60]	Speed: 4208.02 samples/sec	accuracy=0.868750	cross-entropy=0.377694
+INFO:root:Epoch[34] Batch [80]	Speed: 4099.65 samples/sec	accuracy=0.878125	cross-entropy=0.369829
+INFO:root:Epoch[34] Batch [100]	Speed: 4148.67 samples/sec	accuracy=0.876172	cross-entropy=0.375629
+INFO:root:Epoch[34] Batch [120]	Speed: 4151.44 samples/sec	accuracy=0.870703	cross-entropy=0.376514
+INFO:root:Epoch[34] Batch [140]	Speed: 4216.44 samples/sec	accuracy=0.876563	cross-entropy=0.362011
+INFO:root:Epoch[34] Batch [160]	Speed: 4161.76 samples/sec	accuracy=0.871484	cross-entropy=0.368486
+INFO:root:Epoch[34] Batch [180]	Speed: 4135.77 samples/sec	accuracy=0.866797	cross-entropy=0.370466
+INFO:root:Epoch[34] Batch [200]	Speed: 4108.27 samples/sec	accuracy=0.867578	cross-entropy=0.381019
+INFO:root:Epoch[34] Batch [220]	Speed: 4146.78 samples/sec	accuracy=0.875781	cross-entropy=0.371210
+INFO:root:Epoch[34] Batch [240]	Speed: 4120.13 samples/sec	accuracy=0.862500	cross-entropy=0.368066
+INFO:root:Epoch[34] Batch [260]	Speed: 4164.56 samples/sec	accuracy=0.865234	cross-entropy=0.364357
+INFO:root:Epoch[34] Batch [280]	Speed: 4232.55 samples/sec	accuracy=0.877344	cross-entropy=0.351048
+INFO:root:Epoch[34] Batch [300]	Speed: 4126.42 samples/sec	accuracy=0.859375	cross-entropy=0.406177
+INFO:root:Epoch[34] Batch [320]	Speed: 4172.29 samples/sec	accuracy=0.868359	cross-entropy=0.393229
+INFO:root:Epoch[34] Batch [340]	Speed: 4132.84 samples/sec	accuracy=0.871094	cross-entropy=0.359085
+INFO:root:Epoch[34] Batch [360]	Speed: 4196.61 samples/sec	accuracy=0.878906	cross-entropy=0.348948
+INFO:root:Epoch[34] Batch [380]	Speed: 4176.48 samples/sec	accuracy=0.874219	cross-entropy=0.363651
+INFO:root:Epoch[34] Train-accuracy=0.862847
+INFO:root:Epoch[34] Train-cross-entropy=0.391344
+INFO:root:Epoch[34] Time cost=12.011
+INFO:root:Epoch[34] Validation-accuracy=0.832532
+INFO:root:Epoch[34] Validation-cross-entropy=0.516136
+INFO:root:Epoch[35] Batch [20]	Speed: 4142.08 samples/sec	accuracy=0.853423	cross-entropy=0.407376
+INFO:root:Epoch[35] Batch [40]	Speed: 4145.92 samples/sec	accuracy=0.867578	cross-entropy=0.389944
+INFO:root:Epoch[35] Batch [60]	Speed: 4159.77 samples/sec	accuracy=0.871484	cross-entropy=0.364992
+INFO:root:Epoch[35] Batch [80]	Speed: 4058.08 samples/sec	accuracy=0.873828	cross-entropy=0.377888
+INFO:root:Epoch[35] Batch [100]	Speed: 4118.34 samples/sec	accuracy=0.864453	cross-entropy=0.395750
+INFO:root:Epoch[35] Batch [120]	Speed: 4149.26 samples/sec	accuracy=0.873828	cross-entropy=0.356883
+INFO:root:Epoch[35] Batch [140]	Speed: 4199.49 samples/sec	accuracy=0.862500	cross-entropy=0.385156
+INFO:root:Epoch[35] Batch [160]	Speed: 4155.58 samples/sec	accuracy=0.876172	cross-entropy=0.358810
+INFO:root:Epoch[35] Batch [180]	Speed: 4105.99 samples/sec	accuracy=0.875000	cross-entropy=0.351376
+INFO:root:Epoch[35] Batch [200]	Speed: 4130.24 samples/sec	accuracy=0.872266	cross-entropy=0.384349
+INFO:root:Epoch[35] Batch [220]	Speed: 3934.47 samples/sec	accuracy=0.870703	cross-entropy=0.370196
+INFO:root:Epoch[35] Batch [240]	Speed: 4157.45 samples/sec	accuracy=0.876563	cross-entropy=0.339404
+INFO:root:Epoch[35] Batch [260]	Speed: 4099.17 samples/sec	accuracy=0.876563	cross-entropy=0.359134
+INFO:root:Epoch[35] Batch [280]	Speed: 4162.04 samples/sec	accuracy=0.862109	cross-entropy=0.392390
+INFO:root:Epoch[35] Batch [300]	Speed: 4168.49 samples/sec	accuracy=0.862500	cross-entropy=0.382209
+INFO:root:Epoch[35] Batch [320]	Speed: 4145.84 samples/sec	accuracy=0.870703	cross-entropy=0.376980
+INFO:root:Epoch[35] Batch [340]	Speed: 4138.98 samples/sec	accuracy=0.861719	cross-entropy=0.383242
+INFO:root:Epoch[35] Batch [360]	Speed: 4092.52 samples/sec	accuracy=0.892188	cross-entropy=0.323289
+INFO:root:Epoch[35] Batch [380]	Speed: 4186.15 samples/sec	accuracy=0.871484	cross-entropy=0.369859
+INFO:root:Epoch[35] Train-accuracy=0.871094
+INFO:root:Epoch[35] Train-cross-entropy=0.376984
+INFO:root:Epoch[35] Time cost=12.117
+INFO:root:Epoch[35] Validation-accuracy=0.863782
+INFO:root:Epoch[35] Validation-cross-entropy=0.398332
+INFO:root:Epoch[36] Batch [20]	Speed: 4190.43 samples/sec	accuracy=0.875744	cross-entropy=0.341081
+INFO:root:Epoch[36] Batch [40]	Speed: 4048.62 samples/sec	accuracy=0.882812	cross-entropy=0.346945
+INFO:root:Epoch[36] Batch [60]	Speed: 4158.67 samples/sec	accuracy=0.867188	cross-entropy=0.373640
+INFO:root:Epoch[36] Batch [80]	Speed: 4147.30 samples/sec	accuracy=0.870313	cross-entropy=0.379217
+INFO:root:Epoch[36] Batch [100]	Speed: 4136.76 samples/sec	accuracy=0.862891	cross-entropy=0.400289
+INFO:root:Epoch[36] Batch [120]	Speed: 4119.01 samples/sec	accuracy=0.872266	cross-entropy=0.360634
+INFO:root:Epoch[36] Batch [140]	Speed: 4159.58 samples/sec	accuracy=0.877344	cross-entropy=0.365654
+INFO:root:Epoch[36] Batch [160]	Speed: 4121.65 samples/sec	accuracy=0.858984	cross-entropy=0.387205
+INFO:root:Epoch[36] Batch [180]	Speed: 4168.08 samples/sec	accuracy=0.886328	cross-entropy=0.342930
+INFO:root:Epoch[36] Batch [200]	Speed: 4110.30 samples/sec	accuracy=0.874219	cross-entropy=0.357847
+INFO:root:Epoch[36] Batch [220]	Speed: 4063.63 samples/sec	accuracy=0.869922	cross-entropy=0.392434
+INFO:root:Epoch[36] Batch [240]	Speed: 4202.61 samples/sec	accuracy=0.868750	cross-entropy=0.363398
+INFO:root:Epoch[36] Batch [260]	Speed: 4096.90 samples/sec	accuracy=0.872656	cross-entropy=0.372288
+INFO:root:Epoch[36] Batch [280]	Speed: 4151.15 samples/sec	accuracy=0.876563	cross-entropy=0.356856
+INFO:root:Epoch[36] Batch [300]	Speed: 4118.27 samples/sec	accuracy=0.870313	cross-entropy=0.368592
+INFO:root:Epoch[36] Batch [320]	Speed: 4013.26 samples/sec	accuracy=0.883203	cross-entropy=0.351504
+INFO:root:Epoch[36] Batch [340]	Speed: 4065.56 samples/sec	accuracy=0.873828	cross-entropy=0.340355
+INFO:root:Epoch[36] Batch [360]	Speed: 4147.54 samples/sec	accuracy=0.875000	cross-entropy=0.374526
+INFO:root:Epoch[36] Batch [380]	Speed: 4165.01 samples/sec	accuracy=0.880078	cross-entropy=0.343332
+INFO:root:Epoch[36] Train-accuracy=0.875000
+INFO:root:Epoch[36] Train-cross-entropy=0.350816
+INFO:root:Epoch[36] Time cost=12.129
+INFO:root:Epoch[36] Validation-accuracy=0.853966
+INFO:root:Epoch[36] Validation-cross-entropy=0.448527
+INFO:root:Epoch[37] Batch [20]	Speed: 4141.72 samples/sec	accuracy=0.867188	cross-entropy=0.377639
+INFO:root:Epoch[37] Batch [40]	Speed: 4162.74 samples/sec	accuracy=0.876563	cross-entropy=0.359693
+INFO:root:Epoch[37] Batch [60]	Speed: 4127.93 samples/sec	accuracy=0.857422	cross-entropy=0.399482
+INFO:root:Epoch[37] Batch [80]	Speed: 4177.21 samples/sec	accuracy=0.870703	cross-entropy=0.359105
+INFO:root:Epoch[37] Batch [100]	Speed: 4064.05 samples/sec	accuracy=0.872656	cross-entropy=0.370785
+INFO:root:Epoch[37] Batch [120]	Speed: 4043.50 samples/sec	accuracy=0.867969	cross-entropy=0.368148
+INFO:root:Epoch[37] Batch [140]	Speed: 4164.89 samples/sec	accuracy=0.876953	cross-entropy=0.349841
+INFO:root:Epoch[37] Batch [160]	Speed: 4173.63 samples/sec	accuracy=0.866797	cross-entropy=0.383218
+INFO:root:Epoch[37] Batch [180]	Speed: 4179.80 samples/sec	accuracy=0.872656	cross-entropy=0.349744
+INFO:root:Epoch[37] Batch [200]	Speed: 3980.16 samples/sec	accuracy=0.867969	cross-entropy=0.381489
+INFO:root:Epoch[37] Batch [220]	Speed: 4096.90 samples/sec	accuracy=0.872656	cross-entropy=0.368665
+INFO:root:Epoch[37] Batch [240]	Speed: 4221.93 samples/sec	accuracy=0.871875	cross-entropy=0.367096
+INFO:root:Epoch[37] Batch [260]	Speed: 4157.75 samples/sec	accuracy=0.877344	cross-entropy=0.350965
+INFO:root:Epoch[37] Batch [280]	Speed: 4180.29 samples/sec	accuracy=0.871094	cross-entropy=0.365340
+INFO:root:Epoch[37] Batch [300]	Speed: 4050.51 samples/sec	accuracy=0.879297	cross-entropy=0.355279
+INFO:root:Epoch[37] Batch [320]	Speed: 4109.93 samples/sec	accuracy=0.878516	cross-entropy=0.352396
+INFO:root:Epoch[37] Batch [340]	Speed: 4139.67 samples/sec	accuracy=0.873047	cross-entropy=0.364963
+INFO:root:Epoch[37] Batch [360]	Speed: 4104.12 samples/sec	accuracy=0.883984	cross-entropy=0.338831
+INFO:root:Epoch[37] Batch [380]	Speed: 4109.09 samples/sec	accuracy=0.879687	cross-entropy=0.352623
+INFO:root:Epoch[37] Train-accuracy=0.879340
+INFO:root:Epoch[37] Train-cross-entropy=0.341990
+INFO:root:Epoch[37] Time cost=12.087
+INFO:root:Epoch[37] Validation-accuracy=0.853966
+INFO:root:Epoch[37] Validation-cross-entropy=0.447071
+INFO:root:Epoch[38] Batch [20]	Speed: 4168.07 samples/sec	accuracy=0.872024	cross-entropy=0.357152
+INFO:root:Epoch[38] Batch [40]	Speed: 4134.69 samples/sec	accuracy=0.877734	cross-entropy=0.358423
+INFO:root:Epoch[38] Batch [60]	Speed: 4141.81 samples/sec	accuracy=0.869531	cross-entropy=0.370238
+INFO:root:Epoch[38] Batch [80]	Speed: 4044.27 samples/sec	accuracy=0.893359	cross-entropy=0.323079
+INFO:root:Epoch[38] Batch [100]	Speed: 3978.07 samples/sec	accuracy=0.873828	cross-entropy=0.353028
+INFO:root:Epoch[38] Batch [120]	Speed: 4152.50 samples/sec	accuracy=0.871094	cross-entropy=0.374185
+INFO:root:Epoch[38] Batch [140]	Speed: 4238.35 samples/sec	accuracy=0.873437	cross-entropy=0.371026
+INFO:root:Epoch[38] Batch [160]	Speed: 4182.51 samples/sec	accuracy=0.892188	cross-entropy=0.329253
+INFO:root:Epoch[38] Batch [180]	Speed: 4079.07 samples/sec	accuracy=0.877344	cross-entropy=0.351393
+INFO:root:Epoch[38] Batch [200]	Speed: 4004.81 samples/sec	accuracy=0.867188	cross-entropy=0.372839
+INFO:root:Epoch[38] Batch [220]	Speed: 4090.57 samples/sec	accuracy=0.878125	cross-entropy=0.357842
+INFO:root:Epoch[38] Batch [240]	Speed: 4199.65 samples/sec	accuracy=0.863672	cross-entropy=0.383540
+INFO:root:Epoch[38] Batch [260]	Speed: 4027.51 samples/sec	accuracy=0.879297	cross-entropy=0.340360
+INFO:root:Epoch[38] Batch [280]	Speed: 3954.04 samples/sec	accuracy=0.869922	cross-entropy=0.368916
+INFO:root:Epoch[38] Batch [300]	Speed: 3979.02 samples/sec	accuracy=0.883203	cross-entropy=0.346545
+INFO:root:Epoch[38] Batch [320]	Speed: 4035.87 samples/sec	accuracy=0.887500	cross-entropy=0.331331
+INFO:root:Epoch[38] Batch [340]	Speed: 4142.84 samples/sec	accuracy=0.892188	cross-entropy=0.329753
+INFO:root:Epoch[38] Batch [360]	Speed: 4173.68 samples/sec	accuracy=0.879687	cross-entropy=0.347904
+INFO:root:Epoch[38] Batch [380]	Speed: 4174.21 samples/sec	accuracy=0.866016	cross-entropy=0.364788
+INFO:root:Epoch[38] Train-accuracy=0.874219
+INFO:root:Epoch[38] Train-cross-entropy=0.331342
+INFO:root:Epoch[38] Time cost=12.191
+INFO:root:Epoch[38] Validation-accuracy=0.864383
+INFO:root:Epoch[38] Validation-cross-entropy=0.402559
+INFO:root:Epoch[39] Batch [20]	Speed: 4132.52 samples/sec	accuracy=0.867560	cross-entropy=0.376327
+INFO:root:Epoch[39] Batch [40]	Speed: 4144.84 samples/sec	accuracy=0.870703	cross-entropy=0.361661
+INFO:root:Epoch[39] Batch [60]	Speed: 4191.99 samples/sec	accuracy=0.883984	cross-entropy=0.349881
+INFO:root:Epoch[39] Batch [80]	Speed: 4063.89 samples/sec	accuracy=0.877734	cross-entropy=0.370273
+INFO:root:Epoch[39] Batch [100]	Speed: 4091.36 samples/sec	accuracy=0.882422	cross-entropy=0.354485
+INFO:root:Epoch[39] Batch [120]	Speed: 4105.67 samples/sec	accuracy=0.877734	cross-entropy=0.357087
+INFO:root:Epoch[39] Batch [140]	Speed: 3869.08 samples/sec	accuracy=0.874219	cross-entropy=0.351429
+INFO:root:Epoch[39] Batch [160]	Speed: 4000.32 samples/sec	accuracy=0.869141	cross-entropy=0.381346
+INFO:root:Epoch[39] Batch [180]	Speed: 4068.50 samples/sec	accuracy=0.878906	cross-entropy=0.347851
+INFO:root:Epoch[39] Batch [200]	Speed: 3972.06 samples/sec	accuracy=0.874219	cross-entropy=0.371423
+INFO:root:Epoch[39] Batch [220]	Speed: 3960.63 samples/sec	accuracy=0.880469	cross-entropy=0.352270
+INFO:root:Epoch[39] Batch [240]	Speed: 4063.69 samples/sec	accuracy=0.856641	cross-entropy=0.401394
+INFO:root:Epoch[39] Batch [260]	Speed: 4002.58 samples/sec	accuracy=0.880469	cross-entropy=0.331428
+INFO:root:Epoch[39] Batch [280]	Speed: 4080.73 samples/sec	accuracy=0.871484	cross-entropy=0.359382
+INFO:root:Epoch[39] Batch [300]	Speed: 3987.13 samples/sec	accuracy=0.865234	cross-entropy=0.387929
+INFO:root:Epoch[39] Batch [320]	Speed: 4198.05 samples/sec	accuracy=0.882031	cross-entropy=0.339469
+INFO:root:Epoch[39] Batch [340]	Speed: 4138.34 samples/sec	accuracy=0.883594	cross-entropy=0.349967
+INFO:root:Epoch[39] Batch [360]	Speed: 4140.12 samples/sec	accuracy=0.893750	cross-entropy=0.314723
+INFO:root:Epoch[39] Batch [380]	Speed: 4194.86 samples/sec	accuracy=0.872656	cross-entropy=0.377639
+INFO:root:Epoch[39] Train-accuracy=0.872396
+INFO:root:Epoch[39] Train-cross-entropy=0.361348
+INFO:root:Epoch[39] Time cost=12.237
+INFO:root:Epoch[39] Validation-accuracy=0.867188
+INFO:root:Epoch[39] Validation-cross-entropy=0.409890
+INFO:root:Epoch[40] Batch [20]	Speed: 4147.38 samples/sec	accuracy=0.876116	cross-entropy=0.346307
+INFO:root:Epoch[40] Batch [40]	Speed: 4013.09 samples/sec	accuracy=0.880469	cross-entropy=0.347109
+INFO:root:Epoch[40] Batch [60]	Speed: 4132.38 samples/sec	accuracy=0.874219	cross-entropy=0.361301
+INFO:root:Epoch[40] Batch [80]	Speed: 4182.50 samples/sec	accuracy=0.878906	cross-entropy=0.341350
+INFO:root:Epoch[40] Batch [100]	Speed: 4085.55 samples/sec	accuracy=0.885547	cross-entropy=0.347558
+INFO:root:Epoch[40] Batch [120]	Speed: 4057.96 samples/sec	accuracy=0.878906	cross-entropy=0.349423
+INFO:root:Epoch[40] Batch [140]	Speed: 4098.60 samples/sec	accuracy=0.874219	cross-entropy=0.356224
+INFO:root:Epoch[40] Batch [160]	Speed: 4182.19 samples/sec	accuracy=0.859766	cross-entropy=0.386354
+INFO:root:Epoch[40] Batch [180]	Speed: 4148.31 samples/sec	accuracy=0.876172	cross-entropy=0.363403
+INFO:root:Epoch[40] Batch [200]	Speed: 4077.16 samples/sec	accuracy=0.859375	cross-entropy=0.383028
+INFO:root:Epoch[40] Batch [220]	Speed: 4256.83 samples/sec	accuracy=0.881250	cross-entropy=0.345220
+INFO:root:Epoch[40] Batch [240]	Speed: 4154.07 samples/sec	accuracy=0.875781	cross-entropy=0.360988
+INFO:root:Epoch[40] Batch [260]	Speed: 4117.51 samples/sec	accuracy=0.883984	cross-entropy=0.338444
+INFO:root:Epoch[40] Batch [280]	Speed: 4152.65 samples/sec	accuracy=0.873437	cross-entropy=0.351894
+INFO:root:Epoch[40] Batch [300]	Speed: 4035.81 samples/sec	accuracy=0.880078	cross-entropy=0.352023
+INFO:root:Epoch[40] Batch [320]	Speed: 3972.75 samples/sec	accuracy=0.883594	cross-entropy=0.344791
+INFO:root:Epoch[40] Batch [340]	Speed: 3966.96 samples/sec	accuracy=0.884375	cross-entropy=0.333594
+INFO:root:Epoch[40] Batch [360]	Speed: 4118.07 samples/sec	accuracy=0.888672	cross-entropy=0.313731
+INFO:root:Epoch[40] Batch [380]	Speed: 4050.04 samples/sec	accuracy=0.882422	cross-entropy=0.328160
+INFO:root:Epoch[40] Train-accuracy=0.894531
+INFO:root:Epoch[40] Train-cross-entropy=0.325990
+INFO:root:Epoch[40] Time cost=12.261
+INFO:root:Epoch[40] Validation-accuracy=0.852453
+INFO:root:Epoch[40] Validation-cross-entropy=0.466116
+INFO:root:Epoch[41] Batch [20]	Speed: 4153.07 samples/sec	accuracy=0.872768	cross-entropy=0.350972
+INFO:root:Epoch[41] Batch [40]	Speed: 4132.20 samples/sec	accuracy=0.880859	cross-entropy=0.352253
+INFO:root:Epoch[41] Batch [60]	Speed: 4131.84 samples/sec	accuracy=0.878516	cross-entropy=0.350259
+INFO:root:Epoch[41] Batch [80]	Speed: 4145.03 samples/sec	accuracy=0.887891	cross-entropy=0.337332
+INFO:root:Epoch[41] Batch [100]	Speed: 4109.85 samples/sec	accuracy=0.878125	cross-entropy=0.361335
+INFO:root:Epoch[41] Batch [120]	Speed: 4106.47 samples/sec	accuracy=0.878125	cross-entropy=0.344732
+INFO:root:Epoch[41] Batch [140]	Speed: 4115.03 samples/sec	accuracy=0.874219	cross-entropy=0.363477
+INFO:root:Epoch[41] Batch [160]	Speed: 4190.47 samples/sec	accuracy=0.872266	cross-entropy=0.359513
+INFO:root:Epoch[41] Batch [180]	Speed: 4009.44 samples/sec	accuracy=0.872266	cross-entropy=0.355679
+INFO:root:Epoch[41] Batch [200]	Speed: 4094.04 samples/sec	accuracy=0.865234	cross-entropy=0.373238
+INFO:root:Epoch[41] Batch [220]	Speed: 4106.14 samples/sec	accuracy=0.866797	cross-entropy=0.361720
+INFO:root:Epoch[41] Batch [240]	Speed: 4011.97 samples/sec	accuracy=0.878125	cross-entropy=0.331143
+INFO:root:Epoch[41] Batch [260]	Speed: 4182.90 samples/sec	accuracy=0.884375	cross-entropy=0.345973
+INFO:root:Epoch[41] Batch [280]	Speed: 4108.50 samples/sec	accuracy=0.887109	cross-entropy=0.332767
+INFO:root:Epoch[41] Batch [300]	Speed: 4085.70 samples/sec	accuracy=0.870703	cross-entropy=0.366898
+INFO:root:Epoch[41] Batch [320]	Speed: 4082.19 samples/sec	accuracy=0.879687	cross-entropy=0.335388
+INFO:root:Epoch[41] Batch [340]	Speed: 4113.98 samples/sec	accuracy=0.889062	cross-entropy=0.328761
+INFO:root:Epoch[41] Batch [360]	Speed: 4070.02 samples/sec	accuracy=0.882031	cross-entropy=0.340441
+INFO:root:Epoch[41] Batch [380]	Speed: 4060.53 samples/sec	accuracy=0.880078	cross-entropy=0.347906
+INFO:root:Epoch[41] Train-accuracy=0.883594
+INFO:root:Epoch[41] Train-cross-entropy=0.353989
+INFO:root:Epoch[41] Time cost=12.184
+INFO:root:Epoch[41] Validation-accuracy=0.853065
+INFO:root:Epoch[41] Validation-cross-entropy=0.448525
+INFO:root:Epoch[42] Batch [20]	Speed: 4005.04 samples/sec	accuracy=0.876488	cross-entropy=0.338500
+INFO:root:Epoch[42] Batch [40]	Speed: 4095.86 samples/sec	accuracy=0.875391	cross-entropy=0.357350
+INFO:root:Epoch[42] Batch [60]	Speed: 4157.97 samples/sec	accuracy=0.891406	cross-entropy=0.329456
+INFO:root:Epoch[42] Batch [80]	Speed: 4197.47 samples/sec	accuracy=0.891406	cross-entropy=0.321547
+INFO:root:Epoch[42] Batch [100]	Speed: 4160.81 samples/sec	accuracy=0.878125	cross-entropy=0.344233
+INFO:root:Epoch[42] Batch [120]	Speed: 4147.05 samples/sec	accuracy=0.881641	cross-entropy=0.347347
+INFO:root:Epoch[42] Batch [140]	Speed: 4123.85 samples/sec	accuracy=0.873047	cross-entropy=0.359449
+INFO:root:Epoch[42] Batch [160]	Speed: 3982.59 samples/sec	accuracy=0.876172	cross-entropy=0.360284
+INFO:root:Epoch[42] Batch [180]	Speed: 4057.71 samples/sec	accuracy=0.889453	cross-entropy=0.307432
+INFO:root:Epoch[42] Batch [200]	Speed: 4095.08 samples/sec	accuracy=0.878516	cross-entropy=0.357109
+INFO:root:Epoch[42] Batch [220]	Speed: 4107.65 samples/sec	accuracy=0.872656	cross-entropy=0.356893
+INFO:root:Epoch[42] Batch [240]	Speed: 4164.61 samples/sec	accuracy=0.888672	cross-entropy=0.329161
+INFO:root:Epoch[42] Batch [260]	Speed: 4066.43 samples/sec	accuracy=0.882812	cross-entropy=0.341818
+INFO:root:Epoch[42] Batch [280]	Speed: 4153.36 samples/sec	accuracy=0.881250	cross-entropy=0.338840
+INFO:root:Epoch[42] Batch [300]	Speed: 4124.78 samples/sec	accuracy=0.881641	cross-entropy=0.341127
+INFO:root:Epoch[42] Batch [320]	Speed: 4077.23 samples/sec	accuracy=0.888672	cross-entropy=0.314025
+INFO:root:Epoch[42] Batch [340]	Speed: 4093.99 samples/sec	accuracy=0.883984	cross-entropy=0.340328
+INFO:root:Epoch[42] Batch [360]	Speed: 4112.43 samples/sec	accuracy=0.877344	cross-entropy=0.356730
+INFO:root:Epoch[42] Batch [380]	Speed: 4184.31 samples/sec	accuracy=0.877344	cross-entropy=0.344940
+INFO:root:Epoch[42] Train-accuracy=0.873264
+INFO:root:Epoch[42] Train-cross-entropy=0.356842
+INFO:root:Epoch[42] Time cost=12.131
+INFO:root:Epoch[42] Validation-accuracy=0.868089
+INFO:root:Epoch[42] Validation-cross-entropy=0.396853
+INFO:root:Epoch[43] Batch [20]	Speed: 4142.25 samples/sec	accuracy=0.877976	cross-entropy=0.329099
+INFO:root:Epoch[43] Batch [40]	Speed: 4193.35 samples/sec	accuracy=0.884375	cross-entropy=0.345488
+INFO:root:Epoch[43] Batch [60]	Speed: 4121.14 samples/sec	accuracy=0.874609	cross-entropy=0.354274
+INFO:root:Epoch[43] Batch [80]	Speed: 4083.36 samples/sec	accuracy=0.879687	cross-entropy=0.347284
+INFO:root:Epoch[43] Batch [100]	Speed: 4142.75 samples/sec	accuracy=0.883594	cross-entropy=0.346437
+INFO:root:Epoch[43] Batch [120]	Speed: 4181.11 samples/sec	accuracy=0.882422	cross-entropy=0.329199
+INFO:root:Epoch[43] Batch [140]	Speed: 3925.53 samples/sec	accuracy=0.878125	cross-entropy=0.359673
+INFO:root:Epoch[43] Batch [160]	Speed: 4150.23 samples/sec	accuracy=0.878125	cross-entropy=0.335543
+INFO:root:Epoch[43] Batch [180]	Speed: 4177.37 samples/sec	accuracy=0.884375	cross-entropy=0.325985
+INFO:root:Epoch[43] Batch [200]	Speed: 4223.60 samples/sec	accuracy=0.872266	cross-entropy=0.363454
+INFO:root:Epoch[43] Batch [220]	Speed: 4168.17 samples/sec	accuracy=0.875391	cross-entropy=0.348820
+INFO:root:Epoch[43] Batch [240]	Speed: 4102.38 samples/sec	accuracy=0.866797	cross-entropy=0.363435
+INFO:root:Epoch[43] Batch [260]	Speed: 4040.61 samples/sec	accuracy=0.879687	cross-entropy=0.358055
+INFO:root:Epoch[43] Batch [280]	Speed: 4143.01 samples/sec	accuracy=0.885938	cross-entropy=0.319818
+INFO:root:Epoch[43] Batch [300]	Speed: 4205.14 samples/sec	accuracy=0.881250	cross-entropy=0.339346
+INFO:root:Epoch[43] Batch [320]	Speed: 4176.62 samples/sec	accuracy=0.891016	cross-entropy=0.330115
+INFO:root:Epoch[43] Batch [340]	Speed: 4176.18 samples/sec	accuracy=0.887891	cross-entropy=0.320643
+INFO:root:Epoch[43] Batch [360]	Speed: 4154.54 samples/sec	accuracy=0.885547	cross-entropy=0.336299
+INFO:root:Epoch[43] Batch [380]	Speed: 4220.15 samples/sec	accuracy=0.885938	cross-entropy=0.338119
+INFO:root:Epoch[43] Train-accuracy=0.878906
+INFO:root:Epoch[43] Train-cross-entropy=0.347645
+INFO:root:Epoch[43] Time cost=12.068
+INFO:root:Epoch[43] Validation-accuracy=0.864984
+INFO:root:Epoch[43] Validation-cross-entropy=0.400929
+INFO:root:Epoch[44] Batch [20]	Speed: 4183.91 samples/sec	accuracy=0.889881	cross-entropy=0.321194
+INFO:root:Epoch[44] Batch [40]	Speed: 4109.89 samples/sec	accuracy=0.879687	cross-entropy=0.342480
+INFO:root:Epoch[44] Batch [60]	Speed: 4226.58 samples/sec	accuracy=0.874609	cross-entropy=0.348363
+INFO:root:Epoch[44] Batch [80]	Speed: 4168.99 samples/sec	accuracy=0.883594	cross-entropy=0.343476
+INFO:root:Epoch[44] Batch [100]	Speed: 4250.91 samples/sec	accuracy=0.877734	cross-entropy=0.351618
+INFO:root:Epoch[44] Batch [120]	Speed: 4253.28 samples/sec	accuracy=0.883984	cross-entropy=0.348289
+INFO:root:Epoch[44] Batch [140]	Speed: 4162.85 samples/sec	accuracy=0.883203	cross-entropy=0.321512
+INFO:root:Epoch[44] Batch [160]	Speed: 4126.95 samples/sec	accuracy=0.867969	cross-entropy=0.369938
+INFO:root:Epoch[44] Batch [180]	Speed: 4144.61 samples/sec	accuracy=0.887891	cross-entropy=0.319533
+INFO:root:Epoch[44] Batch [200]	Speed: 4035.33 samples/sec	accuracy=0.877734	cross-entropy=0.357249
+INFO:root:Epoch[44] Batch [220]	Speed: 4084.49 samples/sec	accuracy=0.889062	cross-entropy=0.340521
+INFO:root:Epoch[44] Batch [240]	Speed: 4084.28 samples/sec	accuracy=0.881641	cross-entropy=0.332262
+INFO:root:Epoch[44] Batch [260]	Speed: 4066.02 samples/sec	accuracy=0.870313	cross-entropy=0.362317
+INFO:root:Epoch[44] Batch [280]	Speed: 4126.17 samples/sec	accuracy=0.877344	cross-entropy=0.357479
+INFO:root:Epoch[44] Batch [300]	Speed: 4056.07 samples/sec	accuracy=0.876172	cross-entropy=0.356813
+INFO:root:Epoch[44] Batch [320]	Speed: 4195.54 samples/sec	accuracy=0.885938	cross-entropy=0.321667
+INFO:root:Epoch[44] Batch [340]	Speed: 4191.99 samples/sec	accuracy=0.879687	cross-entropy=0.335959
+INFO:root:Epoch[44] Batch [360]	Speed: 4120.64 samples/sec	accuracy=0.891016	cross-entropy=0.318413
+INFO:root:Epoch[44] Batch [380]	Speed: 4194.29 samples/sec	accuracy=0.875781	cross-entropy=0.351335
+INFO:root:Epoch[44] Train-accuracy=0.889844
+INFO:root:Epoch[44] Train-cross-entropy=0.310478
+INFO:root:Epoch[44] Time cost=12.082
+INFO:root:Epoch[44] Validation-accuracy=0.854167
+INFO:root:Epoch[44] Validation-cross-entropy=0.450095
+INFO:root:Epoch[45] Batch [20]	Speed: 4248.18 samples/sec	accuracy=0.878348	cross-entropy=0.344873
+INFO:root:Epoch[45] Batch [40]	Speed: 4151.33 samples/sec	accuracy=0.874219	cross-entropy=0.362321
+INFO:root:Epoch[45] Batch [60]	Speed: 4049.40 samples/sec	accuracy=0.875781	cross-entropy=0.355502
+INFO:root:Epoch[45] Batch [80]	Speed: 4188.81 samples/sec	accuracy=0.885547	cross-entropy=0.326737
+INFO:root:Epoch[45] Batch [100]	Speed: 4128.81 samples/sec	accuracy=0.880469	cross-entropy=0.333017
+INFO:root:Epoch[45] Batch [120]	Speed: 4228.36 samples/sec	accuracy=0.885156	cross-entropy=0.332045
+INFO:root:Epoch[45] Batch [140]	Speed: 4201.31 samples/sec	accuracy=0.873437	cross-entropy=0.363027
+INFO:root:Epoch[45] Batch [160]	Speed: 4081.59 samples/sec	accuracy=0.872656	cross-entropy=0.345482
+INFO:root:Epoch[45] Batch [180]	Speed: 4117.30 samples/sec	accuracy=0.880859	cross-entropy=0.334881
+INFO:root:Epoch[45] Batch [200]	Speed: 4251.49 samples/sec	accuracy=0.872266	cross-entropy=0.371574
+INFO:root:Epoch[45] Batch [220]	Speed: 4197.15 samples/sec	accuracy=0.883203	cross-entropy=0.343409
+INFO:root:Epoch[45] Batch [240]	Speed: 3979.57 samples/sec	accuracy=0.892188	cross-entropy=0.318819
+INFO:root:Epoch[45] Batch [260]	Speed: 4096.13 samples/sec	accuracy=0.887109	cross-entropy=0.332510
+INFO:root:Epoch[45] Batch [280]	Speed: 4104.75 samples/sec	accuracy=0.882031	cross-entropy=0.339413
+INFO:root:Epoch[45] Batch [300]	Speed: 4103.06 samples/sec	accuracy=0.887109	cross-entropy=0.344950
+INFO:root:Epoch[45] Batch [320]	Speed: 4072.62 samples/sec	accuracy=0.878516	cross-entropy=0.335678
+INFO:root:Epoch[45] Batch [340]	Speed: 4205.21 samples/sec	accuracy=0.892188	cross-entropy=0.318443
+INFO:root:Epoch[45] Batch [360]	Speed: 4133.63 samples/sec	accuracy=0.884375	cross-entropy=0.328494
+INFO:root:Epoch[45] Batch [380]	Speed: 4156.72 samples/sec	accuracy=0.873828	cross-entropy=0.356899
+INFO:root:Epoch[45] Train-accuracy=0.889757
+INFO:root:Epoch[45] Train-cross-entropy=0.333907
+INFO:root:Epoch[45] Time cost=12.041
+INFO:root:Epoch[45] Validation-accuracy=0.830228
+INFO:root:Epoch[45] Validation-cross-entropy=0.533148
+INFO:root:Epoch[46] Batch [20]	Speed: 4041.18 samples/sec	accuracy=0.882068	cross-entropy=0.331214
+INFO:root:Epoch[46] Batch [40]	Speed: 4161.49 samples/sec	accuracy=0.885547	cross-entropy=0.341449
+INFO:root:Epoch[46] Batch [60]	Speed: 4190.37 samples/sec	accuracy=0.882812	cross-entropy=0.332972
+INFO:root:Epoch[46] Batch [80]	Speed: 4101.79 samples/sec	accuracy=0.885156	cross-entropy=0.337638
+INFO:root:Epoch[46] Batch [100]	Speed: 4187.85 samples/sec	accuracy=0.873437	cross-entropy=0.370399
+INFO:root:Epoch[46] Batch [120]	Speed: 4119.48 samples/sec	accuracy=0.879297	cross-entropy=0.349130
+INFO:root:Epoch[46] Batch [140]	Speed: 4187.95 samples/sec	accuracy=0.874219	cross-entropy=0.337554
+INFO:root:Epoch[46] Batch [160]	Speed: 4172.13 samples/sec	accuracy=0.878906	cross-entropy=0.339233
+INFO:root:Epoch[46] Batch [180]	Speed: 4132.71 samples/sec	accuracy=0.882812	cross-entropy=0.332982
+INFO:root:Epoch[46] Batch [200]	Speed: 4167.58 samples/sec	accuracy=0.894531	cross-entropy=0.316793
+INFO:root:Epoch[46] Batch [220]	Speed: 4049.77 samples/sec	accuracy=0.883594	cross-entropy=0.330134
+INFO:root:Epoch[46] Batch [240]	Speed: 4051.87 samples/sec	accuracy=0.883203	cross-entropy=0.331668
+INFO:root:Epoch[46] Batch [260]	Speed: 4047.13 samples/sec	accuracy=0.875391	cross-entropy=0.351844
+INFO:root:Epoch[46] Batch [280]	Speed: 4014.57 samples/sec	accuracy=0.886328	cross-entropy=0.334482
+INFO:root:Epoch[46] Batch [300]	Speed: 4066.97 samples/sec	accuracy=0.887500	cross-entropy=0.321657
+INFO:root:Epoch[46] Batch [320]	Speed: 4174.24 samples/sec	accuracy=0.885938	cross-entropy=0.329706
+INFO:root:Epoch[46] Batch [340]	Speed: 4176.74 samples/sec	accuracy=0.893359	cross-entropy=0.309108
+INFO:root:Epoch[46] Batch [360]	Speed: 4103.95 samples/sec	accuracy=0.888281	cross-entropy=0.333809
+INFO:root:Epoch[46] Batch [380]	Speed: 4227.85 samples/sec	accuracy=0.887109	cross-entropy=0.329201
+INFO:root:Epoch[46] Train-accuracy=0.882031
+INFO:root:Epoch[46] Train-cross-entropy=0.333965
+INFO:root:Epoch[46] Time cost=12.123
+INFO:root:Epoch[46] Validation-accuracy=0.858674
+INFO:root:Epoch[46] Validation-cross-entropy=0.420572
+INFO:root:Epoch[47] Batch [20]	Speed: 4177.36 samples/sec	accuracy=0.885789	cross-entropy=0.339911
+INFO:root:Epoch[47] Batch [40]	Speed: 4181.28 samples/sec	accuracy=0.882031	cross-entropy=0.346917
+INFO:root:Epoch[47] Batch [60]	Speed: 4188.89 samples/sec	accuracy=0.871094	cross-entropy=0.352164
+INFO:root:Epoch[47] Batch [80]	Speed: 4128.87 samples/sec	accuracy=0.886328	cross-entropy=0.322991
+INFO:root:Epoch[47] Batch [100]	Speed: 4253.24 samples/sec	accuracy=0.881250	cross-entropy=0.321568
+INFO:root:Epoch[47] Batch [120]	Speed: 4181.94 samples/sec	accuracy=0.889453	cross-entropy=0.314870
+INFO:root:Epoch[47] Batch [140]	Speed: 4180.01 samples/sec	accuracy=0.877344	cross-entropy=0.343328
+INFO:root:Epoch[47] Batch [160]	Speed: 4254.73 samples/sec	accuracy=0.882422	cross-entropy=0.342704
+INFO:root:Epoch[47] Batch [180]	Speed: 4202.44 samples/sec	accuracy=0.889453	cross-entropy=0.317884
+INFO:root:Epoch[47] Batch [200]	Speed: 4046.89 samples/sec	accuracy=0.879297	cross-entropy=0.347630
+INFO:root:Epoch[47] Batch [220]	Speed: 4010.61 samples/sec	accuracy=0.892969	cross-entropy=0.314471
+INFO:root:Epoch[47] Batch [240]	Speed: 4177.98 samples/sec	accuracy=0.887891	cross-entropy=0.324113
+INFO:root:Epoch[47] Batch [260]	Speed: 4155.65 samples/sec	accuracy=0.888672	cross-entropy=0.319859
+INFO:root:Epoch[47] Batch [280]	Speed: 4106.18 samples/sec	accuracy=0.892188	cross-entropy=0.315928
+INFO:root:Epoch[47] Batch [300]	Speed: 4069.83 samples/sec	accuracy=0.882812	cross-entropy=0.336726
+INFO:root:Epoch[47] Batch [320]	Speed: 4147.51 samples/sec	accuracy=0.891406	cross-entropy=0.316052
+INFO:root:Epoch[47] Batch [340]	Speed: 4144.84 samples/sec	accuracy=0.892578	cross-entropy=0.293967
+INFO:root:Epoch[47] Batch [360]	Speed: 4170.19 samples/sec	accuracy=0.881250	cross-entropy=0.328863
+INFO:root:Epoch[47] Batch [380]	Speed: 4260.01 samples/sec	accuracy=0.886719	cross-entropy=0.328731
+INFO:root:Epoch[47] Train-accuracy=0.882812
+INFO:root:Epoch[47] Train-cross-entropy=0.319156
+INFO:root:Epoch[47] Time cost=12.004
+INFO:root:Epoch[47] Validation-accuracy=0.844050
+INFO:root:Epoch[47] Validation-cross-entropy=0.479053
+INFO:root:Epoch[48] Batch [20]	Speed: 4245.26 samples/sec	accuracy=0.890625	cross-entropy=0.307718
+INFO:root:Epoch[48] Batch [40]	Speed: 4218.53 samples/sec	accuracy=0.887500	cross-entropy=0.328973
+INFO:root:Epoch[48] Batch [60]	Speed: 4111.08 samples/sec	accuracy=0.879297	cross-entropy=0.341522
+INFO:root:Epoch[48] Batch [80]	Speed: 3991.56 samples/sec	accuracy=0.894922	cross-entropy=0.322581
+INFO:root:Epoch[48] Batch [100]	Speed: 4138.87 samples/sec	accuracy=0.880469	cross-entropy=0.329330
+INFO:root:Epoch[48] Batch [120]	Speed: 4079.64 samples/sec	accuracy=0.883984	cross-entropy=0.327788
+INFO:root:Epoch[48] Batch [140]	Speed: 4122.55 samples/sec	accuracy=0.883984	cross-entropy=0.325302
+INFO:root:Epoch[48] Batch [160]	Speed: 4101.71 samples/sec	accuracy=0.886719	cross-entropy=0.324582
+INFO:root:Epoch[48] Batch [180]	Speed: 4099.84 samples/sec	accuracy=0.892578	cross-entropy=0.312579
+INFO:root:Epoch[48] Batch [200]	Speed: 4095.94 samples/sec	accuracy=0.875391	cross-entropy=0.340729
+INFO:root:Epoch[48] Batch [220]	Speed: 4055.09 samples/sec	accuracy=0.889062	cross-entropy=0.326401
+INFO:root:Epoch[48] Batch [240]	Speed: 4128.61 samples/sec	accuracy=0.887500	cross-entropy=0.340405
+INFO:root:Epoch[48] Batch [260]	Speed: 4172.24 samples/sec	accuracy=0.883594	cross-entropy=0.345365
+INFO:root:Epoch[48] Batch [280]	Speed: 4131.98 samples/sec	accuracy=0.876953	cross-entropy=0.341623
+INFO:root:Epoch[48] Batch [300]	Speed: 4068.57 samples/sec	accuracy=0.885938	cross-entropy=0.346537
+INFO:root:Epoch[48] Batch [320]	Speed: 4026.05 samples/sec	accuracy=0.896094	cross-entropy=0.304044
+INFO:root:Epoch[48] Batch [340]	Speed: 4108.12 samples/sec	accuracy=0.885547	cross-entropy=0.327937
+INFO:root:Epoch[48] Batch [360]	Speed: 4178.81 samples/sec	accuracy=0.892578	cross-entropy=0.293006
+INFO:root:Epoch[48] Batch [380]	Speed: 4085.05 samples/sec	accuracy=0.890625	cross-entropy=0.311087
+INFO:root:Epoch[48] Train-accuracy=0.893750
+INFO:root:Epoch[48] Train-cross-entropy=0.301860
+INFO:root:Epoch[48] Time cost=12.203
+INFO:root:Epoch[48] Validation-accuracy=0.859771
+INFO:root:Epoch[48] Validation-cross-entropy=0.415381
+INFO:root:Epoch[49] Batch [20]	Speed: 4229.38 samples/sec	accuracy=0.882068	cross-entropy=0.339876
+INFO:root:Epoch[49] Batch [40]	Speed: 4206.90 samples/sec	accuracy=0.890625	cross-entropy=0.336071
+INFO:root:Epoch[49] Batch [60]	Speed: 4153.61 samples/sec	accuracy=0.878125	cross-entropy=0.340428
+INFO:root:Epoch[49] Batch [80]	Speed: 4191.37 samples/sec	accuracy=0.892188	cross-entropy=0.324508
+INFO:root:Epoch[49] Batch [100]	Speed: 4207.25 samples/sec	accuracy=0.886328	cross-entropy=0.328982
+INFO:root:Epoch[49] Batch [120]	Speed: 4160.59 samples/sec	accuracy=0.894531	cross-entropy=0.314810
+INFO:root:Epoch[49] Batch [140]	Speed: 4196.54 samples/sec	accuracy=0.877344	cross-entropy=0.328978
+INFO:root:Epoch[49] Batch [160]	Speed: 4133.21 samples/sec	accuracy=0.868750	cross-entropy=0.363090
+INFO:root:Epoch[49] Batch [180]	Speed: 4141.66 samples/sec	accuracy=0.894922	cross-entropy=0.299916
+INFO:root:Epoch[49] Batch [200]	Speed: 4145.65 samples/sec	accuracy=0.880078	cross-entropy=0.340611
+INFO:root:Epoch[49] Batch [220]	Speed: 4165.85 samples/sec	accuracy=0.886719	cross-entropy=0.310685
+INFO:root:Epoch[49] Batch [240]	Speed: 4132.34 samples/sec	accuracy=0.888281	cross-entropy=0.320287
+INFO:root:Epoch[49] Batch [260]	Speed: 4151.58 samples/sec	accuracy=0.882031	cross-entropy=0.331576
+INFO:root:Epoch[49] Batch [280]	Speed: 4227.28 samples/sec	accuracy=0.883594	cross-entropy=0.320177
+INFO:root:Epoch[49] Batch [300]	Speed: 4272.45 samples/sec	accuracy=0.884375	cross-entropy=0.338559
+INFO:root:Epoch[49] Batch [320]	Speed: 4219.71 samples/sec	accuracy=0.887500	cross-entropy=0.316668
+INFO:root:Epoch[49] Batch [340]	Speed: 4145.14 samples/sec	accuracy=0.901172	cross-entropy=0.292849
+INFO:root:Epoch[49] Batch [360]	Speed: 4189.87 samples/sec	accuracy=0.888672	cross-entropy=0.321756
+INFO:root:Epoch[49] Batch [380]	Speed: 4143.55 samples/sec	accuracy=0.885547	cross-entropy=0.334703
+INFO:root:Epoch[49] Train-accuracy=0.884375
+INFO:root:Epoch[49] Train-cross-entropy=0.337474
+INFO:root:Epoch[49] Time cost=11.987
+INFO:root:Epoch[49] Validation-accuracy=0.849760
+INFO:root:Epoch[49] Validation-cross-entropy=0.462964
+INFO:root:Epoch[50] Batch [20]	Speed: 4130.22 samples/sec	accuracy=0.889509	cross-entropy=0.315798
+INFO:root:Epoch[50] Batch [40]	Speed: 3977.98 samples/sec	accuracy=0.886328	cross-entropy=0.321110
+INFO:root:Epoch[50] Batch [60]	Speed: 4146.11 samples/sec	accuracy=0.882031	cross-entropy=0.326444
+INFO:root:Epoch[50] Batch [80]	Speed: 4192.16 samples/sec	accuracy=0.882031	cross-entropy=0.344357
+INFO:root:Epoch[50] Batch [100]	Speed: 4179.28 samples/sec	accuracy=0.894141	cross-entropy=0.315417
+INFO:root:Epoch[50] Batch [120]	Speed: 4210.42 samples/sec	accuracy=0.881250	cross-entropy=0.332818
+INFO:root:Epoch[50] Batch [140]	Speed: 4176.67 samples/sec	accuracy=0.889844	cross-entropy=0.330745
+INFO:root:Epoch[50] Batch [160]	Speed: 4111.91 samples/sec	accuracy=0.880078	cross-entropy=0.338594
+INFO:root:Epoch[50] Batch [180]	Speed: 4035.57 samples/sec	accuracy=0.891797	cross-entropy=0.312781
+INFO:root:Epoch[50] Batch [200]	Speed: 4024.07 samples/sec	accuracy=0.874609	cross-entropy=0.346191
+INFO:root:Epoch[50] Batch [220]	Speed: 4214.17 samples/sec	accuracy=0.886328	cross-entropy=0.319169
+INFO:root:Epoch[50] Batch [240]	Speed: 4108.87 samples/sec	accuracy=0.887891	cross-entropy=0.308820
+INFO:root:Epoch[50] Batch [260]	Speed: 4081.28 samples/sec	accuracy=0.870703	cross-entropy=0.353427
+INFO:root:Epoch[50] Batch [280]	Speed: 4179.33 samples/sec	accuracy=0.897266	cross-entropy=0.300491
+INFO:root:Epoch[50] Batch [300]	Speed: 4196.76 samples/sec	accuracy=0.878516	cross-entropy=0.342077
+INFO:root:Epoch[50] Batch [320]	Speed: 4103.49 samples/sec	accuracy=0.892969	cross-entropy=0.303666
+INFO:root:Epoch[50] Batch [340]	Speed: 4213.96 samples/sec	accuracy=0.892969	cross-entropy=0.307913
+INFO:root:Epoch[50] Batch [360]	Speed: 4109.82 samples/sec	accuracy=0.897656	cross-entropy=0.294446
+INFO:root:Epoch[50] Batch [380]	Speed: 4182.54 samples/sec	accuracy=0.897656	cross-entropy=0.293412
+INFO:root:Epoch[50] Train-accuracy=0.894965
+INFO:root:Epoch[50] Train-cross-entropy=0.313895
+INFO:root:Epoch[50] Time cost=12.072
+INFO:root:Epoch[50] Validation-accuracy=0.870292
+INFO:root:Epoch[50] Validation-cross-entropy=0.407585
+INFO:root:Epoch[51] Batch [20]	Speed: 4187.49 samples/sec	accuracy=0.884301	cross-entropy=0.319383
+INFO:root:Epoch[51] Batch [40]	Speed: 4120.91 samples/sec	accuracy=0.888672	cross-entropy=0.321796
+INFO:root:Epoch[51] Batch [60]	Speed: 4103.86 samples/sec	accuracy=0.883984	cross-entropy=0.341682
+INFO:root:Epoch[51] Batch [80]	Speed: 4216.01 samples/sec	accuracy=0.884375	cross-entropy=0.330273
+INFO:root:Epoch[51] Batch [100]	Speed: 4089.12 samples/sec	accuracy=0.888672	cross-entropy=0.315148
+INFO:root:Epoch[51] Batch [120]	Speed: 3988.70 samples/sec	accuracy=0.888281	cross-entropy=0.336393
+INFO:root:Epoch[51] Batch [140]	Speed: 4000.54 samples/sec	accuracy=0.885156	cross-entropy=0.322122
+INFO:root:Epoch[51] Batch [160]	Speed: 4052.00 samples/sec	accuracy=0.890234	cross-entropy=0.329176
+INFO:root:Epoch[51] Batch [180]	Speed: 4050.49 samples/sec	accuracy=0.883984	cross-entropy=0.327816
+INFO:root:Epoch[51] Batch [200]	Speed: 3954.57 samples/sec	accuracy=0.866406	cross-entropy=0.374029
+INFO:root:Epoch[51] Batch [220]	Speed: 4007.86 samples/sec	accuracy=0.888672	cross-entropy=0.311805
+INFO:root:Epoch[51] Batch [240]	Speed: 4165.94 samples/sec	accuracy=0.892188	cross-entropy=0.327818
+INFO:root:Epoch[51] Batch [260]	Speed: 4214.37 samples/sec	accuracy=0.889453	cross-entropy=0.310465
+INFO:root:Epoch[51] Batch [280]	Speed: 4174.41 samples/sec	accuracy=0.882812	cross-entropy=0.334224
+INFO:root:Epoch[51] Batch [300]	Speed: 4170.17 samples/sec	accuracy=0.889062	cross-entropy=0.319041
+INFO:root:Epoch[51] Batch [320]	Speed: 4212.25 samples/sec	accuracy=0.891406	cross-entropy=0.314153
+INFO:root:Epoch[51] Batch [340]	Speed: 4073.01 samples/sec	accuracy=0.892969	cross-entropy=0.296763
+INFO:root:Epoch[51] Batch [360]	Speed: 4180.48 samples/sec	accuracy=0.892578	cross-entropy=0.304192
+INFO:root:Epoch[51] Batch [380]	Speed: 4217.44 samples/sec	accuracy=0.886719	cross-entropy=0.318851
+INFO:root:Epoch[51] Train-accuracy=0.889062
+INFO:root:Epoch[51] Train-cross-entropy=0.293119
+INFO:root:Epoch[51] Time cost=12.152
+INFO:root:Epoch[51] Validation-accuracy=0.869391
+INFO:root:Epoch[51] Validation-cross-entropy=0.399786
+INFO:root:Epoch[52] Batch [20]	Speed: 4254.19 samples/sec	accuracy=0.896949	cross-entropy=0.299370
+INFO:root:Epoch[52] Batch [40]	Speed: 4226.09 samples/sec	accuracy=0.883984	cross-entropy=0.324782
+INFO:root:Epoch[52] Batch [60]	Speed: 4183.42 samples/sec	accuracy=0.888281	cross-entropy=0.317041
+INFO:root:Epoch[52] Batch [80]	Speed: 4071.58 samples/sec	accuracy=0.895312	cross-entropy=0.306461
+INFO:root:Epoch[52] Batch [100]	Speed: 4133.47 samples/sec	accuracy=0.887500	cross-entropy=0.327654
+INFO:root:Epoch[52] Batch [120]	Speed: 4172.28 samples/sec	accuracy=0.887500	cross-entropy=0.332779
+INFO:root:Epoch[52] Batch [140]	Speed: 4201.58 samples/sec	accuracy=0.891406	cross-entropy=0.311834
+INFO:root:Epoch[52] Batch [160]	Speed: 4088.13 samples/sec	accuracy=0.880469	cross-entropy=0.339218
+INFO:root:Epoch[52] Batch [180]	Speed: 4116.22 samples/sec	accuracy=0.884375	cross-entropy=0.323059
+INFO:root:Epoch[52] Batch [200]	Speed: 4035.59 samples/sec	accuracy=0.884375	cross-entropy=0.349419
+INFO:root:Epoch[52] Batch [220]	Speed: 4087.69 samples/sec	accuracy=0.888672	cross-entropy=0.327176
+INFO:root:Epoch[52] Batch [240]	Speed: 4071.42 samples/sec	accuracy=0.887891	cross-entropy=0.335306
+INFO:root:Epoch[52] Batch [260]	Speed: 4147.17 samples/sec	accuracy=0.889453	cross-entropy=0.309664
+INFO:root:Epoch[52] Batch [280]	Speed: 4140.34 samples/sec	accuracy=0.892578	cross-entropy=0.322164
+INFO:root:Epoch[52] Batch [300]	Speed: 4173.80 samples/sec	accuracy=0.892578	cross-entropy=0.316932
+INFO:root:Epoch[52] Batch [320]	Speed: 4173.31 samples/sec	accuracy=0.891406	cross-entropy=0.296698
+INFO:root:Epoch[52] Batch [340]	Speed: 4230.03 samples/sec	accuracy=0.894922	cross-entropy=0.287076
+INFO:root:Epoch[52] Batch [360]	Speed: 4102.43 samples/sec	accuracy=0.900391	cross-entropy=0.290532
+INFO:root:Epoch[52] Batch [380]	Speed: 4011.75 samples/sec	accuracy=0.896484	cross-entropy=0.297126
+INFO:root:Epoch[52] Train-accuracy=0.892188
+INFO:root:Epoch[52] Train-cross-entropy=0.292008
+INFO:root:Epoch[52] Time cost=12.099
+INFO:root:Epoch[52] Validation-accuracy=0.874499
+INFO:root:Epoch[52] Validation-cross-entropy=0.394818
+INFO:root:Epoch[53] Batch [20]	Speed: 4244.84 samples/sec	accuracy=0.891369	cross-entropy=0.303062
+INFO:root:Epoch[53] Batch [40]	Speed: 4021.76 samples/sec	accuracy=0.882812	cross-entropy=0.336038
+INFO:root:Epoch[53] Batch [60]	Speed: 4169.48 samples/sec	accuracy=0.891797	cross-entropy=0.324231
+INFO:root:Epoch[53] Batch [80]	Speed: 4051.72 samples/sec	accuracy=0.895703	cross-entropy=0.309587
+INFO:root:Epoch[53] Batch [100]	Speed: 3952.40 samples/sec	accuracy=0.885547	cross-entropy=0.345854
+INFO:root:Epoch[53] Batch [120]	Speed: 4106.88 samples/sec	accuracy=0.899219	cross-entropy=0.292222
+INFO:root:Epoch[53] Batch [140]	Speed: 4083.05 samples/sec	accuracy=0.885156	cross-entropy=0.333316
+INFO:root:Epoch[53] Batch [160]	Speed: 4035.59 samples/sec	accuracy=0.882812	cross-entropy=0.339041
+INFO:root:Epoch[53] Batch [180]	Speed: 4134.56 samples/sec	accuracy=0.880469	cross-entropy=0.348100
+INFO:root:Epoch[53] Batch [200]	Speed: 3990.14 samples/sec	accuracy=0.883984	cross-entropy=0.331106
+INFO:root:Epoch[53] Batch [220]	Speed: 4187.91 samples/sec	accuracy=0.882422	cross-entropy=0.328897
+INFO:root:Epoch[53] Batch [240]	Speed: 4093.84 samples/sec	accuracy=0.888672	cross-entropy=0.307883
+INFO:root:Epoch[53] Batch [260]	Speed: 4179.54 samples/sec	accuracy=0.887500	cross-entropy=0.317731
+INFO:root:Epoch[53] Batch [280]	Speed: 4042.42 samples/sec	accuracy=0.883984	cross-entropy=0.329820
+INFO:root:Epoch[53] Batch [300]	Speed: 4101.54 samples/sec	accuracy=0.891797	cross-entropy=0.316481
+INFO:root:Epoch[53] Batch [320]	Speed: 4103.79 samples/sec	accuracy=0.896875	cross-entropy=0.313071
+INFO:root:Epoch[53] Batch [340]	Speed: 4137.74 samples/sec	accuracy=0.892188	cross-entropy=0.320826
+INFO:root:Epoch[53] Batch [360]	Speed: 4207.71 samples/sec	accuracy=0.899609	cross-entropy=0.285022
+INFO:root:Epoch[53] Batch [380]	Speed: 4065.57 samples/sec	accuracy=0.891797	cross-entropy=0.306428
+INFO:root:Epoch[53] Train-accuracy=0.885417
+INFO:root:Epoch[53] Train-cross-entropy=0.315928
+INFO:root:Epoch[53] Time cost=12.167
+INFO:root:Epoch[53] Validation-accuracy=0.869291
+INFO:root:Epoch[53] Validation-cross-entropy=0.402230
+INFO:root:Epoch[54] Batch [20]	Speed: 4133.31 samples/sec	accuracy=0.887649	cross-entropy=0.312267
+INFO:root:Epoch[54] Batch [40]	Speed: 4188.89 samples/sec	accuracy=0.906250	cross-entropy=0.289889
+INFO:root:Epoch[54] Batch [60]	Speed: 4175.84 samples/sec	accuracy=0.882422	cross-entropy=0.335816
+INFO:root:Epoch[54] Batch [80]	Speed: 4189.32 samples/sec	accuracy=0.887891	cross-entropy=0.337582
+INFO:root:Epoch[54] Batch [100]	Speed: 4178.27 samples/sec	accuracy=0.890234	cross-entropy=0.304401
+INFO:root:Epoch[54] Batch [120]	Speed: 4148.85 samples/sec	accuracy=0.884766	cross-entropy=0.331610
+INFO:root:Epoch[54] Batch [140]	Speed: 4220.93 samples/sec	accuracy=0.882422	cross-entropy=0.338280
+INFO:root:Epoch[54] Batch [160]	Speed: 4111.82 samples/sec	accuracy=0.885156	cross-entropy=0.319805
+INFO:root:Epoch[54] Batch [180]	Speed: 4176.96 samples/sec	accuracy=0.891016	cross-entropy=0.308088
+INFO:root:Epoch[54] Batch [200]	Speed: 4114.25 samples/sec	accuracy=0.887109	cross-entropy=0.317746
+INFO:root:Epoch[54] Batch [220]	Speed: 4160.31 samples/sec	accuracy=0.894922	cross-entropy=0.319710
+INFO:root:Epoch[54] Batch [240]	Speed: 4163.68 samples/sec	accuracy=0.890625	cross-entropy=0.317077
+INFO:root:Epoch[54] Batch [260]	Speed: 4045.40 samples/sec	accuracy=0.891406	cross-entropy=0.310482
+INFO:root:Epoch[54] Batch [280]	Speed: 4160.62 samples/sec	accuracy=0.895703	cross-entropy=0.288030
+INFO:root:Epoch[54] Batch [300]	Speed: 4040.70 samples/sec	accuracy=0.895703	cross-entropy=0.306438
+INFO:root:Epoch[54] Batch [320]	Speed: 4136.64 samples/sec	accuracy=0.904297	cross-entropy=0.301390
+INFO:root:Epoch[54] Batch [340]	Speed: 4111.96 samples/sec	accuracy=0.896484	cross-entropy=0.298416
+INFO:root:Epoch[54] Batch [360]	Speed: 4092.29 samples/sec	accuracy=0.891016	cross-entropy=0.298042
+INFO:root:Epoch[54] Batch [380]	Speed: 4167.47 samples/sec	accuracy=0.896094	cross-entropy=0.298822
+INFO:root:Epoch[54] Train-accuracy=0.888281
+INFO:root:Epoch[54] Train-cross-entropy=0.333329
+INFO:root:Epoch[54] Time cost=12.080
+INFO:root:Epoch[54] Validation-accuracy=0.861779
+INFO:root:Epoch[54] Validation-cross-entropy=0.418941
+INFO:root:Epoch[55] Batch [20]	Speed: 4142.70 samples/sec	accuracy=0.885417	cross-entropy=0.340171
+INFO:root:Epoch[55] Batch [40]	Speed: 4058.88 samples/sec	accuracy=0.894141	cross-entropy=0.318555
+INFO:root:Epoch[55] Batch [60]	Speed: 4125.19 samples/sec	accuracy=0.892188	cross-entropy=0.309489
+INFO:root:Epoch[55] Batch [80]	Speed: 4149.58 samples/sec	accuracy=0.894531	cross-entropy=0.304753
+INFO:root:Epoch[55] Batch [100]	Speed: 4134.01 samples/sec	accuracy=0.895312	cross-entropy=0.302511
+INFO:root:Epoch[55] Batch [120]	Speed: 4149.86 samples/sec	accuracy=0.895312	cross-entropy=0.305972
+INFO:root:Epoch[55] Batch [140]	Speed: 4101.01 samples/sec	accuracy=0.882812	cross-entropy=0.333868
+INFO:root:Epoch[55] Batch [160]	Speed: 4078.55 samples/sec	accuracy=0.882422	cross-entropy=0.317685
+INFO:root:Epoch[55] Batch [180]	Speed: 4043.50 samples/sec	accuracy=0.894922	cross-entropy=0.306065
+INFO:root:Epoch[55] Batch [200]	Speed: 4092.56 samples/sec	accuracy=0.880859	cross-entropy=0.335101
+INFO:root:Epoch[55] Batch [220]	Speed: 4062.70 samples/sec	accuracy=0.884766	cross-entropy=0.325017
+INFO:root:Epoch[55] Batch [240]	Speed: 4204.55 samples/sec	accuracy=0.889844	cross-entropy=0.302505
+INFO:root:Epoch[55] Batch [260]	Speed: 4193.08 samples/sec	accuracy=0.883594	cross-entropy=0.332276
+INFO:root:Epoch[55] Batch [280]	Speed: 3991.40 samples/sec	accuracy=0.900000	cross-entropy=0.294871
+INFO:root:Epoch[55] Batch [300]	Speed: 4060.51 samples/sec	accuracy=0.885547	cross-entropy=0.316510
+INFO:root:Epoch[55] Batch [320]	Speed: 3983.74 samples/sec	accuracy=0.889844	cross-entropy=0.319413
+INFO:root:Epoch[55] Batch [340]	Speed: 4110.04 samples/sec	accuracy=0.898828	cross-entropy=0.302375
+INFO:root:Epoch[55] Batch [360]	Speed: 4125.00 samples/sec	accuracy=0.903125	cross-entropy=0.288924
+INFO:root:Epoch[55] Batch [380]	Speed: 4170.41 samples/sec	accuracy=0.894141	cross-entropy=0.305238
+INFO:root:Epoch[55] Train-accuracy=0.899306
+INFO:root:Epoch[55] Train-cross-entropy=0.287019
+INFO:root:Epoch[55] Time cost=12.153
+INFO:root:Epoch[55] Validation-accuracy=0.862380
+INFO:root:Epoch[55] Validation-cross-entropy=0.411647
+INFO:root:Epoch[56] Batch [20]	Speed: 4198.64 samples/sec	accuracy=0.888393	cross-entropy=0.306807
+INFO:root:Epoch[56] Batch [40]	Speed: 4011.79 samples/sec	accuracy=0.896484	cross-entropy=0.306654
+INFO:root:Epoch[56] Batch [60]	Speed: 4196.12 samples/sec	accuracy=0.893750	cross-entropy=0.288146
+INFO:root:Epoch[56] Batch [80]	Speed: 4170.08 samples/sec	accuracy=0.881250	cross-entropy=0.342118
+INFO:root:Epoch[56] Batch [100]	Speed: 4026.89 samples/sec	accuracy=0.883594	cross-entropy=0.323962
+INFO:root:Epoch[56] Batch [120]	Speed: 4027.87 samples/sec	accuracy=0.894531	cross-entropy=0.296443
+INFO:root:Epoch[56] Batch [140]	Speed: 4123.41 samples/sec	accuracy=0.887109	cross-entropy=0.322828
+INFO:root:Epoch[56] Batch [160]	Speed: 4099.96 samples/sec	accuracy=0.880078	cross-entropy=0.325710
+INFO:root:Epoch[56] Batch [180]	Speed: 4047.16 samples/sec	accuracy=0.878906	cross-entropy=0.332096
+INFO:root:Epoch[56] Batch [200]	Speed: 4144.78 samples/sec	accuracy=0.891406	cross-entropy=0.328525
+INFO:root:Epoch[56] Batch [220]	Speed: 4121.06 samples/sec	accuracy=0.880859	cross-entropy=0.320601
+INFO:root:Epoch[56] Batch [240]	Speed: 4239.97 samples/sec	accuracy=0.880859	cross-entropy=0.322321
+INFO:root:Epoch[56] Batch [260]	Speed: 4142.25 samples/sec	accuracy=0.885156	cross-entropy=0.311044
+INFO:root:Epoch[56] Batch [280]	Speed: 4231.82 samples/sec	accuracy=0.883203	cross-entropy=0.325335
+INFO:root:Epoch[56] Batch [300]	Speed: 4155.07 samples/sec	accuracy=0.901563	cross-entropy=0.292029
+INFO:root:Epoch[56] Batch [320]	Speed: 4220.43 samples/sec	accuracy=0.904297	cross-entropy=0.277788
+INFO:root:Epoch[56] Batch [340]	Speed: 3977.47 samples/sec	accuracy=0.898828	cross-entropy=0.295633
+INFO:root:Epoch[56] Batch [360]	Speed: 3927.60 samples/sec	accuracy=0.893750	cross-entropy=0.288027
+INFO:root:Epoch[56] Batch [380]	Speed: 3996.67 samples/sec	accuracy=0.899219	cross-entropy=0.311815
+INFO:root:Epoch[56] Train-accuracy=0.902344
+INFO:root:Epoch[56] Train-cross-entropy=0.287367
+INFO:root:Epoch[56] Time cost=12.255
+INFO:root:Epoch[56] Validation-accuracy=0.855419
+INFO:root:Epoch[56] Validation-cross-entropy=0.445150
+INFO:root:Epoch[57] Batch [20]	Speed: 4118.81 samples/sec	accuracy=0.884673	cross-entropy=0.315633
+INFO:root:Epoch[57] Batch [40]	Speed: 4192.03 samples/sec	accuracy=0.889453	cross-entropy=0.318325
+INFO:root:Epoch[57] Batch [60]	Speed: 4177.03 samples/sec	accuracy=0.884375	cross-entropy=0.331098
+INFO:root:Epoch[57] Batch [80]	Speed: 4211.68 samples/sec	accuracy=0.892969	cross-entropy=0.337753
+INFO:root:Epoch[57] Batch [100]	Speed: 4170.45 samples/sec	accuracy=0.889453	cross-entropy=0.310977
+INFO:root:Epoch[57] Batch [120]	Speed: 4033.28 samples/sec	accuracy=0.897656	cross-entropy=0.297064
+INFO:root:Epoch[57] Batch [140]	Speed: 4085.65 samples/sec	accuracy=0.892188	cross-entropy=0.306315
+INFO:root:Epoch[57] Batch [160]	Speed: 4159.54 samples/sec	accuracy=0.893359	cross-entropy=0.302187
+INFO:root:Epoch[57] Batch [180]	Speed: 4114.12 samples/sec	accuracy=0.886719	cross-entropy=0.323453
+INFO:root:Epoch[57] Batch [200]	Speed: 4029.30 samples/sec	accuracy=0.891797	cross-entropy=0.316347
+INFO:root:Epoch[57] Batch [220]	Speed: 4199.74 samples/sec	accuracy=0.890625	cross-entropy=0.305894
+INFO:root:Epoch[57] Batch [240]	Speed: 4111.05 samples/sec	accuracy=0.892578	cross-entropy=0.307866
+INFO:root:Epoch[57] Batch [260]	Speed: 4102.71 samples/sec	accuracy=0.903516	cross-entropy=0.281551
+INFO:root:Epoch[57] Batch [280]	Speed: 4006.64 samples/sec	accuracy=0.887891	cross-entropy=0.323975
+INFO:root:Epoch[57] Batch [300]	Speed: 4122.75 samples/sec	accuracy=0.884766	cross-entropy=0.319201
+INFO:root:Epoch[57] Batch [320]	Speed: 4141.85 samples/sec	accuracy=0.885156	cross-entropy=0.343039
+INFO:root:Epoch[57] Batch [340]	Speed: 4142.62 samples/sec	accuracy=0.893359	cross-entropy=0.310679
+INFO:root:Epoch[57] Batch [360]	Speed: 4067.73 samples/sec	accuracy=0.910156	cross-entropy=0.287928
+INFO:root:Epoch[57] Batch [380]	Speed: 4150.12 samples/sec	accuracy=0.885156	cross-entropy=0.324146
+INFO:root:Epoch[57] Train-accuracy=0.902344
+INFO:root:Epoch[57] Train-cross-entropy=0.288140
+INFO:root:Epoch[57] Time cost=12.146
+INFO:root:Epoch[57] Validation-accuracy=0.841546
+INFO:root:Epoch[57] Validation-cross-entropy=0.513451
+INFO:root:Epoch[58] Batch [20]	Speed: 4124.38 samples/sec	accuracy=0.894345	cross-entropy=0.294811
+INFO:root:Epoch[58] Batch [40]	Speed: 4044.62 samples/sec	accuracy=0.882031	cross-entropy=0.315378
+INFO:root:Epoch[58] Batch [60]	Speed: 4153.03 samples/sec	accuracy=0.892969	cross-entropy=0.312430
+INFO:root:Epoch[58] Batch [80]	Speed: 4154.65 samples/sec	accuracy=0.891406	cross-entropy=0.307374
+INFO:root:Epoch[58] Batch [100]	Speed: 3985.18 samples/sec	accuracy=0.898047	cross-entropy=0.302698
+INFO:root:Epoch[58] Batch [120]	Speed: 3995.78 samples/sec	accuracy=0.899609	cross-entropy=0.285664
+INFO:root:Epoch[58] Batch [140]	Speed: 4166.48 samples/sec	accuracy=0.888672	cross-entropy=0.319755
+INFO:root:Epoch[58] Batch [160]	Speed: 4003.82 samples/sec	accuracy=0.883594	cross-entropy=0.330863
+INFO:root:Epoch[58] Batch [180]	Speed: 4153.92 samples/sec	accuracy=0.887500	cross-entropy=0.309484
+INFO:root:Epoch[58] Batch [200]	Speed: 4171.57 samples/sec	accuracy=0.874609	cross-entropy=0.333540
+INFO:root:Epoch[58] Batch [220]	Speed: 3999.77 samples/sec	accuracy=0.891016	cross-entropy=0.313870
+INFO:root:Epoch[58] Batch [240]	Speed: 3992.98 samples/sec	accuracy=0.898438	cross-entropy=0.298337
+INFO:root:Epoch[58] Batch [260]	Speed: 4195.13 samples/sec	accuracy=0.893750	cross-entropy=0.299974
+INFO:root:Epoch[58] Batch [280]	Speed: 4143.54 samples/sec	accuracy=0.891016	cross-entropy=0.308657
+INFO:root:Epoch[58] Batch [300]	Speed: 4173.40 samples/sec	accuracy=0.892969	cross-entropy=0.324410
+INFO:root:Epoch[58] Batch [320]	Speed: 4116.42 samples/sec	accuracy=0.894141	cross-entropy=0.302724
+INFO:root:Epoch[58] Batch [340]	Speed: 4099.73 samples/sec	accuracy=0.895703	cross-entropy=0.299843
+INFO:root:Epoch[58] Batch [360]	Speed: 4133.56 samples/sec	accuracy=0.886328	cross-entropy=0.305810
+INFO:root:Epoch[58] Batch [380]	Speed: 4050.95 samples/sec	accuracy=0.892188	cross-entropy=0.302879
+INFO:root:Epoch[58] Train-accuracy=0.888889
+INFO:root:Epoch[58] Train-cross-entropy=0.275969
+INFO:root:Epoch[58] Time cost=12.191
+INFO:root:Epoch[58] Validation-accuracy=0.874900
+INFO:root:Epoch[58] Validation-cross-entropy=0.375924
+INFO:root:Epoch[59] Batch [20]	Speed: 4058.76 samples/sec	accuracy=0.905878	cross-entropy=0.274418
+INFO:root:Epoch[59] Batch [40]	Speed: 3943.93 samples/sec	accuracy=0.901563	cross-entropy=0.306339
+INFO:root:Epoch[59] Batch [60]	Speed: 4091.19 samples/sec	accuracy=0.893359	cross-entropy=0.306947
+INFO:root:Epoch[59] Batch [80]	Speed: 4120.88 samples/sec	accuracy=0.898047	cross-entropy=0.279447
+INFO:root:Epoch[59] Batch [100]	Speed: 4109.04 samples/sec	accuracy=0.893750	cross-entropy=0.312084
+INFO:root:Epoch[59] Batch [120]	Speed: 4222.90 samples/sec	accuracy=0.887500	cross-entropy=0.324698
+INFO:root:Epoch[59] Batch [140]	Speed: 4117.68 samples/sec	accuracy=0.885156	cross-entropy=0.299935
+INFO:root:Epoch[59] Batch [160]	Speed: 4163.52 samples/sec	accuracy=0.884375	cross-entropy=0.306693
+INFO:root:Epoch[59] Batch [180]	Speed: 4144.21 samples/sec	accuracy=0.896484	cross-entropy=0.299504
+INFO:root:Epoch[59] Batch [200]	Speed: 4148.83 samples/sec	accuracy=0.898828	cross-entropy=0.290221
+INFO:root:Epoch[59] Batch [220]	Speed: 4081.00 samples/sec	accuracy=0.894141	cross-entropy=0.296862
+INFO:root:Epoch[59] Batch [240]	Speed: 4095.26 samples/sec	accuracy=0.893359	cross-entropy=0.312000
+INFO:root:Epoch[59] Batch [260]	Speed: 4027.91 samples/sec	accuracy=0.887891	cross-entropy=0.321887
+INFO:root:Epoch[59] Batch [280]	Speed: 4034.65 samples/sec	accuracy=0.893750	cross-entropy=0.311686
+INFO:root:Epoch[59] Batch [300]	Speed: 4078.21 samples/sec	accuracy=0.890625	cross-entropy=0.303159
+INFO:root:Epoch[59] Batch [320]	Speed: 4111.20 samples/sec	accuracy=0.898828	cross-entropy=0.298375
+INFO:root:Epoch[59] Batch [340]	Speed: 4063.69 samples/sec	accuracy=0.897266	cross-entropy=0.290261
+INFO:root:Epoch[59] Batch [360]	Speed: 4073.42 samples/sec	accuracy=0.905078	cross-entropy=0.277036
+INFO:root:Epoch[59] Batch [380]	Speed: 4075.16 samples/sec	accuracy=0.898438	cross-entropy=0.293943
+INFO:root:Epoch[59] Train-accuracy=0.897656
+INFO:root:Epoch[59] Train-cross-entropy=0.313907
+INFO:root:Epoch[59] Time cost=12.221
+INFO:root:Epoch[59] Validation-accuracy=0.870593
+INFO:root:Epoch[59] Validation-cross-entropy=0.395730
+INFO:root:Epoch[60] Batch [20]	Speed: 4236.11 samples/sec	accuracy=0.902530	cross-entropy=0.280577
+INFO:root:Epoch[60] Batch [40]	Speed: 4149.79 samples/sec	accuracy=0.901563	cross-entropy=0.300789
+INFO:root:Epoch[60] Batch [60]	Speed: 4147.33 samples/sec	accuracy=0.887500	cross-entropy=0.326482
+INFO:root:Epoch[60] Batch [80]	Speed: 4118.44 samples/sec	accuracy=0.892188	cross-entropy=0.311970
+INFO:root:Epoch[60] Batch [100]	Speed: 4108.45 samples/sec	accuracy=0.893359	cross-entropy=0.316088
+INFO:root:Epoch[60] Batch [120]	Speed: 4101.87 samples/sec	accuracy=0.889062	cross-entropy=0.311188
+INFO:root:Epoch[60] Batch [140]	Speed: 4111.22 samples/sec	accuracy=0.888672	cross-entropy=0.320030
+INFO:root:Epoch[60] Batch [160]	Speed: 4183.85 samples/sec	accuracy=0.883984	cross-entropy=0.321355
+INFO:root:Epoch[60] Batch [180]	Speed: 4131.48 samples/sec	accuracy=0.894141	cross-entropy=0.292802
+INFO:root:Epoch[60] Batch [200]	Speed: 4098.43 samples/sec	accuracy=0.889062	cross-entropy=0.299086
+INFO:root:Epoch[60] Batch [220]	Speed: 4040.05 samples/sec	accuracy=0.892188	cross-entropy=0.303507
+INFO:root:Epoch[60] Batch [240]	Speed: 4138.04 samples/sec	accuracy=0.894531	cross-entropy=0.289239
+INFO:root:Epoch[60] Batch [260]	Speed: 4105.25 samples/sec	accuracy=0.890625	cross-entropy=0.314417
+INFO:root:Epoch[60] Batch [280]	Speed: 4155.57 samples/sec	accuracy=0.897656	cross-entropy=0.305078
+INFO:root:Epoch[60] Batch [300]	Speed: 4240.00 samples/sec	accuracy=0.889453	cross-entropy=0.299585
+INFO:root:Epoch[60] Batch [320]	Speed: 4169.28 samples/sec	accuracy=0.897266	cross-entropy=0.309519
+INFO:root:Epoch[60] Batch [340]	Speed: 4094.91 samples/sec	accuracy=0.898828	cross-entropy=0.277431
+INFO:root:Epoch[60] Batch [360]	Speed: 4160.13 samples/sec	accuracy=0.901953	cross-entropy=0.271710
+INFO:root:Epoch[60] Batch [380]	Speed: 4076.51 samples/sec	accuracy=0.896094	cross-entropy=0.300625
+INFO:root:Epoch[60] Train-accuracy=0.884375
+INFO:root:Epoch[60] Train-cross-entropy=0.322356
+INFO:root:Epoch[60] Time cost=12.101
+INFO:root:Epoch[60] Validation-accuracy=0.865585
+INFO:root:Epoch[60] Validation-cross-entropy=0.416245
+INFO:root:Epoch[61] Batch [20]	Speed: 4275.49 samples/sec	accuracy=0.897321	cross-entropy=0.299140
+INFO:root:Epoch[61] Batch [40]	Speed: 4244.29 samples/sec	accuracy=0.901172	cross-entropy=0.288165
+INFO:root:Epoch[61] Batch [60]	Speed: 4157.92 samples/sec	accuracy=0.893750	cross-entropy=0.314886
+INFO:root:Epoch[61] Batch [80]	Speed: 4053.94 samples/sec	accuracy=0.896875	cross-entropy=0.298968
+INFO:root:Epoch[61] Batch [100]	Speed: 4092.07 samples/sec	accuracy=0.891406	cross-entropy=0.317921
+INFO:root:Epoch[61] Batch [120]	Speed: 4101.21 samples/sec	accuracy=0.896094	cross-entropy=0.301456
+INFO:root:Epoch[61] Batch [140]	Speed: 4107.88 samples/sec	accuracy=0.890234	cross-entropy=0.307218
+INFO:root:Epoch[61] Batch [160]	Speed: 4133.11 samples/sec	accuracy=0.891797	cross-entropy=0.308603
+INFO:root:Epoch[61] Batch [180]	Speed: 4178.47 samples/sec	accuracy=0.891797	cross-entropy=0.300573
+INFO:root:Epoch[61] Batch [200]	Speed: 4023.62 samples/sec	accuracy=0.887500	cross-entropy=0.330642
+INFO:root:Epoch[61] Batch [220]	Speed: 4180.05 samples/sec	accuracy=0.894531	cross-entropy=0.275623
+INFO:root:Epoch[61] Batch [240]	Speed: 4242.37 samples/sec	accuracy=0.901172	cross-entropy=0.284946
+INFO:root:Epoch[61] Batch [260]	Speed: 4032.20 samples/sec	accuracy=0.898828	cross-entropy=0.295108
+INFO:root:Epoch[61] Batch [280]	Speed: 4169.64 samples/sec	accuracy=0.895312	cross-entropy=0.298261
+INFO:root:Epoch[61] Batch [300]	Speed: 4069.47 samples/sec	accuracy=0.893750	cross-entropy=0.289937
+INFO:root:Epoch[61] Batch [320]	Speed: 4111.98 samples/sec	accuracy=0.887891	cross-entropy=0.311268
+INFO:root:Epoch[61] Batch [340]	Speed: 4205.97 samples/sec	accuracy=0.892969	cross-entropy=0.302209
+INFO:root:Epoch[61] Batch [360]	Speed: 4258.52 samples/sec	accuracy=0.911328	cross-entropy=0.270863
+INFO:root:Epoch[61] Batch [380]	Speed: 4214.11 samples/sec	accuracy=0.900391	cross-entropy=0.292701
+INFO:root:Epoch[61] Train-accuracy=0.909722
+INFO:root:Epoch[61] Train-cross-entropy=0.283758
+INFO:root:Epoch[61] Time cost=12.017
+INFO:root:Epoch[61] Validation-accuracy=0.865385
+INFO:root:Epoch[61] Validation-cross-entropy=0.427994
+INFO:root:Epoch[62] Batch [20]	Speed: 4096.48 samples/sec	accuracy=0.903646	cross-entropy=0.270342
+INFO:root:Epoch[62] Batch [40]	Speed: 4011.12 samples/sec	accuracy=0.895312	cross-entropy=0.300756
+INFO:root:Epoch[62] Batch [60]	Speed: 4049.20 samples/sec	accuracy=0.898438	cross-entropy=0.302487
+INFO:root:Epoch[62] Batch [80]	Speed: 4167.01 samples/sec	accuracy=0.891797	cross-entropy=0.309861
+INFO:root:Epoch[62] Batch [100]	Speed: 4010.14 samples/sec	accuracy=0.894922	cross-entropy=0.294697
+INFO:root:Epoch[62] Batch [120]	Speed: 3973.33 samples/sec	accuracy=0.898047	cross-entropy=0.291664
+INFO:root:Epoch[62] Batch [140]	Speed: 3941.83 samples/sec	accuracy=0.886719	cross-entropy=0.316217
+INFO:root:Epoch[62] Batch [160]	Speed: 3983.93 samples/sec	accuracy=0.894141	cross-entropy=0.300503
+INFO:root:Epoch[62] Batch [180]	Speed: 4106.53 samples/sec	accuracy=0.894141	cross-entropy=0.294156
+INFO:root:Epoch[62] Batch [200]	Speed: 4093.85 samples/sec	accuracy=0.890625	cross-entropy=0.316971
+INFO:root:Epoch[62] Batch [220]	Speed: 4148.92 samples/sec	accuracy=0.886719	cross-entropy=0.307513
+INFO:root:Epoch[62] Batch [240]	Speed: 4052.04 samples/sec	accuracy=0.904297	cross-entropy=0.293055
+INFO:root:Epoch[62] Batch [260]	Speed: 4098.98 samples/sec	accuracy=0.893359	cross-entropy=0.309544
+INFO:root:Epoch[62] Batch [280]	Speed: 4159.32 samples/sec	accuracy=0.898438	cross-entropy=0.288027
+INFO:root:Epoch[62] Batch [300]	Speed: 4180.70 samples/sec	accuracy=0.897656	cross-entropy=0.299276
+INFO:root:Epoch[62] Batch [320]	Speed: 4133.61 samples/sec	accuracy=0.910547	cross-entropy=0.265324
+INFO:root:Epoch[62] Batch [340]	Speed: 4166.94 samples/sec	accuracy=0.902734	cross-entropy=0.290521
+INFO:root:Epoch[62] Batch [360]	Speed: 4132.30 samples/sec	accuracy=0.904297	cross-entropy=0.293006
+INFO:root:Epoch[62] Batch [380]	Speed: 4101.06 samples/sec	accuracy=0.908984	cross-entropy=0.268179
+INFO:root:Epoch[62] Train-accuracy=0.898438
+INFO:root:Epoch[62] Train-cross-entropy=0.283526
+INFO:root:Epoch[62] Time cost=12.257
+INFO:root:Epoch[62] Validation-accuracy=0.875901
+INFO:root:Epoch[62] Validation-cross-entropy=0.380407
+INFO:root:Epoch[63] Batch [20]	Speed: 4130.52 samples/sec	accuracy=0.902530	cross-entropy=0.263941
+INFO:root:Epoch[63] Batch [40]	Speed: 4105.18 samples/sec	accuracy=0.898828	cross-entropy=0.295498
+INFO:root:Epoch[63] Batch [60]	Speed: 4061.00 samples/sec	accuracy=0.894922	cross-entropy=0.302721
+INFO:root:Epoch[63] Batch [80]	Speed: 3899.31 samples/sec	accuracy=0.899219	cross-entropy=0.296127
+INFO:root:Epoch[63] Batch [100]	Speed: 3982.65 samples/sec	accuracy=0.885547	cross-entropy=0.315212
+INFO:root:Epoch[63] Batch [120]	Speed: 4067.22 samples/sec	accuracy=0.892969	cross-entropy=0.301875
+INFO:root:Epoch[63] Batch [140]	Speed: 4067.37 samples/sec	accuracy=0.894531	cross-entropy=0.313395
+INFO:root:Epoch[63] Batch [160]	Speed: 4094.07 samples/sec	accuracy=0.900000	cross-entropy=0.292430
+INFO:root:Epoch[63] Batch [180]	Speed: 4085.23 samples/sec	accuracy=0.896094	cross-entropy=0.297071
+INFO:root:Epoch[63] Batch [200]	Speed: 4143.00 samples/sec	accuracy=0.885547	cross-entropy=0.316742
+INFO:root:Epoch[63] Batch [220]	Speed: 4145.34 samples/sec	accuracy=0.893359	cross-entropy=0.296432
+INFO:root:Epoch[63] Batch [240]	Speed: 4154.68 samples/sec	accuracy=0.905469	cross-entropy=0.297148
+INFO:root:Epoch[63] Batch [260]	Speed: 4130.62 samples/sec	accuracy=0.893750	cross-entropy=0.304194
+INFO:root:Epoch[63] Batch [280]	Speed: 4180.50 samples/sec	accuracy=0.898438	cross-entropy=0.299720
+INFO:root:Epoch[63] Batch [300]	Speed: 4232.57 samples/sec	accuracy=0.898828	cross-entropy=0.303432
+INFO:root:Epoch[63] Batch [320]	Speed: 4160.48 samples/sec	accuracy=0.901953	cross-entropy=0.281332
+INFO:root:Epoch[63] Batch [340]	Speed: 4210.89 samples/sec	accuracy=0.898438	cross-entropy=0.292926
+INFO:root:Epoch[63] Batch [360]	Speed: 4100.32 samples/sec	accuracy=0.891797	cross-entropy=0.291295
+INFO:root:Epoch[63] Batch [380]	Speed: 4144.37 samples/sec	accuracy=0.890625	cross-entropy=0.298008
+INFO:root:Epoch[63] Train-accuracy=0.902778
+INFO:root:Epoch[63] Train-cross-entropy=0.291186
+INFO:root:Epoch[63] Time cost=12.142
+INFO:root:Epoch[63] Validation-accuracy=0.869692
+INFO:root:Epoch[63] Validation-cross-entropy=0.404241
+INFO:root:Epoch[64] Batch [20]	Speed: 4236.41 samples/sec	accuracy=0.900670	cross-entropy=0.291329
+INFO:root:Epoch[64] Batch [40]	Speed: 4026.15 samples/sec	accuracy=0.892188	cross-entropy=0.302844
+INFO:root:Epoch[64] Batch [60]	Speed: 3988.57 samples/sec	accuracy=0.896094	cross-entropy=0.311004
+INFO:root:Epoch[64] Batch [80]	Speed: 4127.90 samples/sec	accuracy=0.880859	cross-entropy=0.331520
+INFO:root:Epoch[64] Batch [100]	Speed: 4090.32 samples/sec	accuracy=0.889062	cross-entropy=0.310328
+INFO:root:Epoch[64] Batch [120]	Speed: 4115.07 samples/sec	accuracy=0.901563	cross-entropy=0.285287
+INFO:root:Epoch[64] Batch [140]	Speed: 4241.25 samples/sec	accuracy=0.887500	cross-entropy=0.314086
+INFO:root:Epoch[64] Batch [160]	Speed: 4162.70 samples/sec	accuracy=0.901563	cross-entropy=0.278404
+INFO:root:Epoch[64] Batch [180]	Speed: 4193.03 samples/sec	accuracy=0.898438	cross-entropy=0.297375
+INFO:root:Epoch[64] Batch [200]	Speed: 4136.44 samples/sec	accuracy=0.885547	cross-entropy=0.314771
+INFO:root:Epoch[64] Batch [220]	Speed: 4186.91 samples/sec	accuracy=0.898438	cross-entropy=0.271682
+INFO:root:Epoch[64] Batch [240]	Speed: 4071.21 samples/sec	accuracy=0.889844	cross-entropy=0.309428
+INFO:root:Epoch[64] Batch [260]	Speed: 4140.12 samples/sec	accuracy=0.898828	cross-entropy=0.291055
+INFO:root:Epoch[64] Batch [280]	Speed: 4227.20 samples/sec	accuracy=0.885938	cross-entropy=0.309505
+INFO:root:Epoch[64] Batch [300]	Speed: 4146.38 samples/sec	accuracy=0.892969	cross-entropy=0.302124
+INFO:root:Epoch[64] Batch [320]	Speed: 4147.11 samples/sec	accuracy=0.898438	cross-entropy=0.281872
+INFO:root:Epoch[64] Batch [340]	Speed: 4117.38 samples/sec	accuracy=0.901172	cross-entropy=0.305244
+INFO:root:Epoch[64] Batch [360]	Speed: 4081.24 samples/sec	accuracy=0.896094	cross-entropy=0.301995
+INFO:root:Epoch[64] Batch [380]	Speed: 4206.96 samples/sec	accuracy=0.913672	cross-entropy=0.267444
+INFO:root:Epoch[64] Train-accuracy=0.886719
+INFO:root:Epoch[64] Train-cross-entropy=0.302010
+INFO:root:Epoch[64] Time cost=12.162
+INFO:root:Epoch[64] Validation-accuracy=0.874110
+INFO:root:Epoch[64] Validation-cross-entropy=0.384247
+INFO:root:Epoch[65] Batch [20]	Speed: 4048.46 samples/sec	accuracy=0.900298	cross-entropy=0.282089
+INFO:root:Epoch[65] Batch [40]	Speed: 4204.56 samples/sec	accuracy=0.894141	cross-entropy=0.300140
+INFO:root:Epoch[65] Batch [60]	Speed: 4131.29 samples/sec	accuracy=0.892188	cross-entropy=0.305702
+INFO:root:Epoch[65] Batch [80]	Speed: 4114.92 samples/sec	accuracy=0.898828	cross-entropy=0.298376
+INFO:root:Epoch[65] Batch [100]	Speed: 4123.57 samples/sec	accuracy=0.897656	cross-entropy=0.301768
+INFO:root:Epoch[65] Batch [120]	Speed: 4133.74 samples/sec	accuracy=0.897656	cross-entropy=0.291288
+INFO:root:Epoch[65] Batch [140]	Speed: 4126.56 samples/sec	accuracy=0.907031	cross-entropy=0.268578
+INFO:root:Epoch[65] Batch [160]	Speed: 4119.59 samples/sec	accuracy=0.894141	cross-entropy=0.314568
+INFO:root:Epoch[65] Batch [180]	Speed: 4099.16 samples/sec	accuracy=0.900781	cross-entropy=0.287653
+INFO:root:Epoch[65] Batch [200]	Speed: 4159.42 samples/sec	accuracy=0.886328	cross-entropy=0.321306
+INFO:root:Epoch[65] Batch [220]	Speed: 4120.55 samples/sec	accuracy=0.902344	cross-entropy=0.290352
+INFO:root:Epoch[65] Batch [240]	Speed: 4170.58 samples/sec	accuracy=0.894531	cross-entropy=0.301538
+INFO:root:Epoch[65] Batch [260]	Speed: 4117.01 samples/sec	accuracy=0.903125	cross-entropy=0.282248
+INFO:root:Epoch[65] Batch [280]	Speed: 4215.52 samples/sec	accuracy=0.900000	cross-entropy=0.284402
+INFO:root:Epoch[65] Batch [300]	Speed: 4089.01 samples/sec	accuracy=0.906641	cross-entropy=0.265367
+INFO:root:Epoch[65] Batch [320]	Speed: 3911.41 samples/sec	accuracy=0.905859	cross-entropy=0.285963
+INFO:root:Epoch[65] Batch [340]	Speed: 4118.99 samples/sec	accuracy=0.913672	cross-entropy=0.255177
+INFO:root:Epoch[65] Batch [360]	Speed: 4108.25 samples/sec	accuracy=0.908203	cross-entropy=0.259858
+INFO:root:Epoch[65] Batch [380]	Speed: 4196.35 samples/sec	accuracy=0.899609	cross-entropy=0.291298
+INFO:root:Epoch[65] Train-accuracy=0.902344
+INFO:root:Epoch[65] Train-cross-entropy=0.287819
+INFO:root:Epoch[65] Time cost=12.128
+INFO:root:Epoch[65] Validation-accuracy=0.879908
+INFO:root:Epoch[65] Validation-cross-entropy=0.371681
+INFO:root:Epoch[66] Batch [20]	Speed: 4339.37 samples/sec	accuracy=0.899182	cross-entropy=0.284453
+INFO:root:Epoch[66] Batch [40]	Speed: 4235.14 samples/sec	accuracy=0.891016	cross-entropy=0.295258
+INFO:root:Epoch[66] Batch [60]	Speed: 4118.68 samples/sec	accuracy=0.894141	cross-entropy=0.307870FO:root:Epoch[66] Batch [80]	Speed: 4239.88 samples/sec	accuracy=0.902734	cross-entropy=0.288736
+INFO:root:Epoch[66] Batch [100]	Speed: 4169.21 samples/sec	accuracy=0.894531	cross-entropy=0.300873
+INFO:root:Epoch[66] Batch [120]	Speed: 4030.04 samples/sec	accuracy=0.900000	cross-entropy=0.293046
+INFO:root:Epoch[66] Batch [140]	Speed: 4071.56 samples/sec	accuracy=0.895703	cross-entropy=0.281153
+INFO:root:Epoch[66] Batch [160]	Speed: 4055.12 samples/sec	accuracy=0.894531	cross-entropy=0.289852
+INFO:root:Epoch[66] Batch [180]	Speed: 4117.29 samples/sec	accuracy=0.894141	cross-entropy=0.296781
+INFO:root:Epoch[66] Batch [200]	Speed: 4163.61 samples/sec	accuracy=0.893359	cross-entropy=0.293224
+INFO:root:Epoch[66] Batch [220]	Speed: 4150.68 samples/sec	accuracy=0.900000	cross-entropy=0.279060
+INFO:root:Epoch[66] Batch [240]	Speed: 4054.99 samples/sec	accuracy=0.897656	cross-entropy=0.317609
+INFO:root:Epoch[66] Batch [260]	Speed: 4020.32 samples/sec	accuracy=0.889062	cross-entropy=0.297771
+INFO:root:Epoch[66] Batch [280]	Speed: 4202.71 samples/sec	accuracy=0.896875	cross-entropy=0.300386
+INFO:root:Epoch[66] Batch [300]	Speed: 4116.11 samples/sec	accuracy=0.905859	cross-entropy=0.274726
+INFO:root:Epoch[66] Batch [320]	Speed: 4029.31 samples/sec	accuracy=0.907031	cross-entropy=0.272210
+INFO:root:Epoch[66] Batch [340]	Speed: 4114.86 samples/sec	accuracy=0.900391	cross-entropy=0.278753
+INFO:root:Epoch[66] Batch [360]	Speed: 3999.68 samples/sec	accuracy=0.904297	cross-entropy=0.266877
+INFO:root:Epoch[66] Batch [380]	Speed: 4004.03 samples/sec	accuracy=0.911719	cross-entropy=0.279098
+INFO:root:Epoch[66] Train-accuracy=0.901042
+INFO:root:Epoch[66] Train-cross-entropy=0.287739
+INFO:root:Epoch[66] Time cost=12.126
+INFO:root:Epoch[66] Validation-accuracy=0.865986
+INFO:root:Epoch[66] Validation-cross-entropy=0.417438
+INFO:root:Epoch[67] Batch [20]	Speed: 4257.10 samples/sec	accuracy=0.891741	cross-entropy=0.299549
+INFO:root:Epoch[67] Batch [40]	Speed: 4049.57 samples/sec	accuracy=0.899609	cross-entropy=0.287523
+INFO:root:Epoch[67] Batch [60]	Speed: 4084.69 samples/sec	accuracy=0.884375	cross-entropy=0.323986
+INFO:root:Epoch[67] Batch [80]	Speed: 4105.27 samples/sec	accuracy=0.905078	cross-entropy=0.277048
+INFO:root:Epoch[67] Batch [100]	Speed: 3972.57 samples/sec	accuracy=0.891797	cross-entropy=0.303382
+INFO:root:Epoch[67] Batch [120]	Speed: 4038.35 samples/sec	accuracy=0.897656	cross-entropy=0.286802
+INFO:root:Epoch[67] Batch [140]	Speed: 4045.58 samples/sec	accuracy=0.894531	cross-entropy=0.293063
+INFO:root:Epoch[67] Batch [160]	Speed: 4137.96 samples/sec	accuracy=0.899219	cross-entropy=0.282861
+INFO:root:Epoch[67] Batch [180]	Speed: 4120.23 samples/sec	accuracy=0.887109	cross-entropy=0.315990
+INFO:root:Epoch[67] Batch [200]	Speed: 4087.05 samples/sec	accuracy=0.898438	cross-entropy=0.312158
+INFO:root:Epoch[67] Batch [220]	Speed: 4193.97 samples/sec	accuracy=0.896484	cross-entropy=0.287137
+INFO:root:Epoch[67] Batch [240]	Speed: 4133.79 samples/sec	accuracy=0.895312	cross-entropy=0.298672
+INFO:root:Epoch[67] Batch [260]	Speed: 4087.19 samples/sec	accuracy=0.903516	cross-entropy=0.275452
+INFO:root:Epoch[67] Batch [280]	Speed: 4090.95 samples/sec	accuracy=0.900391	cross-entropy=0.276560
+INFO:root:Epoch[67] Batch [300]	Speed: 4181.09 samples/sec	accuracy=0.900391	cross-entropy=0.284482
+INFO:root:Epoch[67] Batch [320]	Speed: 4183.70 samples/sec	accuracy=0.905078	cross-entropy=0.265266
+INFO:root:Epoch[67] Batch [340]	Speed: 4153.77 samples/sec	accuracy=0.904297	cross-entropy=0.288304
+INFO:root:Epoch[67] Batch [360]	Speed: 4290.21 samples/sec	accuracy=0.900391	cross-entropy=0.274693
+INFO:root:Epoch[67] Batch [380]	Speed: 4082.16 samples/sec	accuracy=0.908984	cross-entropy=0.268721
+INFO:root:Epoch[67] Train-accuracy=0.902344
+INFO:root:Epoch[67] Train-cross-entropy=0.277790
+INFO:root:Epoch[67] Time cost=12.158
+INFO:root:Epoch[67] Validation-accuracy=0.873097
+INFO:root:Epoch[67] Validation-cross-entropy=0.396270
+INFO:root:Epoch[68] Batch [20]	Speed: 4314.17 samples/sec	accuracy=0.902902	cross-entropy=0.283350
+INFO:root:Epoch[68] Batch [40]	Speed: 4220.83 samples/sec	accuracy=0.898047	cross-entropy=0.274320
+INFO:root:Epoch[68] Batch [60]	Speed: 4174.38 samples/sec	accuracy=0.894922	cross-entropy=0.296410
+INFO:root:Epoch[68] Batch [80]	Speed: 4144.37 samples/sec	accuracy=0.894922	cross-entropy=0.312664
+INFO:root:Epoch[68] Batch [100]	Speed: 4099.06 samples/sec	accuracy=0.889844	cross-entropy=0.313177
+INFO:root:Epoch[68] Batch [120]	Speed: 4168.82 samples/sec	accuracy=0.910156	cross-entropy=0.268824
+INFO:root:Epoch[68] Batch [140]	Speed: 4184.00 samples/sec	accuracy=0.894531	cross-entropy=0.293624
+INFO:root:Epoch[68] Batch [160]	Speed: 4095.15 samples/sec	accuracy=0.888672	cross-entropy=0.306776
+INFO:root:Epoch[68] Batch [180]	Speed: 4220.74 samples/sec	accuracy=0.894531	cross-entropy=0.279303
+INFO:root:Epoch[68] Batch [200]	Speed: 4182.73 samples/sec	accuracy=0.895312	cross-entropy=0.296589
+INFO:root:Epoch[68] Batch [220]	Speed: 4123.49 samples/sec	accuracy=0.902734	cross-entropy=0.286655
+INFO:root:Epoch[68] Batch [240]	Speed: 4130.96 samples/sec	accuracy=0.894922	cross-entropy=0.296528
+INFO:root:Epoch[68] Batch [260]	Speed: 4151.17 samples/sec	accuracy=0.895703	cross-entropy=0.299795
+INFO:root:Epoch[68] Batch [280]	Speed: 4173.79 samples/sec	accuracy=0.897266	cross-entropy=0.274708
+INFO:root:Epoch[68] Batch [300]	Speed: 4153.03 samples/sec	accuracy=0.903125	cross-entropy=0.287074
+INFO:root:Epoch[68] Batch [320]	Speed: 4113.72 samples/sec	accuracy=0.895312	cross-entropy=0.285405
+INFO:root:Epoch[68] Batch [340]	Speed: 4006.77 samples/sec	accuracy=0.901953	cross-entropy=0.267876
+INFO:root:Epoch[68] Batch [360]	Speed: 3954.60 samples/sec	accuracy=0.912109	cross-entropy=0.274782
+INFO:root:Epoch[68] Batch [380]	Speed: 4005.38 samples/sec	accuracy=0.905859	cross-entropy=0.260636
+INFO:root:Epoch[68] Train-accuracy=0.913281
+INFO:root:Epoch[68] Train-cross-entropy=0.246892
+INFO:root:Epoch[68] Time cost=12.099
+INFO:root:Epoch[68] Validation-accuracy=0.883814
+INFO:root:Epoch[68] Validation-cross-entropy=0.362913
+INFO:root:Epoch[69] Batch [20]	Speed: 4029.56 samples/sec	accuracy=0.898065	cross-entropy=0.278877
+INFO:root:Epoch[69] Batch [40]	Speed: 4098.49 samples/sec	accuracy=0.892578	cross-entropy=0.293168
+INFO:root:Epoch[69] Batch [60]	Speed: 4064.09 samples/sec	accuracy=0.903516	cross-entropy=0.275290
+INFO:root:Epoch[69] Batch [80]	Speed: 4155.78 samples/sec	accuracy=0.909766	cross-entropy=0.259570
+INFO:root:Epoch[69] Batch [100]	Speed: 4071.54 samples/sec	accuracy=0.905078	cross-entropy=0.280101
+INFO:root:Epoch[69] Batch [120]	Speed: 4033.65 samples/sec	accuracy=0.913672	cross-entropy=0.253729
+INFO:root:Epoch[69] Batch [140]	Speed: 4106.47 samples/sec	accuracy=0.900781	cross-entropy=0.277172
+INFO:root:Epoch[69] Batch [160]	Speed: 4088.59 samples/sec	accuracy=0.892578	cross-entropy=0.300352
+INFO:root:Epoch[69] Batch [180]	Speed: 4032.50 samples/sec	accuracy=0.896875	cross-entropy=0.282789
+INFO:root:Epoch[69] Batch [200]	Speed: 4159.65 samples/sec	accuracy=0.894141	cross-entropy=0.298879
+INFO:root:Epoch[69] Batch [220]	Speed: 3988.56 samples/sec	accuracy=0.900781	cross-entropy=0.282030
+INFO:root:Epoch[69] Batch [240]	Speed: 4110.28 samples/sec	accuracy=0.892969	cross-entropy=0.295079
+INFO:root:Epoch[69] Batch [260]	Speed: 4096.76 samples/sec	accuracy=0.901172	cross-entropy=0.294498
+INFO:root:Epoch[69] Batch [280]	Speed: 4198.47 samples/sec	accuracy=0.903516	cross-entropy=0.278910
+INFO:root:Epoch[69] Batch [300]	Speed: 4166.97 samples/sec	accuracy=0.894531	cross-entropy=0.289740
+INFO:root:Epoch[69] Batch [320]	Speed: 4229.78 samples/sec	accuracy=0.907422	cross-entropy=0.283516
+INFO:root:Epoch[69] Batch [340]	Speed: 4197.66 samples/sec	accuracy=0.913281	cross-entropy=0.255022
+INFO:root:Epoch[69] Batch [360]	Speed: 4142.52 samples/sec	accuracy=0.919922	cross-entropy=0.231037
+INFO:root:Epoch[69] Batch [380]	Speed: 4186.78 samples/sec	accuracy=0.906641	cross-entropy=0.257172
+INFO:root:Epoch[69] Train-accuracy=0.909722
+INFO:root:Epoch[69] Train-cross-entropy=0.278531
+INFO:root:Epoch[69] Time cost=12.118
+INFO:root:Epoch[69] Validation-accuracy=0.883013
+INFO:root:Epoch[69] Validation-cross-entropy=0.368407
+INFO:root:Epoch[70] Batch [20]	Speed: 4233.59 samples/sec	accuracy=0.912202	cross-entropy=0.258375
+INFO:root:Epoch[70] Batch [40]	Speed: 4202.69 samples/sec	accuracy=0.897656	cross-entropy=0.304631
+INFO:root:Epoch[70] Batch [60]	Speed: 4200.19 samples/sec	accuracy=0.899219	cross-entropy=0.293359
+INFO:root:Epoch[70] Batch [80]	Speed: 4179.39 samples/sec	accuracy=0.896484	cross-entropy=0.290216
+INFO:root:Epoch[70] Batch [100]	Speed: 4193.04 samples/sec	accuracy=0.898828	cross-entropy=0.289075
+INFO:root:Epoch[70] Batch [120]	Speed: 4104.08 samples/sec	accuracy=0.898828	cross-entropy=0.271204
+INFO:root:Epoch[70] Batch [140]	Speed: 4131.13 samples/sec	accuracy=0.894141	cross-entropy=0.312230
+INFO:root:Epoch[70] Batch [160]	Speed: 4189.85 samples/sec	accuracy=0.906250	cross-entropy=0.282100
+INFO:root:Epoch[70] Batch [180]	Speed: 4176.04 samples/sec	accuracy=0.903906	cross-entropy=0.282495
+INFO:root:Epoch[70] Batch [200]	Speed: 4115.31 samples/sec	accuracy=0.894922	cross-entropy=0.284604
+INFO:root:Epoch[70] Batch [220]	Speed: 4066.00 samples/sec	accuracy=0.899609	cross-entropy=0.284531
+INFO:root:Epoch[70] Batch [240]	Speed: 4113.71 samples/sec	accuracy=0.906250	cross-entropy=0.276897
+INFO:root:Epoch[70] Batch [260]	Speed: 4025.38 samples/sec	accuracy=0.916406	cross-entropy=0.251882
+INFO:root:Epoch[70] Batch [280]	Speed: 3943.76 samples/sec	accuracy=0.895703	cross-entropy=0.289446
+INFO:root:Epoch[70] Batch [300]	Speed: 3988.03 samples/sec	accuracy=0.892969	cross-entropy=0.299664
+INFO:root:Epoch[70] Batch [320]	Speed: 4006.41 samples/sec	accuracy=0.902344	cross-entropy=0.281670
+INFO:root:Epoch[70] Batch [340]	Speed: 4116.80 samples/sec	accuracy=0.911719	cross-entropy=0.253829
+INFO:root:Epoch[70] Batch [360]	Speed: 4100.71 samples/sec	accuracy=0.905078	cross-entropy=0.276056
+INFO:root:Epoch[70] Batch [380]	Speed: 4126.25 samples/sec	accuracy=0.901953	cross-entropy=0.280688
+INFO:root:Epoch[70] Train-accuracy=0.907031
+INFO:root:Epoch[70] Train-cross-entropy=0.260063
+INFO:root:Epoch[70] Time cost=12.170
+INFO:root:Epoch[70] Validation-accuracy=0.868490
+INFO:root:Epoch[70] Validation-cross-entropy=0.405696
+INFO:root:Epoch[71] Batch [20]	Speed: 4285.59 samples/sec	accuracy=0.902530	cross-entropy=0.277539
+INFO:root:Epoch[71] Batch [40]	Speed: 4112.52 samples/sec	accuracy=0.902344	cross-entropy=0.282647
+INFO:root:Epoch[71] Batch [60]	Speed: 4115.50 samples/sec	accuracy=0.893359	cross-entropy=0.308937
+INFO:root:Epoch[71] Batch [80]	Speed: 4057.39 samples/sec	accuracy=0.904687	cross-entropy=0.267126
+INFO:root:Epoch[71] Batch [100]	Speed: 4002.74 samples/sec	accuracy=0.905469	cross-entropy=0.265842
+INFO:root:Epoch[71] Batch [120]	Speed: 4185.63 samples/sec	accuracy=0.904687	cross-entropy=0.276137
+INFO:root:Epoch[71] Batch [140]	Speed: 4149.58 samples/sec	accuracy=0.901953	cross-entropy=0.287774
+INFO:root:Epoch[71] Batch [160]	Speed: 4167.48 samples/sec	accuracy=0.886719	cross-entropy=0.307861
+INFO:root:Epoch[71] Batch [180]	Speed: 4134.19 samples/sec	accuracy=0.899219	cross-entropy=0.276702
+INFO:root:Epoch[71] Batch [200]	Speed: 4139.87 samples/sec	accuracy=0.903516	cross-entropy=0.273216
+INFO:root:Epoch[71] Batch [220]	Speed: 4046.45 samples/sec	accuracy=0.905859	cross-entropy=0.265864
+INFO:root:Epoch[71] Batch [240]	Speed: 4148.14 samples/sec	accuracy=0.908203	cross-entropy=0.290560
+INFO:root:Epoch[71] Batch [260]	Speed: 4178.96 samples/sec	accuracy=0.889844	cross-entropy=0.317945
+INFO:root:Epoch[71] Batch [280]	Speed: 4182.65 samples/sec	accuracy=0.895312	cross-entropy=0.287465
+INFO:root:Epoch[71] Batch [300]	Speed: 4200.45 samples/sec	accuracy=0.893359	cross-entropy=0.296449
+INFO:root:Epoch[71] Batch [320]	Speed: 4170.42 samples/sec	accuracy=0.900781	cross-entropy=0.292142
+INFO:root:Epoch[71] Batch [340]	Speed: 4219.61 samples/sec	accuracy=0.908203	cross-entropy=0.248829
+INFO:root:Epoch[71] Batch [360]	Speed: 4062.54 samples/sec	accuracy=0.919141	cross-entropy=0.231153
+INFO:root:Epoch[71] Batch [380]	Speed: 3545.72 samples/sec	accuracy=0.899219	cross-entropy=0.276979
+INFO:root:Epoch[71] Train-accuracy=0.894965
+INFO:root:Epoch[71] Train-cross-entropy=0.290339
+INFO:root:Epoch[71] Time cost=12.200
+INFO:root:Epoch[71] Validation-accuracy=0.864683
+INFO:root:Epoch[71] Validation-cross-entropy=0.413485
+INFO:root:Epoch[72] Batch [20]	Speed: 3237.30 samples/sec	accuracy=0.904390	cross-entropy=0.284886
+INFO:root:Epoch[72] Batch [40]	Speed: 1694.88 samples/sec	accuracy=0.893359	cross-entropy=0.289553
+INFO:root:Epoch[72] Batch [60]	Speed: 1739.52 samples/sec	accuracy=0.889062	cross-entropy=0.298374
+INFO:root:Epoch[72] Batch [80]	Speed: 2483.77 samples/sec	accuracy=0.907422	cross-entropy=0.274465
+INFO:root:Epoch[72] Batch [100]	Speed: 4246.40 samples/sec	accuracy=0.904297	cross-entropy=0.289200
+INFO:root:Epoch[72] Batch [120]	Speed: 4197.55 samples/sec	accuracy=0.892969	cross-entropy=0.287353
+INFO:root:Epoch[72] Batch [140]	Speed: 4167.74 samples/sec	accuracy=0.889453	cross-entropy=0.301376
+INFO:root:Epoch[72] Batch [160]	Speed: 4123.93 samples/sec	accuracy=0.898828	cross-entropy=0.296999
+INFO:root:Epoch[72] Batch [180]	Speed: 4225.32 samples/sec	accuracy=0.902734	cross-entropy=0.273323
+INFO:root:Epoch[72] Batch [200]	Speed: 4143.70 samples/sec	accuracy=0.893750	cross-entropy=0.297955
+INFO:root:Epoch[72] Batch [220]	Speed: 4172.06 samples/sec	accuracy=0.900000	cross-entropy=0.284253
+INFO:root:Epoch[72] Batch [240]	Speed: 4073.36 samples/sec	accuracy=0.900781	cross-entropy=0.289054
+INFO:root:Epoch[72] Batch [260]	Speed: 4143.43 samples/sec	accuracy=0.899219	cross-entropy=0.285107
+INFO:root:Epoch[72] Batch [280]	Speed: 4117.55 samples/sec	accuracy=0.910547	cross-entropy=0.264604
+INFO:root:Epoch[72] Batch [300]	Speed: 3951.07 samples/sec	accuracy=0.898438	cross-entropy=0.293604
+INFO:root:Epoch[72] Batch [320]	Speed: 3997.40 samples/sec	accuracy=0.893359	cross-entropy=0.305441
+INFO:root:Epoch[72] Batch [340]	Speed: 4046.27 samples/sec	accuracy=0.905469	cross-entropy=0.270954
+INFO:root:Epoch[72] Batch [360]	Speed: 3946.60 samples/sec	accuracy=0.906250	cross-entropy=0.275302
+INFO:root:Epoch[72] Batch [380]	Speed: 3949.35 samples/sec	accuracy=0.892578	cross-entropy=0.288543
+INFO:root:Epoch[72] Train-accuracy=0.907813
+INFO:root:Epoch[72] Train-cross-entropy=0.273992
+INFO:root:Epoch[72] Time cost=14.577
+INFO:root:Epoch[72] Validation-accuracy=0.881824
+INFO:root:Epoch[72] Validation-cross-entropy=0.367588
+INFO:root:Epoch[73] Batch [20]	Speed: 4161.11 samples/sec	accuracy=0.913690	cross-entropy=0.268156
+INFO:root:Epoch[73] Batch [40]	Speed: 4116.01 samples/sec	accuracy=0.904687	cross-entropy=0.272535
+INFO:root:Epoch[73] Batch [60]	Speed: 4072.24 samples/sec	accuracy=0.905078	cross-entropy=0.280876
+INFO:root:Epoch[73] Batch [80]	Speed: 4219.66 samples/sec	accuracy=0.903516	cross-entropy=0.293660
+INFO:root:Epoch[73] Batch [100]	Speed: 4169.44 samples/sec	accuracy=0.899609	cross-entropy=0.278375
+INFO:root:Epoch[73] Batch [120]	Speed: 4159.85 samples/sec	accuracy=0.904297	cross-entropy=0.265139
+INFO:root:Epoch[73] Batch [140]	Speed: 4126.48 samples/sec	accuracy=0.894141	cross-entropy=0.280195
+INFO:root:Epoch[73] Batch [160]	Speed: 4192.78 samples/sec	accuracy=0.896484	cross-entropy=0.297833
+INFO:root:Epoch[73] Batch [180]	Speed: 4183.97 samples/sec	accuracy=0.898047	cross-entropy=0.283232
+INFO:root:Epoch[73] Batch [200]	Speed: 4135.96 samples/sec	accuracy=0.894922	cross-entropy=0.281637
+INFO:root:Epoch[73] Batch [220]	Speed: 4093.63 samples/sec	accuracy=0.906641	cross-entropy=0.277016
+INFO:root:Epoch[73] Batch [240]	Speed: 4100.37 samples/sec	accuracy=0.900391	cross-entropy=0.296640
+INFO:root:Epoch[73] Batch [260]	Speed: 4173.82 samples/sec	accuracy=0.896875	cross-entropy=0.281470
+INFO:root:Epoch[73] Batch [280]	Speed: 4132.54 samples/sec	accuracy=0.897656	cross-entropy=0.295123
+INFO:root:Epoch[73] Batch [300]	Speed: 4089.19 samples/sec	accuracy=0.901563	cross-entropy=0.297250
+INFO:root:Epoch[73] Batch [320]	Speed: 4205.95 samples/sec	accuracy=0.902734	cross-entropy=0.288487
+INFO:root:Epoch[73] Batch [340]	Speed: 4154.66 samples/sec	accuracy=0.915234	cross-entropy=0.253667
+INFO:root:Epoch[73] Batch [360]	Speed: 4153.19 samples/sec	accuracy=0.908984	cross-entropy=0.251104
+INFO:root:Epoch[73] Batch [380]	Speed: 4195.85 samples/sec	accuracy=0.902344	cross-entropy=0.274435
+INFO:root:Epoch[73] Train-accuracy=0.900781
+INFO:root:Epoch[73] Train-cross-entropy=0.276331
+INFO:root:Epoch[73] Time cost=12.064
+INFO:root:Epoch[73] Validation-accuracy=0.869191
+INFO:root:Epoch[73] Validation-cross-entropy=0.408420
+INFO:root:Epoch[74] Batch [20]	Speed: 4233.03 samples/sec	accuracy=0.911830	cross-entropy=0.260713
+INFO:root:Epoch[74] Batch [40]	Speed: 4164.26 samples/sec	accuracy=0.905469	cross-entropy=0.270248
+INFO:root:Epoch[74] Batch [60]	Speed: 4071.40 samples/sec	accuracy=0.896484	cross-entropy=0.298076
+INFO:root:Epoch[74] Batch [80]	Speed: 4176.54 samples/sec	accuracy=0.900391	cross-entropy=0.286553
+INFO:root:Epoch[74] Batch [100]	Speed: 4121.02 samples/sec	accuracy=0.901172	cross-entropy=0.280618
+INFO:root:Epoch[74] Batch [120]	Speed: 4213.94 samples/sec	accuracy=0.905469	cross-entropy=0.274123
+INFO:root:Epoch[74] Batch [140]	Speed: 4178.49 samples/sec	accuracy=0.912109	cross-entropy=0.257875
+INFO:root:Epoch[74] Batch [160]	Speed: 4150.87 samples/sec	accuracy=0.897656	cross-entropy=0.288568
+INFO:root:Epoch[74] Batch [180]	Speed: 4053.40 samples/sec	accuracy=0.910547	cross-entropy=0.273699
+INFO:root:Epoch[74] Batch [200]	Speed: 4048.88 samples/sec	accuracy=0.908594	cross-entropy=0.258677
+INFO:root:Epoch[74] Batch [220]	Speed: 4098.32 samples/sec	accuracy=0.900391	cross-entropy=0.286816
+INFO:root:Epoch[74] Batch [240]	Speed: 4074.74 samples/sec	accuracy=0.902734	cross-entropy=0.275038
+INFO:root:Epoch[74] Batch [260]	Speed: 4079.22 samples/sec	accuracy=0.889844	cross-entropy=0.308723
+INFO:root:Epoch[74] Batch [280]	Speed: 3908.50 samples/sec	accuracy=0.894922	cross-entropy=0.288588
+INFO:root:Epoch[74] Batch [300]	Speed: 3862.26 samples/sec	accuracy=0.893359	cross-entropy=0.299838
+INFO:root:Epoch[74] Batch [320]	Speed: 4015.59 samples/sec	accuracy=0.911719	cross-entropy=0.264424
+INFO:root:Epoch[74] Batch [340]	Speed: 3958.79 samples/sec	accuracy=0.900000	cross-entropy=0.282067
+INFO:root:Epoch[74] Batch [360]	Speed: 4113.16 samples/sec	accuracy=0.911328	cross-entropy=0.268567
+INFO:root:Epoch[74] Batch [380]	Speed: 4128.21 samples/sec	accuracy=0.900781	cross-entropy=0.281701
+INFO:root:Epoch[74] Train-accuracy=0.891493
+INFO:root:Epoch[74] Train-cross-entropy=0.297389
+INFO:root:Epoch[74] Time cost=12.204
+INFO:root:Epoch[74] Validation-accuracy=0.861979
+INFO:root:Epoch[74] Validation-cross-entropy=0.436195
+INFO:root:Epoch[75] Batch [20]	Speed: 3971.17 samples/sec	accuracy=0.901414	cross-entropy=0.283175
+INFO:root:Epoch[75] Batch [40]	Speed: 3903.59 samples/sec	accuracy=0.905469	cross-entropy=0.261454
+INFO:root:Epoch[75] Batch [60]	Speed: 4018.06 samples/sec	accuracy=0.902734	cross-entropy=0.278122
+INFO:root:Epoch[75] Batch [80]	Speed: 4198.50 samples/sec	accuracy=0.899609	cross-entropy=0.279813
+INFO:root:Epoch[75] Batch [100]	Speed: 4196.38 samples/sec	accuracy=0.894531	cross-entropy=0.297763
+INFO:root:Epoch[75] Batch [120]	Speed: 4168.46 samples/sec	accuracy=0.900391	cross-entropy=0.303217
+INFO:root:Epoch[75] Batch [140]	Speed: 4088.05 samples/sec	accuracy=0.894531	cross-entropy=0.285076
+INFO:root:Epoch[75] Batch [160]	Speed: 4176.74 samples/sec	accuracy=0.892188	cross-entropy=0.301755
+INFO:root:Epoch[75] Batch [180]	Speed: 4157.27 samples/sec	accuracy=0.900391	cross-entropy=0.279364
+INFO:root:Epoch[75] Batch [200]	Speed: 4155.49 samples/sec	accuracy=0.898047	cross-entropy=0.296849
+INFO:root:Epoch[75] Batch [220]	Speed: 4109.41 samples/sec	accuracy=0.905859	cross-entropy=0.267376
+INFO:root:Epoch[75] Batch [240]	Speed: 4167.81 samples/sec	accuracy=0.900781	cross-entropy=0.282608
+INFO:root:Epoch[75] Batch [260]	Speed: 4175.68 samples/sec	accuracy=0.904297	cross-entropy=0.275536
+INFO:root:Epoch[75] Batch [280]	Speed: 4187.82 samples/sec	accuracy=0.887500	cross-entropy=0.301516
+INFO:root:Epoch[75] Batch [300]	Speed: 4061.76 samples/sec	accuracy=0.903125	cross-entropy=0.274442
+INFO:root:Epoch[75] Batch [320]	Speed: 4157.48 samples/sec	accuracy=0.906641	cross-entropy=0.260988
+INFO:root:Epoch[75] Batch [340]	Speed: 4129.61 samples/sec	accuracy=0.911719	cross-entropy=0.253350
+INFO:root:Epoch[75] Batch [360]	Speed: 4086.08 samples/sec	accuracy=0.900391	cross-entropy=0.282234
+INFO:root:Epoch[75] Batch [380]	Speed: 4122.15 samples/sec	accuracy=0.912500	cross-entropy=0.260588
+INFO:root:Epoch[75] Train-accuracy=0.891406
+INFO:root:Epoch[75] Train-cross-entropy=0.288546
+INFO:root:Epoch[75] Time cost=12.141
+INFO:root:Epoch[75] Validation-accuracy=0.876502
+INFO:root:Epoch[75] Validation-cross-entropy=0.366963
+INFO:root:Epoch[76] Batch [20]	Speed: 4140.40 samples/sec	accuracy=0.898810	cross-entropy=0.283062
+INFO:root:Epoch[76] Batch [40]	Speed: 4155.35 samples/sec	accuracy=0.906250	cross-entropy=0.290655
+INFO:root:Epoch[76] Batch [60]	Speed: 4045.92 samples/sec	accuracy=0.904687	cross-entropy=0.275897
+INFO:root:Epoch[76] Batch [80]	Speed: 4190.63 samples/sec	accuracy=0.904687	cross-entropy=0.264042
+INFO:root:Epoch[76] Batch [100]	Speed: 4129.94 samples/sec	accuracy=0.905078	cross-entropy=0.277959
+INFO:root:Epoch[76] Batch [120]	Speed: 4093.69 samples/sec	accuracy=0.897266	cross-entropy=0.285475
+INFO:root:Epoch[76] Batch [140]	Speed: 4039.87 samples/sec	accuracy=0.898047	cross-entropy=0.299176
+INFO:root:Epoch[76] Batch [160]	Speed: 3955.30 samples/sec	accuracy=0.900000	cross-entropy=0.283603
+INFO:root:Epoch[76] Batch [180]	Speed: 4030.57 samples/sec	accuracy=0.905469	cross-entropy=0.282327
+INFO:root:Epoch[76] Batch [200]	Speed: 4109.82 samples/sec	accuracy=0.901172	cross-entropy=0.280939
+INFO:root:Epoch[76] Batch [220]	Speed: 4185.19 samples/sec	accuracy=0.904687	cross-entropy=0.275846
+INFO:root:Epoch[76] Batch [240]	Speed: 4028.75 samples/sec	accuracy=0.891406	cross-entropy=0.300935
+INFO:root:Epoch[76] Batch [260]	Speed: 4067.86 samples/sec	accuracy=0.901563	cross-entropy=0.279954
+INFO:root:Epoch[76] Batch [280]	Speed: 4262.52 samples/sec	accuracy=0.902734	cross-entropy=0.271506
+INFO:root:Epoch[76] Batch [300]	Speed: 4128.75 samples/sec	accuracy=0.900000	cross-entropy=0.288511
+INFO:root:Epoch[76] Batch [320]	Speed: 4066.73 samples/sec	accuracy=0.907422	cross-entropy=0.258223
+INFO:root:Epoch[76] Batch [340]	Speed: 4187.74 samples/sec	accuracy=0.906250	cross-entropy=0.251520
+INFO:root:Epoch[76] Batch [360]	Speed: 4159.56 samples/sec	accuracy=0.913672	cross-entropy=0.262490
+INFO:root:Epoch[76] Batch [380]	Speed: 3954.59 samples/sec	accuracy=0.906250	cross-entropy=0.274917
+INFO:root:Epoch[76] Train-accuracy=0.914844
+INFO:root:Epoch[76] Train-cross-entropy=0.241464
+INFO:root:Epoch[76] Time cost=12.202
+INFO:root:Epoch[76] Validation-accuracy=0.860276
+INFO:root:Epoch[76] Validation-cross-entropy=0.438772
+INFO:root:Epoch[77] Batch [20]	Speed: 4026.49 samples/sec	accuracy=0.905134	cross-entropy=0.270522
+INFO:root:Epoch[77] Batch [40]	Speed: 4071.97 samples/sec	accuracy=0.906641	cross-entropy=0.265878
+INFO:root:Epoch[77] Batch [60]	Speed: 4115.52 samples/sec	accuracy=0.908203	cross-entropy=0.270915
+INFO:root:Epoch[77] Batch [80]	Speed: 4152.95 samples/sec	accuracy=0.896875	cross-entropy=0.295832
+INFO:root:Epoch[77] Batch [100]	Speed: 4135.40 samples/sec	accuracy=0.898438	cross-entropy=0.301543
+INFO:root:Epoch[77] Batch [120]	Speed: 4123.74 samples/sec	accuracy=0.913672	cross-entropy=0.255772
+INFO:root:Epoch[77] Batch [140]	Speed: 4137.85 samples/sec	accuracy=0.900391	cross-entropy=0.280099
+INFO:root:Epoch[77] Batch [160]	Speed: 4151.62 samples/sec	accuracy=0.895312	cross-entropy=0.297088
+INFO:root:Epoch[77] Batch [180]	Speed: 4190.11 samples/sec	accuracy=0.905469	cross-entropy=0.274768
+INFO:root:Epoch[77] Batch [200]	Speed: 4137.19 samples/sec	accuracy=0.898828	cross-entropy=0.303677
+INFO:root:Epoch[77] Batch [220]	Speed: 4074.41 samples/sec	accuracy=0.903516	cross-entropy=0.282059
+INFO:root:Epoch[77] Batch [240]	Speed: 4073.01 samples/sec	accuracy=0.902734	cross-entropy=0.266804
+INFO:root:Epoch[77] Batch [260]	Speed: 4079.29 samples/sec	accuracy=0.895703	cross-entropy=0.284707
+INFO:root:Epoch[77] Batch [280]	Speed: 4054.85 samples/sec	accuracy=0.908203	cross-entropy=0.260558
+INFO:root:Epoch[77] Batch [300]	Speed: 4038.11 samples/sec	accuracy=0.902344	cross-entropy=0.274168
+INFO:root:Epoch[77] Batch [320]	Speed: 4043.82 samples/sec	accuracy=0.901172	cross-entropy=0.276843
+INFO:root:Epoch[77] Batch [340]	Speed: 4183.99 samples/sec	accuracy=0.903516	cross-entropy=0.284453
+INFO:root:Epoch[77] Batch [360]	Speed: 4157.56 samples/sec	accuracy=0.908203	cross-entropy=0.251633
+INFO:root:Epoch[77] Batch [380]	Speed: 4107.71 samples/sec	accuracy=0.904297	cross-entropy=0.258897
+INFO:root:Epoch[77] Train-accuracy=0.909722
+INFO:root:Epoch[77] Train-cross-entropy=0.278099
+INFO:root:Epoch[77] Time cost=12.164
+INFO:root:Epoch[77] Validation-accuracy=0.877204
+INFO:root:Epoch[77] Validation-cross-entropy=0.380366
+INFO:root:Epoch[78] Batch [20]	Speed: 4133.66 samples/sec	accuracy=0.905134	cross-entropy=0.274627
+INFO:root:Epoch[78] Batch [40]	Speed: 4125.04 samples/sec	accuracy=0.907031	cross-entropy=0.260332
+INFO:root:Epoch[78] Batch [60]	Speed: 4260.69 samples/sec	accuracy=0.907422	cross-entropy=0.277643
+INFO:root:Epoch[78] Batch [80]	Speed: 4185.50 samples/sec	accuracy=0.904297	cross-entropy=0.280914
+INFO:root:Epoch[78] Batch [100]	Speed: 4189.05 samples/sec	accuracy=0.906250	cross-entropy=0.275646
+INFO:root:Epoch[78] Batch [120]	Speed: 4144.30 samples/sec	accuracy=0.896875	cross-entropy=0.280173
+INFO:root:Epoch[78] Batch [140]	Speed: 4189.85 samples/sec	accuracy=0.903906	cross-entropy=0.265198
+INFO:root:Epoch[78] Batch [160]	Speed: 4206.99 samples/sec	accuracy=0.913672	cross-entropy=0.253809
+INFO:root:Epoch[78] Batch [180]	Speed: 4235.92 samples/sec	accuracy=0.906250	cross-entropy=0.275729
+INFO:root:Epoch[78] Batch [200]	Speed: 4034.20 samples/sec	accuracy=0.902344	cross-entropy=0.269622
+INFO:root:Epoch[78] Batch [220]	Speed: 4203.65 samples/sec	accuracy=0.908984	cross-entropy=0.259456
+INFO:root:Epoch[78] Batch [240]	Speed: 4127.29 samples/sec	accuracy=0.901563	cross-entropy=0.276440
+INFO:root:Epoch[78] Batch [260]	Speed: 4091.99 samples/sec	accuracy=0.912109	cross-entropy=0.247693
+INFO:root:Epoch[78] Batch [280]	Speed: 4106.70 samples/sec	accuracy=0.912109	cross-entropy=0.257704
+INFO:root:Epoch[78] Batch [300]	Speed: 4046.87 samples/sec	accuracy=0.898047	cross-entropy=0.289635
+INFO:root:Epoch[78] Batch [320]	Speed: 4007.28 samples/sec	accuracy=0.905078	cross-entropy=0.268371
+INFO:root:Epoch[78] Batch [340]	Speed: 4110.87 samples/sec	accuracy=0.900781	cross-entropy=0.279078
+INFO:root:Epoch[78] Batch [360]	Speed: 4048.42 samples/sec	accuracy=0.903516	cross-entropy=0.272172
+INFO:root:Epoch[78] Batch [380]	Speed: 4132.48 samples/sec	accuracy=0.901172	cross-entropy=0.278787
+INFO:root:Epoch[78] Train-accuracy=0.909375
+INFO:root:Epoch[78] Train-cross-entropy=0.267063
+INFO:root:Epoch[78] Time cost=12.086
+INFO:root:Epoch[78] Validation-accuracy=0.873197
+INFO:root:Epoch[78] Validation-cross-entropy=0.418475
+INFO:root:Epoch[79] Batch [20]	Speed: 4095.75 samples/sec	accuracy=0.903646	cross-entropy=0.277367
+INFO:root:Epoch[79] Batch [40]	Speed: 4018.64 samples/sec	accuracy=0.905078	cross-entropy=0.278312
+INFO:root:Epoch[79] Batch [60]	Speed: 3993.49 samples/sec	accuracy=0.897266	cross-entropy=0.270369
+INFO:root:Epoch[79] Batch [80]	Speed: 3893.80 samples/sec	accuracy=0.917188	cross-entropy=0.254740
+INFO:root:Epoch[79] Batch [100]	Speed: 4040.40 samples/sec	accuracy=0.899219	cross-entropy=0.285727
+INFO:root:Epoch[79] Batch [120]	Speed: 4202.80 samples/sec	accuracy=0.898828	cross-entropy=0.272611
+INFO:root:Epoch[79] Batch [140]	Speed: 4187.81 samples/sec	accuracy=0.882422	cross-entropy=0.309703
+INFO:root:Epoch[79] Batch [160]	Speed: 4086.64 samples/sec	accuracy=0.900781	cross-entropy=0.291829
+INFO:root:Epoch[79] Batch [180]	Speed: 4160.66 samples/sec	accuracy=0.909375	cross-entropy=0.275382
+INFO:root:Epoch[79] Batch [200]	Speed: 4159.76 samples/sec	accuracy=0.897656	cross-entropy=0.277983
+INFO:root:Epoch[79] Batch [220]	Speed: 4133.30 samples/sec	accuracy=0.907031	cross-entropy=0.262107
+INFO:root:Epoch[79] Batch [240]	Speed: 4177.44 samples/sec	accuracy=0.899609	cross-entropy=0.284576
+INFO:root:Epoch[79] Batch [260]	Speed: 4150.67 samples/sec	accuracy=0.903516	cross-entropy=0.297283
+INFO:root:Epoch[79] Batch [280]	Speed: 4190.43 samples/sec	accuracy=0.898047	cross-entropy=0.278164
+INFO:root:Epoch[79] Batch [300]	Speed: 4113.66 samples/sec	accuracy=0.912891	cross-entropy=0.246729
+INFO:root:Epoch[79] Batch [320]	Speed: 4174.02 samples/sec	accuracy=0.901563	cross-entropy=0.284384
+INFO:root:Epoch[79] Batch [340]	Speed: 4137.07 samples/sec	accuracy=0.904687	cross-entropy=0.267791
+INFO:root:Epoch[79] Batch [360]	Speed: 4128.49 samples/sec	accuracy=0.916797	cross-entropy=0.245089
+INFO:root:Epoch[79] Batch [380]	Speed: 4121.74 samples/sec	accuracy=0.903906	cross-entropy=0.259705
+INFO:root:Epoch[79] Train-accuracy=0.914931
+INFO:root:Epoch[79] Train-cross-entropy=0.248704
+INFO:root:Epoch[79] Time cost=12.145
+INFO:root:Epoch[79] Validation-accuracy=0.868089
+INFO:root:Epoch[79] Validation-cross-entropy=0.417750
+INFO:root:Epoch[80] Batch [20]	Speed: 4011.33 samples/sec	accuracy=0.904762	cross-entropy=0.274585
+INFO:root:Epoch[80] Batch [40]	Speed: 4007.11 samples/sec	accuracy=0.900781	cross-entropy=0.298710
+INFO:root:Epoch[80] Batch [60]	Speed: 3992.30 samples/sec	accuracy=0.896094	cross-entropy=0.299191
+INFO:root:Epoch[80] Batch [80]	Speed: 4086.83 samples/sec	accuracy=0.907422	cross-entropy=0.271335
+INFO:root:Epoch[80] Batch [100]	Speed: 4095.03 samples/sec	accuracy=0.907813	cross-entropy=0.265846
+INFO:root:Epoch[80] Batch [120]	Speed: 4157.17 samples/sec	accuracy=0.899219	cross-entropy=0.288774
+INFO:root:Epoch[80] Batch [140]	Speed: 4160.67 samples/sec	accuracy=0.893750	cross-entropy=0.302979
+INFO:root:Epoch[80] Batch [160]	Speed: 4119.04 samples/sec	accuracy=0.900000	cross-entropy=0.272018
+INFO:root:Epoch[80] Batch [180]	Speed: 4140.01 samples/sec	accuracy=0.907813	cross-entropy=0.268159
+INFO:root:Epoch[80] Batch [200]	Speed: 4130.70 samples/sec	accuracy=0.899609	cross-entropy=0.284055
+INFO:root:Epoch[80] Batch [220]	Speed: 4089.91 samples/sec	accuracy=0.916406	cross-entropy=0.250590
+INFO:root:Epoch[80] Batch [240]	Speed: 3992.62 samples/sec	accuracy=0.903906	cross-entropy=0.269084
+INFO:root:Epoch[80] Batch [260]	Speed: 4071.21 samples/sec	accuracy=0.905469	cross-entropy=0.269447
+INFO:root:Epoch[80] Batch [280]	Speed: 3970.00 samples/sec	accuracy=0.902344	cross-entropy=0.268095
+INFO:root:Epoch[80] Batch [300]	Speed: 4081.28 samples/sec	accuracy=0.908203	cross-entropy=0.260668
+INFO:root:Epoch[80] Batch [320]	Speed: 4088.15 samples/sec	accuracy=0.908203	cross-entropy=0.256641
+INFO:root:Epoch[80] Batch [340]	Speed: 4129.07 samples/sec	accuracy=0.911328	cross-entropy=0.269270
+INFO:root:Epoch[80] Batch [360]	Speed: 4054.91 samples/sec	accuracy=0.921875	cross-entropy=0.232487
+INFO:root:Epoch[80] Batch [380]	Speed: 4158.35 samples/sec	accuracy=0.902344	cross-entropy=0.284752
+INFO:root:Epoch[80] Train-accuracy=0.906250
+INFO:root:Epoch[80] Train-cross-entropy=0.272070
+INFO:root:Epoch[80] Time cost=12.292
+INFO:root:Epoch[80] Validation-accuracy=0.849090
+INFO:root:Epoch[80] Validation-cross-entropy=0.501849
+INFO:root:Epoch[81] Batch [20]	Speed: 4014.41 samples/sec	accuracy=0.906994	cross-entropy=0.259794
+INFO:root:Epoch[81] Batch [40]	Speed: 4121.34 samples/sec	accuracy=0.911328	cross-entropy=0.260224
+INFO:root:Epoch[81] Batch [60]	Speed: 4182.18 samples/sec	accuracy=0.898828	cross-entropy=0.273299
+INFO:root:Epoch[81] Batch [80]	Speed: 4183.18 samples/sec	accuracy=0.900000	cross-entropy=0.297329
+INFO:root:Epoch[81] Batch [100]	Speed: 4204.89 samples/sec	accuracy=0.901953	cross-entropy=0.274479
+INFO:root:Epoch[81] Batch [120]	Speed: 4130.26 samples/sec	accuracy=0.907031	cross-entropy=0.265789
+INFO:root:Epoch[81] Batch [140]	Speed: 4212.45 samples/sec	accuracy=0.901953	cross-entropy=0.270232
+INFO:root:Epoch[81] Batch [160]	Speed: 4171.70 samples/sec	accuracy=0.895312	cross-entropy=0.282436
+INFO:root:Epoch[81] Batch [180]	Speed: 4122.66 samples/sec	accuracy=0.905078	cross-entropy=0.271580
+INFO:root:Epoch[81] Batch [200]	Speed: 4179.46 samples/sec	accuracy=0.899609	cross-entropy=0.292576
+INFO:root:Epoch[81] Batch [220]	Speed: 4156.63 samples/sec	accuracy=0.899609	cross-entropy=0.277405
+INFO:root:Epoch[81] Batch [240]	Speed: 4132.52 samples/sec	accuracy=0.906250	cross-entropy=0.283496
+INFO:root:Epoch[81] Batch [260]	Speed: 4118.27 samples/sec	accuracy=0.908594	cross-entropy=0.257532
+INFO:root:Epoch[81] Batch [280]	Speed: 4075.67 samples/sec	accuracy=0.908594	cross-entropy=0.252027
+INFO:root:Epoch[81] Batch [300]	Speed: 4015.66 samples/sec	accuracy=0.908203	cross-entropy=0.256808
+INFO:root:Epoch[81] Batch [320]	Speed: 4062.26 samples/sec	accuracy=0.906641	cross-entropy=0.255902
+INFO:root:Epoch[81] Batch [340]	Speed: 4094.53 samples/sec	accuracy=0.912891	cross-entropy=0.265797
+INFO:root:Epoch[81] Batch [360]	Speed: 3945.14 samples/sec	accuracy=0.914844	cross-entropy=0.252206
+INFO:root:Epoch[81] Batch [380]	Speed: 4041.67 samples/sec	accuracy=0.903125	cross-entropy=0.275835
+INFO:root:Epoch[81] Train-accuracy=0.907031
+INFO:root:Epoch[81] Train-cross-entropy=0.254265
+INFO:root:Epoch[81] Time cost=12.153
+INFO:root:Epoch[81] Validation-accuracy=0.877003
+INFO:root:Epoch[81] Validation-cross-entropy=0.399900
+INFO:root:Epoch[82] Batch [20]	Speed: 4214.48 samples/sec	accuracy=0.907738	cross-entropy=0.258465
+INFO:root:Epoch[82] Batch [40]	Speed: 4158.39 samples/sec	accuracy=0.906250	cross-entropy=0.273970
+INFO:root:Epoch[82] Batch [60]	Speed: 4076.41 samples/sec	accuracy=0.902734	cross-entropy=0.272095
+INFO:root:Epoch[82] Batch [80]	Speed: 4181.93 samples/sec	accuracy=0.898828	cross-entropy=0.283809
+INFO:root:Epoch[82] Batch [100]	Speed: 4128.90 samples/sec	accuracy=0.911719	cross-entropy=0.255269
+INFO:root:Epoch[82] Batch [120]	Speed: 4192.06 samples/sec	accuracy=0.891797	cross-entropy=0.300200
+INFO:root:Epoch[82] Batch [140]	Speed: 4089.46 samples/sec	accuracy=0.899219	cross-entropy=0.280153
+INFO:root:Epoch[82] Batch [160]	Speed: 4121.43 samples/sec	accuracy=0.899609	cross-entropy=0.266986
+INFO:root:Epoch[82] Batch [180]	Speed: 4104.16 samples/sec	accuracy=0.914062	cross-entropy=0.253798
+INFO:root:Epoch[82] Batch [200]	Speed: 4049.83 samples/sec	accuracy=0.897266	cross-entropy=0.292036
+INFO:root:Epoch[82] Batch [220]	Speed: 4065.85 samples/sec	accuracy=0.903516	cross-entropy=0.264923
+INFO:root:Epoch[82] Batch [240]	Speed: 3968.22 samples/sec	accuracy=0.909766	cross-entropy=0.257501
+INFO:root:Epoch[82] Batch [260]	Speed: 3961.23 samples/sec	accuracy=0.900000	cross-entropy=0.268332
+INFO:root:Epoch[82] Batch [280]	Speed: 4083.46 samples/sec	accuracy=0.906641	cross-entropy=0.273795
+INFO:root:Epoch[82] Batch [300]	Speed: 4118.79 samples/sec	accuracy=0.904297	cross-entropy=0.266235
+INFO:root:Epoch[82] Batch [320]	Speed: 4106.04 samples/sec	accuracy=0.913281	cross-entropy=0.264248
+INFO:root:Epoch[82] Batch [340]	Speed: 4057.93 samples/sec	accuracy=0.914844	cross-entropy=0.246435
+INFO:root:Epoch[82] Batch [360]	Speed: 4095.76 samples/sec	accuracy=0.918359	cross-entropy=0.251542
+INFO:root:Epoch[82] Batch [380]	Speed: 4021.36 samples/sec	accuracy=0.904297	cross-entropy=0.274701
+INFO:root:Epoch[82] Train-accuracy=0.886285
+INFO:root:Epoch[82] Train-cross-entropy=0.288680
+INFO:root:Epoch[82] Time cost=12.183
+INFO:root:Epoch[82] Validation-accuracy=0.877304
+INFO:root:Epoch[82] Validation-cross-entropy=0.398084
+INFO:root:Epoch[83] Batch [20]	Speed: 3991.57 samples/sec	accuracy=0.911086	cross-entropy=0.254413
+INFO:root:Epoch[83] Batch [40]	Speed: 4119.17 samples/sec	accuracy=0.909766	cross-entropy=0.255627
+INFO:root:Epoch[83] Batch [60]	Speed: 4153.27 samples/sec	accuracy=0.901563	cross-entropy=0.289692
+INFO:root:Epoch[83] Batch [80]	Speed: 4019.46 samples/sec	accuracy=0.907031	cross-entropy=0.262231
+INFO:root:Epoch[83] Batch [100]	Speed: 4204.47 samples/sec	accuracy=0.902734	cross-entropy=0.293133
+INFO:root:Epoch[83] Batch [120]	Speed: 4175.56 samples/sec	accuracy=0.894141	cross-entropy=0.290789
+INFO:root:Epoch[83] Batch [140]	Speed: 4087.59 samples/sec	accuracy=0.903516	cross-entropy=0.263128
+INFO:root:Epoch[83] Batch [160]	Speed: 4042.06 samples/sec	accuracy=0.896875	cross-entropy=0.288593
+INFO:root:Epoch[83] Batch [180]	Speed: 4152.75 samples/sec	accuracy=0.905469	cross-entropy=0.274030
+INFO:root:Epoch[83] Batch [200]	Speed: 4135.11 samples/sec	accuracy=0.907031	cross-entropy=0.259843
+INFO:root:Epoch[83] Batch [220]	Speed: 4138.51 samples/sec	accuracy=0.904297	cross-entropy=0.273749
+INFO:root:Epoch[83] Batch [240]	Speed: 4091.39 samples/sec	accuracy=0.904297	cross-entropy=0.259847
+INFO:root:Epoch[83] Batch [260]	Speed: 4171.00 samples/sec	accuracy=0.901953	cross-entropy=0.286367
+INFO:root:Epoch[83] Batch [280]	Speed: 4054.14 samples/sec	accuracy=0.905859	cross-entropy=0.282646
+INFO:root:Epoch[83] Batch [300]	Speed: 4187.78 samples/sec	accuracy=0.908984	cross-entropy=0.252740
+INFO:root:Epoch[83] Batch [320]	Speed: 4134.15 samples/sec	accuracy=0.914844	cross-entropy=0.251003
+INFO:root:Epoch[83] Batch [340]	Speed: 4076.17 samples/sec	accuracy=0.898047	cross-entropy=0.272789
+INFO:root:Epoch[83] Batch [360]	Speed: 4086.11 samples/sec	accuracy=0.914062	cross-entropy=0.244269
+INFO:root:Epoch[83] Batch [380]	Speed: 3981.52 samples/sec	accuracy=0.914062	cross-entropy=0.250179
+INFO:root:Epoch[83] Train-accuracy=0.907031
+INFO:root:Epoch[83] Train-cross-entropy=0.263542
+INFO:root:Epoch[83] Time cost=12.201
+INFO:root:Epoch[83] Validation-accuracy=0.878906
+INFO:root:Epoch[83] Validation-cross-entropy=0.387369
+INFO:root:Epoch[84] Batch [20]	Speed: 3977.75 samples/sec	accuracy=0.908110	cross-entropy=0.257942
+INFO:root:Epoch[84] Batch [40]	Speed: 4075.63 samples/sec	accuracy=0.909375	cross-entropy=0.262506
+INFO:root:Epoch[84] Batch [60]	Speed: 4027.84 samples/sec	accuracy=0.903516	cross-entropy=0.282323
+INFO:root:Epoch[84] Batch [80]	Speed: 4161.65 samples/sec	accuracy=0.905469	cross-entropy=0.269170
+INFO:root:Epoch[84] Batch [100]	Speed: 4166.24 samples/sec	accuracy=0.904687	cross-entropy=0.270485
+INFO:root:Epoch[84] Batch [120]	Speed: 4115.58 samples/sec	accuracy=0.905859	cross-entropy=0.264202
+INFO:root:Epoch[84] Batch [140]	Speed: 4161.69 samples/sec	accuracy=0.909766	cross-entropy=0.252335
+INFO:root:Epoch[84] Batch [160]	Speed: 4070.92 samples/sec	accuracy=0.900000	cross-entropy=0.274159
+INFO:root:Epoch[84] Batch [180]	Speed: 4074.44 samples/sec	accuracy=0.909375	cross-entropy=0.270940
+INFO:root:Epoch[84] Batch [200]	Speed: 4075.10 samples/sec	accuracy=0.901563	cross-entropy=0.284869
+INFO:root:Epoch[84] Batch [220]	Speed: 4165.56 samples/sec	accuracy=0.900000	cross-entropy=0.266023
+INFO:root:Epoch[84] Batch [240]	Speed: 4079.16 samples/sec	accuracy=0.900781	cross-entropy=0.282152
+INFO:root:Epoch[84] Batch [260]	Speed: 4003.91 samples/sec	accuracy=0.910156	cross-entropy=0.267068
+INFO:root:Epoch[84] Batch [280]	Speed: 4112.98 samples/sec	accuracy=0.905469	cross-entropy=0.262121
+INFO:root:Epoch[84] Batch [300]	Speed: 4107.57 samples/sec	accuracy=0.903125	cross-entropy=0.278847
+INFO:root:Epoch[84] Batch [320]	Speed: 4082.37 samples/sec	accuracy=0.912109	cross-entropy=0.258963
+INFO:root:Epoch[84] Batch [340]	Speed: 4115.15 samples/sec	accuracy=0.905078	cross-entropy=0.274345
+INFO:root:Epoch[84] Batch [360]	Speed: 4101.57 samples/sec	accuracy=0.915625	cross-entropy=0.234263
+INFO:root:Epoch[84] Batch [380]	Speed: 3953.39 samples/sec	accuracy=0.910156	cross-entropy=0.257062
+INFO:root:Epoch[84] Train-accuracy=0.913281
+INFO:root:Epoch[84] Train-cross-entropy=0.241278
+INFO:root:Epoch[84] Time cost=12.247
+INFO:root:Epoch[84] Validation-accuracy=0.885116
+INFO:root:Epoch[84] Validation-cross-entropy=0.379710
+INFO:root:Epoch[85] Batch [20]	Speed: 4018.94 samples/sec	accuracy=0.915551	cross-entropy=0.256417
+INFO:root:Epoch[85] Batch [40]	Speed: 4089.33 samples/sec	accuracy=0.900391	cross-entropy=0.279981
+INFO:root:Epoch[85] Batch [60]	Speed: 4111.85 samples/sec	accuracy=0.904297	cross-entropy=0.273707
+INFO:root:Epoch[85] Batch [80]	Speed: 4160.82 samples/sec	accuracy=0.909375	cross-entropy=0.247896
+INFO:root:Epoch[85] Batch [100]	Speed: 4167.51 samples/sec	accuracy=0.903516	cross-entropy=0.272577
+INFO:root:Epoch[85] Batch [120]	Speed: 4207.95 samples/sec	accuracy=0.906641	cross-entropy=0.262150
+INFO:root:Epoch[85] Batch [140]	Speed: 4139.65 samples/sec	accuracy=0.910547	cross-entropy=0.264226
+INFO:root:Epoch[85] Batch [160]	Speed: 4167.34 samples/sec	accuracy=0.905859	cross-entropy=0.274389
+INFO:root:Epoch[85] Batch [180]	Speed: 4022.32 samples/sec	accuracy=0.901563	cross-entropy=0.273533
+INFO:root:Epoch[85] Batch [200]	Speed: 4160.61 samples/sec	accuracy=0.907031	cross-entropy=0.271161
+INFO:root:Epoch[85] Batch [220]	Speed: 4071.95 samples/sec	accuracy=0.903125	cross-entropy=0.281691
+INFO:root:Epoch[85] Batch [240]	Speed: 4158.84 samples/sec	accuracy=0.908594	cross-entropy=0.264438
+INFO:root:Epoch[85] Batch [260]	Speed: 4167.12 samples/sec	accuracy=0.905078	cross-entropy=0.263294
+INFO:root:Epoch[85] Batch [280]	Speed: 4074.86 samples/sec	accuracy=0.905469	cross-entropy=0.283474
+INFO:root:Epoch[85] Batch [300]	Speed: 4103.76 samples/sec	accuracy=0.912891	cross-entropy=0.256078
+INFO:root:Epoch[85] Batch [320]	Speed: 3951.38 samples/sec	accuracy=0.910937	cross-entropy=0.251801
+INFO:root:Epoch[85] Batch [340]	Speed: 3951.61 samples/sec	accuracy=0.908594	cross-entropy=0.264149
+INFO:root:Epoch[85] Batch [360]	Speed: 4080.56 samples/sec	accuracy=0.914844	cross-entropy=0.241700
+INFO:root:Epoch[85] Batch [380]	Speed: 4146.85 samples/sec	accuracy=0.911719	cross-entropy=0.258466
+INFO:root:Epoch[85] Train-accuracy=0.914062
+INFO:root:Epoch[85] Train-cross-entropy=0.252455
+INFO:root:Epoch[85] Time cost=12.151
+INFO:root:Epoch[85] Validation-accuracy=0.867788
+INFO:root:Epoch[85] Validation-cross-entropy=0.425888
+INFO:root:Epoch[86] Batch [20]	Speed: 4122.89 samples/sec	accuracy=0.918155	cross-entropy=0.234043
+INFO:root:Epoch[86] Batch [40]	Speed: 3917.63 samples/sec	accuracy=0.912500	cross-entropy=0.266607
+INFO:root:Epoch[86] Batch [60]	Speed: 4095.12 samples/sec	accuracy=0.908984	cross-entropy=0.272190
+INFO:root:Epoch[86] Batch [80]	Speed: 4162.91 samples/sec	accuracy=0.914453	cross-entropy=0.249915
+INFO:root:Epoch[86] Batch [100]	Speed: 4127.90 samples/sec	accuracy=0.906641	cross-entropy=0.261734
+INFO:root:Epoch[86] Batch [120]	Speed: 4119.27 samples/sec	accuracy=0.907422	cross-entropy=0.273120
+INFO:root:Epoch[86] Batch [140]	Speed: 4174.35 samples/sec	accuracy=0.900781	cross-entropy=0.269492
+INFO:root:Epoch[86] Batch [160]	Speed: 3990.24 samples/sec	accuracy=0.908203	cross-entropy=0.277423
+INFO:root:Epoch[86] Batch [180]	Speed: 4056.61 samples/sec	accuracy=0.899609	cross-entropy=0.272497
+INFO:root:Epoch[86] Batch [200]	Speed: 4057.22 samples/sec	accuracy=0.901953	cross-entropy=0.272835
+INFO:root:Epoch[86] Batch [220]	Speed: 3917.07 samples/sec	accuracy=0.905859	cross-entropy=0.265024
+INFO:root:Epoch[86] Batch [240]	Speed: 4158.41 samples/sec	accuracy=0.909375	cross-entropy=0.254143
+INFO:root:Epoch[86] Batch [260]	Speed: 4049.61 samples/sec	accuracy=0.909766	cross-entropy=0.251696
+INFO:root:Epoch[86] Batch [280]	Speed: 4112.54 samples/sec	accuracy=0.900391	cross-entropy=0.270502
+INFO:root:Epoch[86] Batch [300]	Speed: 4083.90 samples/sec	accuracy=0.906250	cross-entropy=0.271057
+INFO:root:Epoch[86] Batch [320]	Speed: 3944.04 samples/sec	accuracy=0.910547	cross-entropy=0.265183
+INFO:root:Epoch[86] Batch [340]	Speed: 3852.71 samples/sec	accuracy=0.923047	cross-entropy=0.235006
+INFO:root:Epoch[86] Batch [360]	Speed: 4133.81 samples/sec	accuracy=0.917969	cross-entropy=0.248202
+INFO:root:Epoch[86] Batch [380]	Speed: 4083.74 samples/sec	accuracy=0.923047	cross-entropy=0.246241
+INFO:root:Epoch[86] Train-accuracy=0.918750
+INFO:root:Epoch[86] Train-cross-entropy=0.238977
+INFO:root:Epoch[86] Time cost=12.320
+INFO:root:Epoch[86] Validation-accuracy=0.877103
+INFO:root:Epoch[86] Validation-cross-entropy=0.393070
+INFO:root:Epoch[87] Batch [20]	Speed: 4228.64 samples/sec	accuracy=0.904762	cross-entropy=0.270555
+INFO:root:Epoch[87] Batch [40]	Speed: 3995.29 samples/sec	accuracy=0.903125	cross-entropy=0.267667
+INFO:root:Epoch[87] Batch [60]	Speed: 4124.03 samples/sec	accuracy=0.901953	cross-entropy=0.279998
+INFO:root:Epoch[87] Batch [80]	Speed: 4093.45 samples/sec	accuracy=0.908984	cross-entropy=0.259589
+INFO:root:Epoch[87] Batch [100]	Speed: 4176.53 samples/sec	accuracy=0.911328	cross-entropy=0.248816
+INFO:root:Epoch[87] Batch [120]	Speed: 4113.59 samples/sec	accuracy=0.915234	cross-entropy=0.248067
+INFO:root:Epoch[87] Batch [140]	Speed: 4142.92 samples/sec	accuracy=0.899609	cross-entropy=0.266800
+INFO:root:Epoch[87] Batch [160]	Speed: 4159.55 samples/sec	accuracy=0.906641	cross-entropy=0.259166
+INFO:root:Epoch[87] Batch [180]	Speed: 4047.17 samples/sec	accuracy=0.898047	cross-entropy=0.292423
+INFO:root:Epoch[87] Batch [200]	Speed: 4095.67 samples/sec	accuracy=0.903125	cross-entropy=0.275846
+INFO:root:Epoch[87] Batch [220]	Speed: 4144.53 samples/sec	accuracy=0.903516	cross-entropy=0.275241
+INFO:root:Epoch[87] Batch [240]	Speed: 4033.53 samples/sec	accuracy=0.903125	cross-entropy=0.276059
+INFO:root:Epoch[87] Batch [260]	Speed: 4031.41 samples/sec	accuracy=0.903125	cross-entropy=0.279347
+INFO:root:Epoch[87] Batch [280]	Speed: 3987.34 samples/sec	accuracy=0.915234	cross-entropy=0.247300
+INFO:root:Epoch[87] Batch [300]	Speed: 4067.06 samples/sec	accuracy=0.907031	cross-entropy=0.259873
+INFO:root:Epoch[87] Batch [320]	Speed: 4078.27 samples/sec	accuracy=0.919141	cross-entropy=0.245549
+INFO:root:Epoch[87] Batch [340]	Speed: 4017.56 samples/sec	accuracy=0.913281	cross-entropy=0.255407
+INFO:root:Epoch[87] Batch [360]	Speed: 4138.71 samples/sec	accuracy=0.917188	cross-entropy=0.245783
+INFO:root:Epoch[87] Batch [380]	Speed: 4042.32 samples/sec	accuracy=0.902344	cross-entropy=0.272456
+INFO:root:Epoch[87] Train-accuracy=0.917535
+INFO:root:Epoch[87] Train-cross-entropy=0.250549
+INFO:root:Epoch[87] Time cost=12.194
+INFO:root:Epoch[87] Validation-accuracy=0.876402
+INFO:root:Epoch[87] Validation-cross-entropy=0.386124
+INFO:root:Epoch[88] Batch [20]	Speed: 4180.00 samples/sec	accuracy=0.903646	cross-entropy=0.264623
+INFO:root:Epoch[88] Batch [40]	Speed: 3947.95 samples/sec	accuracy=0.913672	cross-entropy=0.259127
+INFO:root:Epoch[88] Batch [60]	Speed: 3975.47 samples/sec	accuracy=0.905078	cross-entropy=0.272855
+INFO:root:Epoch[88] Batch [80]	Speed: 4011.04 samples/sec	accuracy=0.905859	cross-entropy=0.275430
+INFO:root:Epoch[88] Batch [100]	Speed: 4115.13 samples/sec	accuracy=0.905859	cross-entropy=0.266301
+INFO:root:Epoch[88] Batch [120]	Speed: 4075.58 samples/sec	accuracy=0.907031	cross-entropy=0.268495
+INFO:root:Epoch[88] Batch [140]	Speed: 4135.92 samples/sec	accuracy=0.904297	cross-entropy=0.272770
+INFO:root:Epoch[88] Batch [160]	Speed: 4145.31 samples/sec	accuracy=0.904297	cross-entropy=0.283009
+INFO:root:Epoch[88] Batch [180]	Speed: 4096.53 samples/sec	accuracy=0.915625	cross-entropy=0.243184
+INFO:root:Epoch[88] Batch [200]	Speed: 4141.08 samples/sec	accuracy=0.903125	cross-entropy=0.278770
+INFO:root:Epoch[88] Batch [220]	Speed: 4198.96 samples/sec	accuracy=0.899609	cross-entropy=0.285920
+INFO:root:Epoch[88] Batch [240]	Speed: 4145.11 samples/sec	accuracy=0.901563	cross-entropy=0.265103
+INFO:root:Epoch[88] Batch [260]	Speed: 4061.77 samples/sec	accuracy=0.909766	cross-entropy=0.260509
+INFO:root:Epoch[88] Batch [280]	Speed: 4132.33 samples/sec	accuracy=0.907031	cross-entropy=0.271268
+INFO:root:Epoch[88] Batch [300]	Speed: 4123.90 samples/sec	accuracy=0.921484	cross-entropy=0.233739
+INFO:root:Epoch[88] Batch [320]	Speed: 4150.25 samples/sec	accuracy=0.910547	cross-entropy=0.265223
+INFO:root:Epoch[88] Batch [340]	Speed: 4064.52 samples/sec	accuracy=0.908594	cross-entropy=0.277750
+INFO:root:Epoch[88] Batch [360]	Speed: 4041.97 samples/sec	accuracy=0.905078	cross-entropy=0.267502
+INFO:root:Epoch[88] Batch [380]	Speed: 4093.37 samples/sec	accuracy=0.919922	cross-entropy=0.236463
+INFO:root:Epoch[88] Train-accuracy=0.907813
+INFO:root:Epoch[88] Train-cross-entropy=0.267878
+INFO:root:Epoch[88] Time cost=12.285
+INFO:root:Epoch[88] Validation-accuracy=0.873319
+INFO:root:Epoch[88] Validation-cross-entropy=0.420202
+NFO:root:Epoch[89] Batch [20]	Speed: 3980.01 samples/sec	accuracy=0.904762	cross-entropy=0.270555
+INFO:root:Epoch[89] Batch [40]	Speed: 3934.59 samples/sec	accuracy=0.906250	cross-entropy=0.274331
+INFO:root:Epoch[89] Batch [60]	Speed: 4092.25 samples/sec	accuracy=0.910156	cross-entropy=0.267359
+INFO:root:Epoch[89] Batch [80]	Speed: 4160.05 samples/sec	accuracy=0.916016	cross-entropy=0.247052
+INFO:root:Epoch[89] Batch [100]	Speed: 4182.23 samples/sec	accuracy=0.910156	cross-entropy=0.268487
+INFO:root:Epoch[89] Batch [120]	Speed: 4168.99 samples/sec	accuracy=0.900391	cross-entropy=0.279515
+INFO:root:Epoch[89] Batch [140]	Speed: 4079.21 samples/sec	accuracy=0.910937	cross-entropy=0.250311
+INFO:root:Epoch[89] Batch [160]	Speed: 4156.62 samples/sec	accuracy=0.911328	cross-entropy=0.262223
+INFO:root:Epoch[89] Batch [180]	Speed: 4148.98 samples/sec	accuracy=0.905469	cross-entropy=0.277401
+INFO:root:Epoch[89] Batch [200]	Speed: 4159.10 samples/sec	accuracy=0.898047	cross-entropy=0.283840
+INFO:root:Epoch[89] Batch [220]	Speed: 4111.30 samples/sec	accuracy=0.907813	cross-entropy=0.267647
+INFO:root:Epoch[89] Batch [240]	Speed: 4175.69 samples/sec	accuracy=0.917188	cross-entropy=0.257442
+INFO:root:Epoch[89] Batch [260]	Speed: 4094.47 samples/sec	accuracy=0.910156	cross-entropy=0.250959
+INFO:root:Epoch[89] Batch [280]	Speed: 4076.67 samples/sec	accuracy=0.910156	cross-entropy=0.247800
+INFO:root:Epoch[89] Batch [300]	Speed: 4088.47 samples/sec	accuracy=0.909766	cross-entropy=0.266001
+INFO:root:Epoch[89] Batch [320]	Speed: 3984.11 samples/sec	accuracy=0.913281	cross-entropy=0.241101
+INFO:root:Epoch[89] Batch [340]	Speed: 4104.79 samples/sec	accuracy=0.910156	cross-entropy=0.245384
+INFO:root:Epoch[89] Batch [360]	Speed: 4110.65 samples/sec	accuracy=0.927734	cross-entropy=0.228915
+INFO:root:Epoch[89] Batch [380]	Speed: 4148.54 samples/sec	accuracy=0.921484	cross-entropy=0.237204
+INFO:root:Epoch[89] Train-accuracy=0.900781
+INFO:root:Epoch[89] Train-cross-entropy=0.293215
+INFO:root:Epoch[89] Time cost=12.190
+INFO:root:Epoch[89] Validation-accuracy=0.885617
+INFO:root:Epoch[89] Validation-cross-entropy=0.375203
