@@ -8,11 +8,11 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 2. add mix rate
 
 
-two scenes:
+## two scenes:
 ![image](https://github.com/unsky/mixup/blob/master/3.png)
 
 
-the detail design of mixUPlayer:
+## the detail design of mixUPlayer:
 
 ![image](https://github.com/unsky/mixup/blob/master/4.png)
 
