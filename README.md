@@ -11,8 +11,9 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 
 
 
-
+roughly
 # The results:
+the results is not very strict，i will update it  when i have a strict base line.
 
 |                        | alpha         | mix_rate  | AP |
 | -------------          |:-------------:| -----:      | -----:   |
@@ -20,3 +21,5 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 | (mixup)resnet50 90epoch|      0.2     |0.7           | 0.78     |
 | (mixup)resnet50 200epoch|      0.2     |0.7          | 0.83     |
 | (mixup in feature maps)|      0.2     |0.7          | todo     |
+
+
