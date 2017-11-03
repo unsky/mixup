@@ -22,4 +22,8 @@ the results is not very strict，i will update it  when i have a strict base li
 | (mixup)resnet50 200epoch|      0.2     |0.7          | 0.83     |
 | (mixup in feature maps)|      0.2     |0.7          | todo     |
 
+## mixup:
+![image](https://github.com/unsky/mixup/blob/master/1.png)
 
+##
+![image](https://github.com/unsky/mixup/blob/master/2.png)
