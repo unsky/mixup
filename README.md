@@ -8,11 +8,11 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 2. add mix rate
 
 
-## two scenes:
+### Two scenes:
 ![image](https://github.com/unsky/mixup/blob/master/3.png)
 
 
-## the detail design of mixUPlayer:
+### The detail design of mixUPlayer:
 
 ![image](https://github.com/unsky/mixup/blob/master/4.png)
 
@@ -27,13 +27,13 @@ the results is not very strict，i will update it  when i have a strict base li
 | (mixup)resnet50 200epoch|      0.2     |0.7          | 0.83     |
 | (mixup in feature maps)|      0.2     |0.7          | todo     |
 
-## mixup:
+## Mixup:
 ![image](https://github.com/unsky/mixup/blob/master/1.png)
 
 ## ERM
 ![image](https://github.com/unsky/mixup/blob/master/2.png)
 
-# usage
+# Usage
 install mxnet0.12
 The mixup is in:symbols/mixup.py
 you can use it in your codes like:
