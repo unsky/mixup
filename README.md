@@ -11,7 +11,6 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 
 
 
-roughly
 # The results:
 the results is not very strict，i will update it  when i have a strict base line.
 
