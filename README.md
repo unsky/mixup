@@ -27,3 +27,7 @@ the results is not very strict，i will update it  when i have a strict base li
 
 ##
 ![image](https://github.com/unsky/mixup/blob/master/2.png)
+
+# usage
+install mxnet0.12
+
