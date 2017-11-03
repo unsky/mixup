@@ -25,7 +25,7 @@ the results is not very strict，i will update it  when i have a strict base li
 ## mixup:
 ![image](https://github.com/unsky/mixup/blob/master/1.png)
 
-##
+## ERM
 ![image](https://github.com/unsky/mixup/blob/master/2.png)
 
 # usage
