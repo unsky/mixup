@@ -23,8 +23,10 @@ the results is not very strict，i will update it  when i have a strict base li
 |                        | alpha         | mix_rate  | test mAP |
 | -------------          |:-------------:| -----:      | -----:   |
 | (ERM)resnet50 90epoch  |      -        |-            | 0.87900390625  |
-ERM)resnet50 90epoch  |      -        |-            | 0.89365234375 |
-| (mixup)resnet50 90epoch|      0.2     |0.7           |0.8609375     |
+|(ERM)resnet50 200epoch  |      -        |-            | 0.89365234375 |
+|(ERM)resnet50 300epoch  |      -        |-            | - |
+| (mixup)resnet50 90epoch|      0.2     |0.7           |0.8609375      |
+| (mixup)resnet50 90epoch|      0.2     |0.7           |0.91611328125      |
 | (mixup)resnet50 300epoch|      0.2     |0.7          | 0.9224609375     |
 | (mixup in feature maps)|      0.2     |0.7          | low performance    |
 
