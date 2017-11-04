@@ -21,7 +21,7 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 the results is not very strict，i will update it  when i have a strict base line.
 
 |         cifar10               | alpha         | mix_rate  | test mAP |initial learning rate|
-| -------------          |:-------------:| -----:      | -----:   | 0.05|
+| -------------          |:-------------:| -----:      | -----:   | -----:  |
 | (ERM)resnet50 90epoch  |      -        |-            | 0.87900390625  | 0.05|
 |(ERM)resnet50 200epoch  |      -        |-            | 0.89365234375 | 0.05|
 |(ERM)resnet50 300epoch  |      -        |-            | - |0.05 |
