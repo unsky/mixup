@@ -22,10 +22,10 @@ the results is not very strict，i will update it  when i have a strict base li
 
 |                        | alpha         | mix_rate  | AP |
 | -------------          |:-------------:| -----:      | -----:   |
-| (ERM)resnet50 90epoch  |      -        |-            | 0.77     |
+| (ERM)resnet50 90epoch  |      -        |-            | -    |
 | (mixup)resnet50 90epoch|      0.2     |0.7           |0.8609375     |
 | (mixup)resnet50 300epoch|      0.2     |0.7          | 0.9224609375     |
-| (mixup in feature maps)|      0.2     |0.7          | todo     |
+| (mixup in feature maps)|      0.2     |0.7          | low performance    |
 
 ## Mixup:
 ![image](https://github.com/unsky/mixup/blob/master/1.png)
