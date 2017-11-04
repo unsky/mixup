@@ -26,9 +26,9 @@ the results is not very strict，i will update it  when i have a strict base li
 |(ERM)resnet50 200epoch  |      -        |-            | 0.89365234375 | 0.05|
 |(ERM)resnet50 300epoch  |      -        |-            | - |0.05 |
 | (mixup)resnet50 90epoch|      0.2     |0.7           |0.8609375      | 0.7|
-| (mixup)resnet50 90epoch|      0.2     |0.7           |0.91611328125      | 0.7|
+| (mixup)resnet50 200epoch|      0.2     |0.7           |0.91611328125      | 0.7|
 | (mixup)resnet50 300epoch|      0.2     |0.7          | 0.9224609375     | 0.7|
-| (mixup in feature maps)|      0.2     |0.7          | low performance    |0.7 |
+| mixup in feature maps|      0.2     |0.7          | low performance    |- |
 
 ## Mixup:
 ![image](https://github.com/unsky/mixup/blob/master/1.png)
