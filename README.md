@@ -18,7 +18,7 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 
 
 # The results:
-the results is not very strict，i will update it  when i have a strict base line.
+
 
 |         cifar10               | alpha         | mix_rate  | test mAP |initial learning rate|
 | -------------          |:-------------:| -----:      | -----:   | -----:  |
