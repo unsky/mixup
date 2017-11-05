@@ -47,6 +47,7 @@ data ,label = mx.sym.Custom(data= data,label = label,alpha = 0.2,num_classes = n
 label is the vector like [4,8,...9]
 ### download the dataset
 http://data.mxnet.io/data/cifar10/cifar10_val.rec
+
 http://data.mxnet.io/data/cifar10/cifar10_train.rec
 
 
