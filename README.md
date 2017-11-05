@@ -20,7 +20,7 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 # The results:
 
 
-|         cifar10               | alpha         | mix_rate  | test mAP |initial learning rate|
+|         cifar10               | alpha         | mix_rate  | test Acc |initial learning rate|
 | -------------          |:-------------:| -----:      | -----:   | -----:  |
 | (ERM)resnet50 90epoch  |      -        |-            | 0.87900390625  | 0.05|
 |(ERM)resnet50 200epoch  |      -        |-            | 0.89365234375 | 0.05|
