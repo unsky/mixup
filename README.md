@@ -28,7 +28,12 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 | (mixup)resnet50 90epoch|      0.2     |0.7           |0.8609375      | 0.7|
 | (mixup)resnet50 200epoch|      0.2     |0.7           |0.91611328125      | 0.7|
 | (mixup)resnet50 300epoch|      0.2     |0.7          | 0.9224609375     | 0.7|
-| mixup in feature maps（resnet50 head conv）|      0.2     |0.7          | 0.8544921875  |0.7 |
+| mixup in feature maps（resnet50 head conv）90epoch|      0.2     |0.7          | 0.8544921875  |0.7 |
+| mixup in feature maps（resnet50 head conv）200epoch|      0.2     |0.7          | 0.91796875  |0.7 |
+
+
+
+
 
 ## Mixup
 ![image](https://github.com/unsky/mixup/blob/master/1.png)
