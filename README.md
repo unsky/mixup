@@ -20,17 +20,17 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 # The results:
 
 
-|         cifar10               | alpha         | mix_rate  | test Acc |initial learning rate|
-| -------------          |:-------------:| -----:      | -----:   | -----:  |
-| (ERM)resnet50 90epoch  |      -        |-            | 0.87900390625  | 0.05|
-|(ERM)resnet50 200epoch  |      -        |-            | 0.89365234375 | 0.05|
-|(ERM)resnet50 300epoch  |      -        |-            | 0.8931640625|0.05 |
-| (mixup)resnet50 90epoch|      0.2     |0.7           |0.8609375      | 0.7|
-| (mixup)resnet50 200epoch|      0.2     |0.7           |0.91611328125      | 0.7|
-| (mixup)resnet50 300epoch|      0.2     |0.7          | 0.9224609375     | 0.7|
-| mixup in feature maps（resnet50 head conv）90epoch|      0.2     |0.7          | 0.8544921875  |0.7 |
-| mixup in feature maps（resnet50 head conv）200epoch|      0.2     |0.7          | 0.91796875  |0.7 |
-| mixup in feature maps（resnet50 head conv）300epoch|      0.2     |0.7          | 0.91845703125  |0.7 |
+|         cifar10               | alpha         | mix_rate  | test Acc |initial learning rate|batch size|
+| -------------          |:-------------:| -----:      | -----:   | -----:  | -----:  |
+| (ERM)resnet50 90epoch  |      -        |-            | 0.87900390625  | 0.05| 256 |
+|(ERM)resnet50 200epoch  |      -        |-            | 0.89365234375 | 0.05| 256 |
+|(ERM)resnet50 300epoch  |      -        |-            | 0.8931640625|0.05 | 256 |
+| (mixup)resnet50 90epoch|      0.2     |0.7           |0.8609375      | 0.7| 256 |
+| (mixup)resnet50 200epoch|      0.2     |0.7           |0.91611328125      | 0.7| 256 |
+| (mixup)resnet50 300epoch|      0.2     |0.7          | 0.9224609375     | 0.7| 256 |
+| mixup in feature maps（resnet50 head conv）90epoch|      0.2     |0.7          | 0.8544921875  |0.7 | 256 |
+| mixup in feature maps（resnet50 head conv）200epoch|      0.2     |0.7          | 0.91796875  |0.7 | 256 |
+| mixup in feature maps（resnet50 head conv）300epoch|      0.2     |0.7          | 0.91845703125  |0.7 | 256 |
 
 
 
