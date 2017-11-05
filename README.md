@@ -45,13 +45,17 @@ you can use it in your codes like:
 data ,label = mx.sym.Custom(data= data,label = label,alpha = 0.2,num_classes = num_classes,batch_size = batch_size,mix_rate =0.7,op_type = 'MixUp')
 ```
 label is the vector like [4,8,...9]
+### download the dataset
+http://data.mxnet.io/data/cifar10/cifar10_val.rec
+http://data.mxnet.io/data/cifar10/cifar10_train.rec
 
 
-train:
+
+### train:
 ```
 ./train.sh
 ```
-test:
+### test:
 ```
 ./test.sh
 ```
