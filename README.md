@@ -37,7 +37,7 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 ## Mixup
 ![image](https://github.com/unsky/mixup/blob/master/1.png)
 ## Mixup in feature map （resnet50 head conv）
-![image](https://github.com/unsky/mixup/blob/master/1.png)
+![image](https://github.com/unsky/mixup/blob/master/5.png)
 
 ## ERM
 ![image](https://github.com/unsky/mixup/blob/master/2.png)
