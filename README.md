@@ -40,7 +40,7 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 ![image](https://github.com/unsky/mixup/blob/master/5.png)
 
 ## ERM
-![image](https://github.com/unsky/mixup/blob/master/2.png)
+![image](https://github.com/unsky/mixup/blob/master/2_1.png)
 
 # Usage
 install mxnet0.12
