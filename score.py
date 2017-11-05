@@ -62,10 +62,23 @@ def score(sym, prefix, epoch, data_val, metrics, gpus, batch_size, rgb_mean=None
         metrics = [metrics,]
     tic = time.time()
     num = 0
+    acc =[]
+
     for batch in data:
         mod.forward(batch, is_train=False)
-        mod.update_metric(metrics[0], batch.label)
+        preds = mod.get_outputs(merge_multi_context=False)
+        labels = batch.label
+        pred = preds[0][0].asnumpy()
+        pred = np.argmax(pred,axis=1).astype('int')
+        labels = labels[0].asnumpy().astype('int')
+        acc.append(np.sum(labels==pred)/(float(labels.shape[0])))
+        #mod.update_metric(metrics[0], batch.label)
         num += batch_size
+        if max_num_examples is not None and num > max_num_examples:
+            break
+    print sum(acc)/len(acc)
+
+
         if max_num_examples is not None and num > max_num_examples:
             break
     return (num / (time.time() - tic), )
