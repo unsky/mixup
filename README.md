@@ -18,6 +18,7 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 
 
 # The results:
+The symbol of resnet50 is writen by mxnet https://github.com/apache/incubator-mxnet/tree/master/example/image-classification/symbols, there have many versions. And i havenot do any optimizion for it. All the results are based on this baseline.
 
 
 |         cifar10               | alpha         | mix_rate  | test Acc |initial learning rate|batch size|
