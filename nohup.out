@@ -1,7 +1,0 @@
-Traceback (most recent call last):
-  File "train_cifar10.py", line 25, in <module>
-    from symbols import sparse_softmax,mixup
-  File "/root/cs/mixup/symbols/mixup.py", line 129
-    def dif_mix(self,data1,data2,data_lamdba,label_lamdba)
-                                                         ^
-IndentationError: unindent does not match any outer indentation level
