@@ -1,4 +1,4 @@
-# mixup
+# MixUp
 
 This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimization https://arxiv.org/abs/1710.09412
 
@@ -12,7 +12,7 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 ![image](https://github.com/unsky/mixup/blob/master/3.png)
 
 
-### The detail design of mixUPlayer:
+### The detail design of MixUp layer:
 
 ![image](https://github.com/unsky/mixup/blob/master/4.png)
 
@@ -34,7 +34,7 @@ This is an implement and Improvement  on mixup: Beyond Empirical Risk Minimizat
 
 
 
-## Mixup
+## MixUp
 ![image](https://github.com/unsky/mixup/blob/master/1.png)
 ## Mixup in feature map （resnet50 head conv）
 ![image](https://github.com/unsky/mixup/blob/master/5.png)
