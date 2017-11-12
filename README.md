@@ -69,9 +69,4 @@ http://data.mxnet.io/data/cifar10/cifar10_train.rec
 ```
 # Reference 
 
-@article{zhang2017mixup,
-  title={mixup: Beyond Empirical Risk Minimization},
-  author={Zhang, Hongyi and Cisse, Moustapha and Dauphin, Yann N and Lopez-Paz, David},
-  journal={arXiv preprint arXiv:1710.09412},
-  year={2017}
-}
+Zhang H, Cisse M, Dauphin Y N, et al. mixup: Beyond Empirical Risk Minimization[J]. arXiv preprint arXiv:1710.09412, 2017.
