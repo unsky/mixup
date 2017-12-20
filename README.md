@@ -48,7 +48,7 @@ install mxnet0.12
 The mixup is in:symbols/mixup.py
 you can use it in your codes like:
 
-```
+```cpp
 data ,label = mx.sym.Custom(data= data,label = label,alpha = 0.2,num_classes = num_classes,batch_size = batch_size,mix_rate =0.7,op_type = 'MixUp')
 ```
 label is the vector like [4,8,...9]
@@ -60,11 +60,11 @@ http://data.mxnet.io/data/cifar10/cifar10_train.rec
 
 
 ### train:
-```
+```cpp
 ./train.sh
 ```
 ### test:
-```
+```cpp
 ./test.sh
 ```
 # Reference 
