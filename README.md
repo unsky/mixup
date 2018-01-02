@@ -59,12 +59,9 @@ http://data.mxnet.io/data/cifar10/cifar10_train.rec
 
 
 
-### train:
-```cpp
+### train & test:
+```bash
 ./train.sh
-```
-### test:
-```cpp
 ./test.sh
 ```
 # Reference 
